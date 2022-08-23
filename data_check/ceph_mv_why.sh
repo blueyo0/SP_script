@@ -1,0 +1,15 @@
+cd /mnt/lustre/share_data/gmai/dataset/raw/labeled
+
+# for DATASET in ACDC ADAM AGE19 AIDA-E_3 AIROGS AMD-OCT APTOS APTOS2019 APTOS_Cross-Country ATLAS_2 Atrial_Segmentation_Challenge Atrial_Segmentation_Challenge18 AutoImplant Blood_Cell_Images_dataset braimMRI Brain-Mri "BrainPTM 2021" Brain_Tumor_Progression Brats18 Brats19 BraTS2015 BraTS_2015 BraTS2021 Breast_Cancer_cell_seg BreastMNIST BTCV CAMELYON17 Camelyon2017 Cancer_instance_Segmentation Carotid_Artery Cell_tracking19 CellTracking20 CHAOS CHASE_DB1 Chest_CT_Scan Chest_Image_Pneum Chest-X-ray Chest-X-ray-PA CMRxMotion CNI19 Continuous_Registration Continuous Registration-dcm Corona Coronahack Covid-19 COVID-19-20_v2 COVID-19_cd Covid-19-CT COVID-19-CT-CXR COVID-19-CT_SCAN_IMAGES Covid-19-Image-Dataset_datasets COVID-19_Lung_CT_Scans COVID_CT_COVID-CT COVIDxCXR-2 Cranium CREMI Crossmoda CRT-EPiggy19 CT_medical_Images CT-Med-Im CTPelvic1K CT-Scan CTSpine1K curious18 curious2019 cvcclinicdb Data-Sci-Bow DDTI Derm7pt DFUC2021 Diabetic DIARETDB DigestPath19 DR-HAGIS Drishti-GS1_files DRIVE DRIVE_Retinal Duke-OCT EAD19 EchoNet-Dynamic EMIDEC EMPIRE10 EndoCV2020 EndoSlam EndoVis15 EndoVis2019 Eye_OCT EyePACS FDG-PET-CT-Lesions FeTA fizpatrick17k FLARE FLARE22 Gleason Heart_Seg_MRI HECKTOR2021 His_Can_Det HRF HuBMAP IDRID Instance22 Intel_MobileODT IRMA iSeg ISIC18 ISIC19 ISIC20 ISIC 2016 ISIC_2016 ISLES ISLES2016 ISLES2017 ISLES22 KiPA22 kits19 kits21 KNOAP2020 Kvasir LAScarQS22 Learn2Reg Leukemia_classification LiTS2017 Liver_Organ_Tumor_seg Liver_Tumor_Seg LNDb LoDoPaB LOLA1 LUNA M2CAI16-tool MAlig_Lymph_Cls medmnist MED-NODE MESSEG Messidor Metastatic MIAS MITOS-ATYPIA-14 MM-WHS MoNuSAC20 MoNuSeg Mos_COV MSD01_BrainTumour MSD02_Heart MSD03_Liver MSD04_Hippocampus MSD05_Prostate MSD06_Lung MSD07_Pancreas MSD08_HepaticVessel MSD09_Spleen MSD10_Colon Naturalistic oct2017 OCT2017_ Ocular_Dis_rec ODIR orCaScore OrganSegmentations OSIC_Pul_fib_Pro osic-pulmonary-fibrosis-progression PAD-UFES-20 PAIP2021 PALM19 PANDA Parse22 PI-CAI Pneumonia-Chest-X-ray PROMISE12 Pul_Chest_X_ray_Abno Pul_Emb_CT_Image Pulmonary_Embolism pvqa QUBIQ2021 Refuge RESECT Retina_Fundus_Image_Reg Retina-OCT-C8 RETOUCH RIADD RibFrac RibFrac2020 RSAN-PDC rsna-intracranial-hemorrhage-detection RSNA-MICCAI-BTRC RSNA-STR-Pul-Emb-Det SARAS-MESAD SARS-COV-2 Sec-Ann-Data-Sci-Bow Seg_Soft_Tissue siim-acr-pneumothorax skin_lesion Sliver SLN-Breast STACOM-SLAWT STARE SurgVisDom Task083_VerSe2020 Task501_Brain_PTM Task502_WMH Task503_BraTs2015 Task504_ATLAS Task505_FeTA Task506_WIV_01 Task508_WIV_03 Task509_BraTS Task510_ISLES_SISS Task511_ISLES_SPES Task666_MESSEG TBI Ult-Ner-Seg UW-Madison VerSE VerSe19 VinBigData VWS2021 Where_is_VALDO WMH workflow_m2cai2016
+for DATASET in AbdomenCT CTPelvic1K DFUC2021 EyePACS ISLES
+do
+
+# if [ -d ./${DATASET} ]; then
+echo  mv ${DATASET} 
+# aws --profile why s3 mb s3://${DATASET}
+# aws --profile why --endpoint-url=http://10.140.14.2:80 s3 mv s3://${DATASET} s3://dataset_raw_labeled/${DATASET} --include="*" --recursive
+aws --profile why --endpoint-url=http://10.140.14.2:80 s3 rb s3://${DATASET}
+# fi
+done
+
+cd -
