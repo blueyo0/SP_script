@@ -1,0 +1,92 @@
+(0008, 0005) Specific Character Set
+(0008, 0008) Image Type
+(0008, 0016) SOP Class UID
+(0008, 0018) SOP Instance UID
+(0008, 0020) Study Date
+(0008, 0021) Series Date
+(0008, 0022) Acquisition Date
+(0008, 0023) Content Date
+(0008, 0024) Overlay Date
+(0008, 0025) Curve Date
+(0008, 002a) Acquisition DateTime
+(0008, 0030) Study Time
+(0008, 0031) Series Time
+(0008, 0032) Acquisition Time
+(0008, 0033) Content Time
+(0008, 0050) Accession Number
+(0008, 0060) Modality
+(0008, 0070) Manufacturer
+(0008, 0090) Referring Physician Name
+(0008, 103e) Series Description
+(0008, 1090) Manufacturer Model Name
+(0008, 1155) Referenced SOP Instance UID
+(0010, 0010) Patient Name
+(0010, 0020) Patient ID
+(0010, 0030) Patient Birth Date
+(0010, 0040) Patient Sex
+(0010, 1010) Patient Age
+(0010, 21d0) Last Menstrual Date
+(0012, 0062) Patient Identity Removed
+(0012, 0063) De-identification Method
+(0013, 0010) Private Creator
+(0013, 1010) Private tag data
+(0013, 1013) Private tag data
+(0018, 0010) Contrast/Bolus Agent
+(0018, 0015) Body Part Examined
+(0018, 0022) Scan Options
+(0018, 0050) Slice Thickness
+(0018, 0060) KVP
+(0018, 0090) Data Collection Diameter
+(0018, 1020) Software Version(s)
+(0018, 1030) Protocol Name
+(0018, 1100) Reconstruction Diameter
+(0018, 1110) Distance Source to Detector
+(0018, 1111) Distance Source to Patient
+(0018, 1120) Gantry/Detector Tilt
+(0018, 1130) Table Height
+(0018, 1140) Rotation Direction
+(0018, 1150) Exposure Time
+(0018, 1151) X-Ray Tube Current
+(0018, 1152) Exposure
+(0018, 1160) Filter Type
+(0018, 1170) Generator Power
+(0018, 1190) Focal Spot(s)
+(0018, 1210) Convolution Kernel
+(0018, 5100) Patient Position
+(0020, 000d) Study Instance UID
+(0020, 000e) Series Instance UID
+(0020, 0010) Study ID
+(0020, 0011) Series Number
+(0020, 0013) Instance Number
+(0020, 0032) Image Position (Patient)
+(0020, 0037) Image Orientation (Patient)
+(0020, 0052) Frame of Reference UID
+(0020, 1040) Position Reference Indicator
+(0020, 1041) Slice Location
+(0028, 0002) Samples per Pixel
+(0028, 0004) Photometric Interpretation
+(0028, 0010) Rows
+(0028, 0011) Columns
+(0028, 0030) Pixel Spacing
+(0028, 0100) Bits Allocated
+(0028, 0101) Bits Stored
+(0028, 0102) High Bit
+(0028, 0103) Pixel Representation
+(0028, 0120) Pixel Padding Value
+(0028, 0303) Longitudinal Temporal Information
+(0028, 1050) Window Center
+(0028, 1051) Window Width
+(0028, 1052) Rescale Intercept
+(0028, 1053) Rescale Slope
+(0038, 0020) Admitting Date
+(0040, 0002) Scheduled Procedure Step Start Date
+(0040, 0004) Scheduled Procedure Step End Date
+(0040, 0244) Performed Procedure Step Start Date
+(0040, 2016) Placer Order Number / Imaging Servi
+(0040, 2017) Filler Order Number / Imaging Servi
+(0040, a075) Verifying Observer Name
+(0040, a123) Person Name
+(0040, a124) UID
+(0070, 0084) Content Creator's Name
+(0088, 0140) Storage Media File-set UID
+(7fe0, 0010) Pixel Data

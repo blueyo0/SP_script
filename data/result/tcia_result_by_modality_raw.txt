@@ -1,0 +1,11 @@
+[CT] 15109
+[FLAIR] 78
+[MR] 63618
+[PD] 71
+[T1w] 99
+[T2star] 80
+[T2w] 76
+[angio] 31
+[bold] 75
+[dwi] 89
+[ALL] 79326

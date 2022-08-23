@@ -1,0 +1,1 @@
+/mnt/lustre/share_data/gmai/dataset/preprocessed/temp/AbdomenCT5K

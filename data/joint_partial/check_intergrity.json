@@ -1,0 +1,123 @@
+{
+  "Task027_ACDC（不确定 心脏）": [
+    "ACDC-MRI-RV:Right ventricle blood chamber-MRI",
+    "ACDC-MRI-LVC:Left atrial blood chamber-MRI",
+    "ACDC-MRI-MLV:Left ventricle myocardium-MRI"
+  ],
+  "Task020_AbdomenCT1K": [
+    "AbdomenCT1K-CT-spleen: Spleen-CT",
+    "AbdomenCT1K-CT-kidney: Right Kidney-CT",
+    "AbdomenCT1K-CT-kidney: Left Kidney-CT",
+    "AbdomenCT1K-CT-liver: Liver-CT",
+    "AbdomenCT1K-CT-pancreas: Pancreas-CT"
+  ],
+  "Task011_BTCV": [
+    "BTCV-CT-spleen: Spleen-CT",
+    "BTCV-CT-right kidney: Right Kidney-CT",
+    "BTCV-CT-left kidney: Left Kidney-CT",
+    "BTCV-CT-gallbladder: Gallbladder-CT",
+    "BTCV-CT-esophagus: Esophagus-CT",
+    "BTCV-CT-liver: Liver-CT",
+    "BTCV-CT-stomach: Stomach-CT",
+    "BTCV-CT-aorta: Aorta-CT",
+    "BTCV-CT-inferior vena cava: Inferior Vena Cava-CT",
+    "BTCV-CT-pancreas: Pancreas-CT",
+    "BTCV-CT-portal vein and splenic vein: Portal Vein-CT",
+    "BTCV-CT-right adrenal gland: Right Adrenal Gland-CT",
+    "BTCV-CT-left adrenal gland: Left Adrenal Gland-CT"
+  ],
+  "Task037_CHAOS_Task_3_5_Variant1": [
+    "CHAOS_Task_3_5_Variant1-MRI-right kidney: Right Kidney-MRI",
+    "CHAOS_Task_3_5_Variant1-MRI-left kidney: Left Kidney-MRI",
+    "CHAOS_Task_3_5_Variant1-MRI-liver: Liver-MRI",
+    "CHAOS_Task_3_5_Variant1-MRI-Spleen: Spleen-MRI"
+  ],
+  "Task021_KiTS2021": [
+    "KiTS2021-CT-kidney: Right Kidney-CT",
+    "KiTS2021-CT-kidney: Left Kidney-CT",
+    "KiTS2021-CT-cyst: Kidney cystitis-CT",
+    "KiTS2021-CT-tumor:Renal tumor-CT"
+  ],
+  "Task002_MSD02 （不确定 心脏）": [
+    "MSD02-MRI-left atrium:Left atrial blood chamber-CT"
+  ],
+  "Task005_Prostate（有问题，前列腺盆骨标签均无）": [],
+  "Task006_Lung（肺部肿瘤跟肺部结节实际存在区别，可能有问题）": [
+    "Lung-CT-cancer: Pulmonary nodules-CT"
+  ],
+  "Task007_Pancreas": [
+    "Pancreas-CT-pancreas: Pancreas-CT",
+    "Pancreas-CT-cancer:Pancreatic tumor-CT"
+  ],
+  "Task008_HepaticVessel": [
+    "HepaticVessel-CT-Vessel: Liver vessel-CT",
+    "HepaticVessel-CT-Tumour: Liver tumor-CT"
+  ],
+  "Task009_Spleen": [
+    "Spleen-CT-spleen: Spleen-CT"
+  ],
+  "Task010_Colon": [
+    "Colon-CT-colon cancer primaries: Colon tumor-CT"
+  ],
+  "Task029_LITS": [
+    "LITS-CT-liver: Liver-CT"
+  ],
+  "Task616_LNDb": [
+    "LNDb-CT-lung node: Pulmonary nodules-CT"
+  ],
+  "Task602_ASC18（应该只有左心室）": [
+    "ASC18-MRI-LA:Left atrial blood chamber-CT"
+  ],
+  "Task613_COVID-19-20": [
+    "COVID-19-20-CT-lung lesion: Pulmonary nodules-CT"
+  ],
+  "Task615_Chest_CT_Scans_with_COVID-19": [
+    "Chest_CT_Scans_with_COVID-19-CT-ground-glass opacifications and consolidations: Pulmonary nodules-CT"
+  ],
+  "Task614_LUNA16": [
+    "LUNA16-CT-lung: Lung-CT"
+  ],
+  "Task603_MMWHS (图比较糊+不确定-没填)": [
+    "MMWHS-CT-PA:Pulmonary artery-CT",
+    "MMWHS-CT-LVC:Left ventricle blood chamber-CT",
+    "MMWHS-CT-RVC:Right ventricle blood chamber-CT",
+    "MMWHS-CT-LABC:Left atrial blood chamber-CT",
+    "MMWHS-CT-RABC:Right atrial blood chamber-CT",
+    "MMWHS-CT-LVM:Left ventricle myocardium-CT",
+    "MMWHS-CT-AA:Ascending aorta-CT"
+  ],
+  "Task083_VerSe2020": [
+    "Verse2020-CT-C1:C1-CT",
+    "Verse2020-CT-C2:C2-CT",
+    "Verse2020-CT-C3:C3-CT",
+    "Verse2020-CT-C4:C4-CT",
+    "Verse2020-CT-C5:C5-CT",
+    "Verse2020-CT-C6:C6-CT",
+    "Verse2020-CT-C7:C7-CT",
+    "Verse2020-CT-T1:T1-CT",
+    "Verse2020-CT-T2:T2-CT",
+    "Verse2020-CT-T3:T3-CT",
+    "Verse2020-CT-T4:T4-CT",
+    "Verse2020-CT-T5:T5-CT",
+    "Verse2020-CT-T6:T6-CT",
+    "Verse2020-CT-T7:T7-CT",
+    "Verse2020-CT-T8:T8-CT",
+    "Verse2020-CT-T9:T9-CT",
+    "Verse2020-CT-T10:T10-CT",
+    "Verse2020-CT-T11:T11-CT",
+    "Verse2020-CT-T12:T12-CT",
+    "Verse2020-CT-L1:L1-CT",
+    "Verse2020-CT-L2:L2-CT",
+    "Verse2020-CT-L3:L3-CT",
+    "Verse2020-CT-L4:L4-CT",
+    "Verse2020-CT-L5:L5-CT",
+    "Verse2020-CT-L6:L6-CT"
+  ],
+  "Task030_CT_ORG": [
+    "CT_ORG-CT-kidney: Right Kidney-CT",
+    "CT_ORG-CT-kidney: Left Kidney-CT",
+    "CT_ORG-CT-bladder: Gallbladder-CT",
+    "CT_ORG-CT-liver: Liver-CT",
+    "CT_ORG-CT-lungs: Lung-CT"
+  ]
+}

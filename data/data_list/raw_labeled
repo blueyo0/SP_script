@@ -1,0 +1,15 @@
+drwxrwxrwx  6 wanghaoyu    wanghaoyu    4096 Jun 22 15:03 Atrial_Segmentation_Challenge
+drwxr-xr-x  3 wanghaoyu    wanghaoyu    4096 Jun 23 09:37 CMRxMotion
+drwxrwxrwx  3 wanghaoyu    wanghaoyu    4096 Jun 22 15:32 CTPelvic1K
+drwxrwxr-x  3 wanghaoyu    wanghaoyu    4096 Jun 22 15:32 CT-Scan
+drwxrwxrwx  6 wanghaoyu    wanghaoyu    4096 Jun 22 15:04 CTSpine1K
+drwxrwxr-x  5 wanghaoyu    wanghaoyu    4096 Jun 28 15:16 Heart_Seg_in_MRI
+drwxr-xr-x  4 yangyuncheng yangyuncheng 4096 May 16 19:40 IDRID
+drwxr-xr-x  2 wanghaoyu    wanghaoyu    4096 Jun 28 21:09 ISLES18
+drwxrwxrwx  3 wanghaoyu    wanghaoyu    4096 Jun 22 15:35 LUNA
+drwxrwxr-x  4 wanghaoyu    wanghaoyu    4096 Jun 28 16:33 MM-WHS
+drwxrwxrwx  3 wanghaoyu    wanghaoyu    4096 Jun 22 15:03 orCaScore
+drwxr-xr-x  4 wanghaoyu    wanghaoyu    4096 Jun 28 15:38 SegThor
+drwxr-xr-x  5 wanghaoyu    wanghaoyu    4096 Jun 29 14:27 Task038_LAScarQS22
+drwxr-xr-x  5 wanghaoyu    wanghaoyu    4096 Jun 29 16:34 Task050_LAScarQS22_task1
+drwxrwxrwx 10 wanghaoyu    wanghaoyu    4096 Jun 22 15:04 VerSE

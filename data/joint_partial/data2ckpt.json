@@ -1,0 +1,82 @@
+{
+  "Task027_ACDC": [
+    "Task037_CHAOS_Task_3_5_Variant1 | S6_D3_W32 | 0.9350"
+  ],
+  "Task020_AbdomenCT1K": [
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task011_BTCV": [
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task037_CHAOS_Task_3_5_Variant1": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760"
+  ],
+  "Task021_KiTS2021": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task002_MSD02": [],
+  "Task006_Lung": [
+    "Task613_COVID-19-20 | S4_D3_W64 | 0.7368",
+    "Task603_MMWHS | S5_D3_W64 | 0.9016"
+  ],
+  "Task007_Pancreas": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task008_HepaticVessel": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760"
+  ],
+  "Task009_Spleen": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task010_Colon": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task029_LITS": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251"
+  ],
+  "Task616_LNDb": [
+    "Task613_COVID-19-20 | S4_D3_W64 | 0.7368",
+    "Task603_MMWHS | S5_D3_W64 | 0.9016"
+  ],
+  "Task602_ASC18": [
+    "Task037_CHAOS_Task_3_5_Variant1 | S6_D3_W32 | 0.9350"
+  ],
+  "Task613_COVID-19-20": [
+    "Task613_COVID-19-20 | S4_D3_W64 | 0.7368",
+    "Task603_MMWHS | S5_D3_W64 | 0.9016"
+  ],
+  "Task615_Chest_CT_Scans_with_COVID-19": [
+    "Task613_COVID-19-20 | S4_D3_W64 | 0.7368",
+    "Task603_MMWHS | S5_D3_W64 | 0.9016"
+  ],
+  "Task614_LUNA16": [
+    "Task603_MMWHS | S5_D3_W64 | 0.9016"
+  ],
+  "Task603_MMWHS ": [],
+  "Task083_VerSe2020": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251",
+    "Task613_COVID-19-20 | S4_D3_W64 | 0.7368",
+    "Task603_MMWHS | S5_D3_W64 | 0.9016"
+  ],
+  "Task030_CT_ORG": [
+    "Task020_AbdomenCT1K | S6_D2_W32 | 0.9292",
+    "Task011_BTCV | S6_D2_W64 | 0.8760",
+    "Task008_HepaticVessel | S5_D2_W64 | 0.7251",
+    "Task037_CHAOS_Task_3_5_Variant1 | S6_D3_W32 | 0.9350"
+  ]
+}

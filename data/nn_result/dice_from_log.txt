@@ -1,0 +1,1365 @@
+3d_fullres, Task020_AbdomenCT1K, ViTUNetTrainer__nnUNetPlansv2.1, 
+fold_0	fold_1	fold_2	fold_3	fold_4	
+0.901	0.9277	0.9333	0.9445	0.9466	
+0.8217	0.8496	0.8939	0.9136	0.9066	
+0.759	0.855	0.8882	0.9221	0.9087	
+0.5262	0.6653	0.7246	0.7635	0.7643	
+3d_fullres, Task022_FLARE2022, nnUNetTrainerV2_S5_D2_W32__nnUNetPlansv2.1, 
+fold_0	
+0.9891	
+0.9759	
+0.9874	
+0.8858	
+0.9577	
+0.9492	
+0.8763	
+0.8905	
+0.9465	
+0.9141	
+0.9709	
+0.901	
+0.9769	
+3d_fullres, Task033_AMOS22_Task2_result2, BigResUNetTrainer1__nnUNetPlansv2.1, 
+fold_0	
+0.9761	
+0.9511	
+0.9336	
+0.8079	
+0.8092	
+0.9705	
+0.8826	
+0.9509	
+0.9146	
+0.8563	
+0.758	
+0.7869	
+0.791	
+0.8771	
+0.8391	
+3d_fullres, Task033_AMOS22_Task2_result2, BigResUNetTrainer2__nnUNetPlansv2.1, 
+fold_0	
+0.9749	
+0.9506	
+0.9405	
+0.8062	
+0.8197	
+0.9742	
+0.8836	
+0.9485	
+0.9137	
+0.8598	
+0.7526	
+0.7844	
+0.7969	
+0.8762	
+0.8271	
+3d_fullres, Task033_AMOS22_Task2_result2, BigResUNetTrainer3__nnUNetPlansv2.1, 
+fold_0	
+0.9759	
+0.9543	
+0.9231	
+0.7691	
+0.8149	
+0.9748	
+0.8826	
+0.9477	
+0.9121	
+0.8582	
+0.7543	
+0.7853	
+0.8027	
+0.8768	
+0.8364	
+3d_fullres, Task037_CHAOS_Task_3_5_Variant1, nnUNetTrainerV2_S6_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.8811	
+0.935	
+0.9364	
+0.7801	
+3d_fullres, Task051_LAScarQS22_task2, BigResUNetTrainer1__nnUNetPlansv2.1, 
+fold_0	
+0.9194	
+3d_fullres, Task051_LAScarQS22_task2, BigResUNetTrainer2__nnUNetPlansv2.1, 
+fold_0	
+0.9206	
+3d_fullres, Task051_LAScarQS22_task2, BigUNetTrainer2__nnUNetPlansv2.1, 
+fold_0	
+0.9194	
+3d_fullres, Task083_VerSe2020, nnUNetTrainerV2_S6_D3_W64__nnUNetPlansv2.1, 
+fold_0	
+0.9389	
+0.9501	
+0.8422	
+0.8395	
+0.7213	
+0.579	
+0.6281	
+0.7747	
+0.839	
+0.7271	
+0.7558	
+0.7506	
+0.6775	
+0.6497	
+0.6575	
+0.7883	
+0.8434	
+0.7622	
+0.7638	
+0.9013	
+0.876	
+0.8009	
+0.7311	
+0.6684	
+0.1714	
+nan	
+nan	
+0.0	
+3d_fullres, Task101_AMOS22_Task1, BigResUNetTrainer4__nnUNetPlansv2.1, 
+fold_0	fold_1	fold_2	fold_3	fold_4	
+0.9755	0.9236	0.9718	0.975	0.9713	
+0.9511	0.9702	0.9495	0.9669	0.9576	
+0.9445	0.947	0.9349	0.9688	0.9608	
+0.8205	0.8637	0.9091	0.8879	0.8474	
+0.8297	0.857	0.8328	0.8555	0.8822	
+0.9691	0.9697	0.9793	0.979	0.9754	
+0.8784	0.9445	0.8689	0.9424	0.9372	
+0.9554	0.9588	0.957	0.9554	0.9583	
+0.9162	0.9059	0.9144	0.9129	0.9218	
+0.8543	0.8699	0.8661	0.8722	0.8821	
+0.7792	0.8184	0.7997	0.8147	0.7751	
+0.8131	0.8045	0.8266	0.8281	0.7881	
+0.8091	0.8391	0.84	0.8405	0.8415	
+0.9177	0.9196	0.8973	0.9295	0.9238	
+0.8622	0.8834	0.8356	0.8728	0.8969	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer1__nnUNetPlansv2.1, 
+fold_0	
+0.9761	
+0.9511	
+0.9336	
+0.8079	
+0.8092	
+0.9705	
+0.8826	
+0.9509	
+0.9146	
+0.8563	
+0.758	
+0.7869	
+0.791	
+0.8771	
+0.8391	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer1_ft1__nnUNetPlansv2.1, 
+fold_0	
+0.8557	0.8768	0.8619	0.0938	0.0	0.933	0.6321	0.841	0.711	0.7131	0.0	0.0	0.3359	0.5196	0.0437	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer1_ft2__nnUNetPlansv2.1, 
+fold_0	
+0.9215	0.9095	0.8948	0.6278	0.534	0.9515	0.7542	0.8937	0.8332	0.7795	0.0	0.0	0.6018	0.7028	0.5991	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer1_gamma_bs6_bn__nnUNetPlansv2.1, 
+fold_1	
+0.9484	
+0.96	
+0.9482	
+0.7959	
+0.8246	
+0.9742	
+0.9159	
+0.9544	
+0.8998	
+0.8559	
+0.7501	
+0.7466	
+0.8293	
+0.9095	
+0.8583	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer2__nnUNetPlansv2.1, 
+fold_0	
+0.9749	
+0.9506	
+0.9405	
+0.8062	
+0.8197	
+0.9742	
+0.8836	
+0.9485	
+0.9137	
+0.8598	
+0.7526	
+0.7844	
+0.7969	
+0.8762	
+0.8271	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer3__nnUNetPlansv2.1, 
+fold_0	
+0.9759	
+0.9543	
+0.9231	
+0.7691	
+0.8149	
+0.9748	
+0.8826	
+0.9477	
+0.9121	
+0.8582	
+0.7543	
+0.7853	
+0.8027	
+0.8768	
+0.8364	
+3d_fullres, Task102_AMOS22_Task2, BigResUNetTrainer4__nnUNetPlansv2.1, 
+fold_0	
+0.9765	
+0.9509	
+0.9292	
+0.8023	
+0.8056	
+0.977	
+0.8895	
+0.9505	
+0.9136	
+0.8613	
+0.7612	
+0.7868	
+0.8031	
+0.8974	
+0.8461	
+3d_fullres, Task102_AMOS22_Task2, BigUNetTrainer1__nnUNetPlansv2.1, 
+fold_0	
+0.9722	
+0.9471	
+0.9221	
+0.7966	
+0.8097	
+0.9773	
+0.8819	
+0.948	
+0.9089	
+0.8548	
+0.7502	
+0.7836	
+0.7929	
+0.8916	
+0.8134	
+3d_fullres, Task102_AMOS22_Task2, BigUNetTrainer2__nnUNetPlansv2.1, 
+fold_0	
+0.9716	
+0.95	
+0.9258	
+0.8136	
+0.8127	
+0.9756	
+0.8846	
+0.9462	
+0.9061	
+0.8492	
+0.7488	
+0.7863	
+0.7786	
+0.8821	
+0.8438	
+3d_fullres, Task102_AMOS22_Task2, BigUNetTrainer4__nnUNetPlansv2.1, 
+fold_0	
+0.9743	
+0.9513	
+0.9207	
+0.7791	
+0.8127	
+0.9768	
+0.8828	
+0.9496	
+0.9111	
+0.8573	
+0.7503	
+0.7881	
+0.7943	
+0.8857	
+0.8191	
+3d_fullres, Task102_AMOS22_Task2, UNTER3, 
+fold_0	
+0.9524	
+0.9332	
+0.9115	
+0.7324	
+0.7619	
+0.9608	
+0.8219	
+0.9361	
+0.895	
+0.8133	
+0.735	
+0.744	
+0.7294	
+0.8364	
+0.7878	
+3d_fullres, Task102_AMOS22_Task2, ViTUNetTrainer__nnUNetPlansv2.1, 
+fold_0	
+0.9671	
+0.9335	
+0.9342	
+0.7354	
+0.7837	
+0.9728	
+0.871	
+0.9358	
+0.8969	
+0.8284	
+0.7197	
+0.7369	
+0.7555	
+0.8626	
+0.8133	
+3d_fullres, Task102_AMOS22_Task2, ViTUNetTrainer_huge__nnUNetPlansv2.1, 
+fold_0	
+0.9674	
+0.9328	
+0.9266	
+0.8006	
+0.7971	
+0.9687	
+0.8438	
+0.9403	
+0.8993	
+0.8234	
+0.7286	
+0.7474	
+0.7533	
+0.8668	
+0.8144	
+3d_fullres, Task102_AMOS22_Task2, ViTUNetTrainer_large__nnUNetPlansv2.1, 
+fold_0	
+0.9685	
+0.931	
+0.9184	
+0.7598	
+0.7912	
+0.9716	
+0.8554	
+0.9404	
+0.8994	
+0.8254	
+0.7278	
+0.7444	
+0.7581	
+0.8666	
+0.7976	
+3d_fullres, Task102_AMOS22_Task2, ViTUNetTrainer_nonorm__nnUNetPlansv2.1, 
+fold_0	
+0.9665	
+0.9387	
+0.9389	
+0.7675	
+0.789	
+0.9701	
+0.8449	
+0.9379	
+0.8995	
+0.8253	
+0.7142	
+0.7353	
+0.7387	
+0.8574	
+0.8179	
+3d_fullres, Task102_AMOS22_Task2, nnContextUNetTrainerV2_S5_D3_W64_EGN_DGR__nnUNetPlansv2.1, 
+fold_0	
+0.9736	
+0.9547	
+0.9287	
+0.7955	
+0.8148	
+0.9762	
+0.8795	
+0.9478	
+0.9093	
+0.8524	
+0.7505	
+0.7875	
+0.791	
+0.8734	
+0.8482	
+3d_fullres, Task102_AMOS22_Task2, nnContextUNetTrainerV2_S5_D3_W64_EGR_DGN__nnUNetPlansv2.1, 
+fold_0	
+0.9732	
+0.9487	
+0.9222	
+0.7737	
+0.8141	
+0.9755	
+0.8763	
+0.9479	
+0.9128	
+0.8571	
+0.7572	
+0.7899	
+0.7798	
+0.8855	
+0.8248	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last1_NR__nnUNetPlansv2.1, 
+fold_0	
+0.9737	
+0.9491	
+0.9267	
+0.7742	
+0.8041	
+0.9761	
+0.8782	
+0.9466	
+0.9097	
+0.8539	
+0.7479	
+0.7786	
+0.7818	
+0.8639	
+0.8097	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last1_R__nnUNetPlansv2.1, 
+fold_0	
+0.9724	
+0.9498	
+0.9207	
+0.7916	
+0.8069	
+0.9746	
+0.8782	
+0.9475	
+0.9083	
+0.847	
+0.7469	
+0.7751	
+0.7774	
+0.8909	
+0.8024	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last2_NR__nnUNetPlansv2.1, 
+fold_0	
+0.9726	
+0.9507	
+0.9302	
+0.8091	
+0.8083	
+0.976	
+0.8772	
+0.9482	
+0.9077	
+0.8523	
+0.7518	
+0.7769	
+0.782	
+0.8703	
+0.813	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last2_R__nnUNetPlansv2.1, 
+fold_0	
+0.9694	
+0.9515	
+0.9242	
+0.7775	
+0.8061	
+0.9764	
+0.8826	
+0.9462	
+0.9093	
+0.851	
+0.7505	
+0.7841	
+0.7787	
+0.8715	
+0.8281	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last3_NR__nnUNetPlansv2.1, 
+fold_0	
+0.9713	
+0.9501	
+0.9268	
+0.7898	
+0.8094	
+0.9765	
+0.8811	
+0.9456	
+0.909	
+0.8543	
+0.7486	
+0.776	
+0.7786	
+0.8905	
+0.8226	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last3_R__nnUNetPlansv2.1, 
+fold_0	
+0.9727	
+0.9495	
+0.9177	
+0.797	
+0.8123	
+0.9732	
+0.8784	
+0.9466	
+0.9086	
+0.8531	
+0.7454	
+0.7825	
+0.7852	
+0.8903	
+0.8171	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last4_NR__nnUNetPlansv2.1, 
+fold_0	
+0.974	
+0.9504	
+0.925	
+0.8045	
+0.8089	
+0.9752	
+0.878	
+0.9474	
+0.9082	
+0.8462	
+0.7492	
+0.7778	
+0.777	
+0.8659	
+0.8106	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last4_R__nnUNetPlansv2.1, 
+fold_0	
+0.9728	
+0.95	
+0.9235	
+0.7873	
+0.8103	
+0.9749	
+0.8764	
+0.9454	
+0.9095	
+0.8527	
+0.7529	
+0.7788	
+0.7793	
+0.8866	
+0.8036	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last5_NR__nnUNetPlansv2.1, 
+fold_0	
+0.971	
+0.9498	
+0.9223	
+0.788	
+0.8079	
+0.9767	
+0.8795	
+0.9466	
+0.9082	
+0.8507	
+0.753	
+0.7843	
+0.7821	
+0.8691	
+0.8065	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W32_Last5_R__nnUNetPlansv2.1, 
+fold_0	
+0.9711	
+0.9513	
+0.923	
+0.79	
+0.8092	
+0.9751	
+0.8749	
+0.9479	
+0.909	
+0.8497	
+0.7441	
+0.7835	
+0.7822	
+0.8757	
+0.8293	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ENN_DSN__nnUNetPlansv2.1, 
+fold_0	
+0.9757	
+0.9531	
+0.9253	
+0.7977	
+0.8096	
+0.9766	
+0.8804	
+0.9473	
+0.9105	
+0.8521	
+0.7543	
+0.7882	
+0.7913	
+0.8947	
+0.816	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ENN_DSR__nnUNetPlansv2.1, 
+fold_0	
+0.9758	
+0.9509	
+0.9289	
+0.7778	
+0.8111	
+0.976	
+0.8795	
+0.9485	
+0.9116	
+0.8492	
+0.7514	
+0.7855	
+0.7848	
+0.8715	
+0.8513	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ESN_DNN__nnUNetPlansv2.1, 
+fold_0	
+0.9752	
+0.9527	
+0.933	
+0.794	
+0.8098	
+0.9769	
+0.8749	
+0.9479	
+0.91	
+0.8532	
+0.7519	
+0.7845	
+0.7921	
+0.8673	
+0.8506	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ESN_DSN__nnUNetPlansv2.1, 
+fold_0	
+0.9751	
+0.9497	
+0.923	
+0.7767	
+0.8142	
+0.9772	
+0.8784	
+0.948	
+0.9112	
+0.8541	
+0.7548	
+0.7817	
+0.7843	
+0.8714	
+0.8331	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ESN_DSR__nnUNetPlansv2.1, 
+fold_0	
+0.975	
+0.9512	
+0.9193	
+0.7903	
+0.8162	
+0.976	
+0.8808	
+0.9483	
+0.9102	
+0.8557	
+0.7547	
+0.7871	
+0.7907	
+0.8893	
+0.8281	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ESR_DNN__nnUNetPlansv2.1, 
+fold_0	
+0.9735	
+0.9528	
+0.9259	
+0.7937	
+0.8104	
+0.9744	
+0.8841	
+0.9493	
+0.9124	
+0.8549	
+0.7554	
+0.7892	
+0.7902	
+0.8933	
+0.8429	
+3d_fullres, Task102_AMOS22_Task2, nnSEUNetTrainerV2_S5_D3_W64_ESR_DSN__nnUNetPlansv2.1, 
+fold_0	
+0.9723	
+0.9513	
+0.9385	
+0.7724	
+0.813	
+0.9728	
+0.8724	
+0.9498	
+0.9124	
+0.8552	
+0.7529	
+0.786	
+0.792	
+0.8927	
+0.8428	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S4_D2_W16__nnUNetPlansv2.1, 
+fold_0	
+0.939	
+0.9163	
+0.9046	
+0.7245	
+0.7367	
+0.9548	
+0.7951	
+0.9251	
+0.8648	
+0.7862	
+0.7177	
+0.7179	
+0.6683	
+0.7853	
+0.7087	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S4_D2_W32__nnUNetPlansv2.1, 
+fold_0	
+0.9625	
+0.9266	
+0.9132	
+0.7875	
+0.7681	
+0.9668	
+0.8286	
+0.9381	
+0.8901	
+0.8186	
+0.7373	
+0.7612	
+0.718	
+0.8329	
+0.7716	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S4_D2_W64__nnUNetPlansv2.1, 
+fold_0	
+0.9683	
+0.9304	
+0.9195	
+0.765	
+0.7727	
+0.971	
+0.8468	
+0.9407	
+0.8996	
+0.827	
+0.7421	
+0.7801	
+0.7313	
+0.8642	
+0.7992	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S4_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.9677	
+0.9415	
+0.9231	
+0.7762	
+0.7877	
+0.9661	
+0.8505	
+0.942	
+0.9007	
+0.8407	
+0.738	
+0.7782	
+0.7442	
+0.8755	
+0.8038	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S4_D3_W64__nnUNetPlansv2.1, 
+fold_0	
+0.973	
+0.9434	
+0.9227	
+0.7906	
+0.7857	
+0.9726	
+0.8692	
+0.9459	
+0.9079	
+0.841	
+0.7481	
+0.7905	
+0.7625	
+0.8581	
+0.8245	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S5_D2_W16__nnUNetPlansv2.1, 
+fold_0	
+0.9666	
+0.9432	
+0.9195	
+0.7608	
+0.795	
+0.9712	
+0.8623	
+0.9381	
+0.904	
+0.8406	
+0.7384	
+0.7709	
+0.7585	
+0.8738	
+0.81	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S5_D2_W32__nnUNetPlansv2.1, 
+fold_0	
+0.9713	
+0.9387	
+0.9185	
+0.7885	
+0.8084	
+0.9719	
+0.8752	
+0.9458	
+0.9094	
+0.8497	
+0.7465	
+0.7827	
+0.774	
+0.8884	
+0.8408	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S5_D2_W64__nnUNetPlansv2.1, 
+fold_0	
+0.9731	
+0.9439	
+0.9214	
+0.7698	
+0.7959	
+0.9746	
+0.8709	
+0.9475	
+0.9119	
+0.8437	
+0.7514	
+0.7869	
+0.7777	
+0.8688	
+0.8415	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S5_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.9735	
+0.9472	
+0.9231	
+0.7932	
+0.8047	
+0.9761	
+0.8753	
+0.9478	
+0.9084	
+0.8554	
+0.7497	
+0.7854	
+0.7857	
+0.8666	
+0.8262	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S5_D3_W64__nnUNetPlansv2.1, 
+fold_0	
+0.975	
+0.9533	
+0.9215	
+0.7736	
+0.8144	
+0.976	
+0.881	
+0.9485	
+0.9107	
+0.8518	
+0.7532	
+0.7855	
+0.7914	
+0.8756	
+0.8295	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S6_D2_W16__nnUNetPlansv2.1, 
+fold_0	
+0.97	
+0.9449	
+0.9397	
+0.7887	
+0.8063	
+0.974	
+0.8736	
+0.9451	
+0.9041	
+0.8417	
+0.7402	
+0.7662	
+0.769	
+0.8535	
+0.8087	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S6_D2_W32__nnUNetPlansv2.1, 
+fold_0	
+0.972	
+0.9458	
+0.9405	
+0.7905	
+0.8049	
+0.9765	
+0.8815	
+0.9456	
+0.9104	
+0.8524	
+0.7523	
+0.7771	
+0.7884	
+0.8662	
+0.8185	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S6_D2_W64__nnUNetPlansv2.1, 
+fold_0	
+0.9739	
+0.9452	
+0.9242	
+0.7722	
+0.8071	
+0.9764	
+0.8776	
+0.9481	
+0.9118	
+0.8528	
+0.7526	
+0.7833	
+0.7837	
+0.87	
+0.8405	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S6_D3_W128__nnUNetPlansv2.1, 
+fold_0	
+0.9749	
+0.9502	
+0.9417	
+0.8035	
+0.8239	
+0.9761	
+0.8778	
+0.9496	
+0.913	
+0.8535	
+0.7575	
+0.789	
+0.7861	
+0.8848	
+0.8637	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S6_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.9713	
+0.9479	
+0.9268	
+0.7921	
+0.8147	
+0.9762	
+0.8781	
+0.9481	
+0.9078	
+0.8494	
+0.7491	
+0.7825	
+0.7857	
+0.8493	
+0.8318	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_S6_D3_W64__nnUNetPlansv2.1, 
+fold_0	
+0.9736	
+0.9489	
+0.9303	
+0.7924	
+0.8187	
+0.9752	
+0.8822	
+0.9492	
+0.9097	
+0.8539	
+0.7532	
+0.7894	
+0.7852	
+0.8868	
+0.8563	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_bs2_cutmix__nnUNetPlansv2.1, 
+fold_0	
+0.9745	
+0.9584	
+0.9283	
+0.7689	
+0.8179	
+0.976	
+0.8741	
+0.9473	
+0.9092	
+0.8599	
+0.753	
+0.788	
+0.7955	
+0.8683	
+0.8346	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_bs6__nnUNetPlansv2.1, 
+fold_0	
+0.9738	
+0.9514	
+0.9233	
+0.8075	
+0.8209	
+0.9762	
+0.8827	
+0.9496	
+0.9138	
+0.8496	
+0.7543	
+0.7788	
+0.7875	
+0.8749	
+0.8536	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm__nnUNetPlansv2.1, 
+fold_0	
+0.9753	
+0.9555	
+0.9241	
+0.7699	
+0.8143	
+0.9757	
+0.8825	
+0.9503	
+0.9135	
+0.8493	
+0.7529	
+0.785	
+0.7905	
+0.8949	
+0.8537	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_cutmix__nnUNetPlansv2.1, 
+fold_0	
+0.976	
+0.9492	
+0.9274	
+0.8092	
+0.8201	
+0.9731	
+0.8808	
+0.9503	
+0.9109	
+0.8516	
+0.7576	
+0.7831	
+0.7825	
+0.8866	
+0.8538	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_gammav3_bn__nnUNetPlansv2.1, 
+fold_1	fold_3	fold_4	
+0.969	0.9739	0.9755	
+0.9543	0.9647	0.9676	
+0.9444	0.9662	0.9699	
+0.7985	0.8529	0.8928	
+0.8241	0.8036	0.8371	
+0.9693	0.974	0.981	
+0.9036	0.8811	0.9305	
+0.9528	0.9483	0.9552	
+0.8988	0.9129	0.9105	
+0.8502	0.8583	0.8842	
+0.7491	0.7763	0.7651	
+0.7408	0.7727	0.7782	
+0.817	0.8029	0.8255	
+0.9069	0.8948	0.9178	
+0.8433	0.8679	0.8716	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_gammav3_bn_ema1__nnUNetPlansv2.1, 
+all	fold_0	fold_2	fold_3	
+0.9764	0.9758	0.9737	0.9729	
+0.9696	0.9474	0.9573	0.9599	
+0.9691	0.927	0.94	0.9565	
+0.93	0.8321	0.8885	0.8595	
+0.8743	0.8193	0.8264	0.8083	
+0.9826	0.967	0.9751	0.9765	
+0.9468	0.8717	0.9188	0.8838	
+0.9579	0.9492	0.9536	0.9477	
+0.926	0.9116	0.9088	0.9126	
+0.9109	0.8334	0.871	0.8607	
+0.8329	0.7571	0.7953	0.778	
+0.8461	0.7787	0.7863	0.7622	
+0.9	0.7803	0.8328	0.792	
+0.9394	0.8657	0.8937	0.892	
+0.9062	0.8249	0.84	0.8649	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_gammav3_bn_ema2__nnUNetPlansv2.1, 
+all	fold_0	fold_1	
+0.9411	0.9488	0.8583	
+0.9432	0.9179	0.9078	
+0.9417	0.9259	0.9152	
+0.7948	0.737	0.7403	
+0.7527	0.7247	0.7377	
+0.9432	0.9401	0.9431	
+0.8507	0.7973	0.8494	
+0.9294	0.904	0.9182	
+0.8535	0.85	0.861	
+0.7832	0.8018	0.7998	
+0.7118	0.646	0.675	
+0.729	0.7071	0.6939	
+0.7433	0.7033	0.7301	
+0.8274	0.7711	0.7938	
+0.7637	0.665	0.7558	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_gammav3_bn_ema3__nnUNetPlansv2.1, 
+fold_0	fold_1	fold_2	
+0.9448	0.8883	0.9425	
+0.9187	0.8913	0.9407	
+0.9193	0.9025	0.9004	
+0.7293	0.7507	0.8336	
+0.7338	0.775	0.7654	
+0.9488	0.9499	0.9524	
+0.8157	0.8499	0.8484	
+0.9204	0.9187	0.9297	
+0.8618	0.8548	0.8664	
+0.8059	0.7983	0.794	
+0.6771	0.6715	0.7293	
+0.7142	0.6891	0.7284	
+0.6997	0.7244	0.7449	
+0.7998	0.7357	0.8153	
+0.7066	0.6996	0.7066	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA__nnUNetPlansv2.1, 
+fold_0	
+0.9759	
+0.9524	
+0.9374	
+0.7889	
+0.8207	
+0.9684	
+0.879	
+0.9493	
+0.9113	
+0.8523	
+0.7548	
+0.7862	
+0.7902	
+0.8695	
+0.8747	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA_bright__nnUNetPlansv2.1, 
+fold_0	
+0.976	
+0.9516	
+0.935	
+0.8034	
+0.8183	
+0.9691	
+0.8761	
+0.9501	
+0.9116	
+0.8537	
+0.7503	
+0.7846	
+0.7892	
+0.8683	
+0.8671	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA_gamma__nnUNetPlansv2.1, 
+all	fold_0	
+0.9773	0.976	
+0.97	0.9498	
+0.9696	0.9252	
+0.9331	0.8249	
+0.8796	0.8192	
+0.9829	0.9698	
+0.9478	0.8785	
+0.9593	0.9499	
+0.9287	0.9112	
+0.9138	0.8533	
+0.8389	0.7582	
+0.8513	0.7863	
+0.9033	0.7875	
+0.9411	0.8897	
+0.9175	0.8698	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA_gammav2__nnUNetPlansv2.1, 
+fold_0	
+0.9768	
+0.9531	
+0.9252	
+0.8077	
+0.8188	
+0.9764	
+0.8791	
+0.9505	
+0.9149	
+0.8555	
+0.7518	
+0.785	
+0.7863	
+0.8742	
+0.8325	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA_gammav3__nnUNetPlansv2.1, 
+fold_0	fold_1	fold_2	fold_3	
+0.9746	0.9472	0.9741	0.9688	
+0.9552	0.9547	0.9577	0.9644	
+0.9261	0.9457	0.9433	0.9645	
+0.8092	0.7903	0.9153	0.8877	
+0.8129	0.8267	0.8299	0.8131	
+0.9771	0.972	0.9752	0.9796	
+0.8757	0.9131	0.9375	0.8909	
+0.9489	0.9506	0.9529	0.9477	
+0.9147	0.8955	0.9141	0.915	
+0.8532	0.8534	0.8697	0.8713	
+0.7565	0.7519	0.7949	0.7802	
+0.7824	0.7498	0.7935	0.776	
+0.7864	0.8218	0.8247	0.8048	
+0.893	0.9033	0.8936	0.893	
+0.8568	0.8684	0.8446	0.8521	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA_gammav4__nnUNetPlansv2.1, 
+fold_0	
+0.9746	
+0.9541	
+0.9269	
+0.8081	
+0.8197	
+0.9778	
+0.885	
+0.9495	
+0.9123	
+0.852	
+0.756	
+0.7812	
+0.7881	
+0.8757	
+0.8318	
+3d_fullres, Task102_AMOS22_Task2, nnUNetTrainerV2_amos_mm_heavyDA_rotate__nnUNetPlansv2.1, 
+fold_0	
+0.9758	
+0.9535	
+0.9328	
+0.8082	
+0.8247	
+0.9684	
+0.8797	
+0.949	
+0.9118	
+0.8525	
+0.7571	
+0.7845	
+0.7905	
+0.8714	
+0.8541	
+3d_fullres, Task506_ISLES22_new, UNTER3, 
+fold_0	
+0.6916	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S4_D2_W64__nnUNetPlansv2.1, 
+fold_0	
+0.7729	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S4_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.7836	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S5_D2_W16__nnUNetPlansv2.1, 
+fold_0	
+0.7827	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S5_D2_W32__nnUNetPlansv2.1, 
+fold_0	
+0.7741	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S5_D2_W64__nnUNetPlansv2.1, 
+fold_0	
+0.7683	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S5_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.7841	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S5_D3_W64__nnUNetPlansv2.1, 
+fold_0	
+0.7766	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S6_D2_W16__nnUNetPlansv2.1, 
+fold_0	
+0.7822	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S6_D2_W32__nnUNetPlansv2.1, 
+fold_0	
+0.769	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S6_D2_W64__nnUNetPlansv2.1, 
+fold_0	
+0.7687	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S6_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.776	
+3d_fullres, Task506_ISLES22_new, nnUNetTrainerV2_S6_D3_W64__nnUNetPlansv2.1, 
+fold_0	
+0.7844	
+3d_fullres, Task511_ISLES_SPES, ViTUNetTrainer__nnUNetPlansv2.1, 
+fold_506	fold_511	
+0.7898	0.842	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S4_D2_W32__nnUNetPlansv2.1, 
+fold_4	
+0.8754	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S4_D3_W32__nnUNetPlansv2.1, 
+fold_3	
+0.7707	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S5_D3_W32__nnUNetPlansv2.1, 
+fold_3	
+0.7573	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S6_D2_W16__nnUNetPlansv2.1, 
+fold_1	
+0.8556	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S6_D2_W64__nnUNetPlansv2.1, 
+fold_3	
+0.777	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S6_D3_W32__nnUNetPlansv2.1, 
+fold_0	
+0.8649	
+3d_fullres, Task511_ISLES_SPES, nnUNetTrainerV2_S6_D3_W64__nnUNetPlansv2.1, 
+fold_0	fold_1	fold_2	fold_4	
+0.8672	0.8518	0.8635	0.8785	
+3d_fullres, Task555_FeTA2022, BigUNetTrainerFeta__nnUNetPlansv2.1, 
+fold_0	
+0.8445	
+0.7723	
+0.9019	
+0.8782	
+0.9021	
+0.8567	
+0.8339	
+3d_fullres, Task556_FeTA2022_all, BigResUNetTrainer1__nnUNetPlansv2.1, 
+all	
+0.9215	
+0.8767	
+0.96	
+0.9375	
+0.9567	
+0.9702	
+0.9511	
+3d_fullres, Task556_FeTA2022_all, BigResUNetTrainer2__nnUNetPlansv2.1, 
+all	fold_1	fold_2	fold_3	fold_4	fold_5	
+0.9237	0.8202	0.7874	0.7809	0.8384	0.7927	
+0.8804	0.7561	0.742	0.7424	0.7588	0.7594	
+0.9617	0.9065	0.901	0.9127	0.9173	0.9111	
+0.9397	0.877	0.8764	0.8717	0.8736	0.873	
+0.9583	0.9007	0.8777	0.8895	0.9078	0.8936	
+0.9716	0.8677	0.8533	0.838	0.8716	0.8563	
+0.9532	0.8491	0.839	0.8298	0.8322	0.84	
+3d_fullres, Task556_FeTA2022_all, BigUNetTrainer2__nnUNetPlansv2.1, 
+fold_0	
+0.8267	
+0.7643	
+0.9143	
+0.8696	
+0.8555	
+0.8672	
+0.8365	
+3d_fullres, Task556_FeTA2022_all, nnUNetTrainerV2_gammaV1_S5_D3_W64__nnUNetPlansv2.1, 
+all	
+0.9133	
+0.8635	
+0.9555	
+0.9312	
+0.9523	
+0.9657	
+0.9454	
+3d_fullres, Task556_FeTA2022_all, nnUNetTrainerV2_gammaV2_S5_D3_W64__nnUNetPlansv2.1, 
+all	
+0.9119	
+0.8612	
+0.9547	
+0.9287	
+0.9515	
+0.9653	
+0.9447	
+3d_fullres, Task556_FeTA2022_all, nnUNetTrainerV2_gammaV3_S5_D3_W64__nnUNetPlansv2.1, 
+all	fold_0	fold_1	fold_2	fold_3	fold_4	
+0.9116	0.824	0.8224	0.79	0.7842	0.8386	
+0.8608	0.7633	0.7591	0.7424	0.746	0.7618	
+0.9546	0.9144	0.9083	0.9037	0.9145	0.9184	
+0.9296	0.8746	0.8778	0.8778	0.874	0.8771	
+0.9516	0.8712	0.9018	0.8913	0.8914	0.9084	
+0.9652	0.8697	0.8686	0.8517	0.8399	0.8724	
+0.9441	0.8398	0.8481	0.8406	0.8299	0.8363	
+3d_fullres, Task600_CTSpine1K, UNTER3, 
+fold_0	
+0.9009	
+0.96	
+0.9465	
+0.9496	
+0.9458	
+0.9359	
+0.9145	
+0.9049	
+0.8733	
+0.7644	
+0.6623	
+0.5059	
+0.4006	
+0.3985	
+0.0	
+0.0	
+0.0	
+nan	
+nan	
+nan	
+nan	
+nan	
+nan	
+nan	
+nan	
+3d_fullres, Task600_CTSpine1K, nnUNetTrainerV2_S4_D2_W16__nnUNetPlansv2.1, 
