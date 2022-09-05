@@ -1,3 +1,4 @@
+PREFIX="/mnt/cache/wanghaoyu/SP_script/totalseg_bench"
 # bash test_compute_dice_cmd.sh Task011_BTCV fast all [Atten]
 # bash test_compute_dice_cmd.sh Task011_BTCV normal all
 # bash test_compute_dice_cmd.sh Task031_AMOS_MR normal all [NO split]
@@ -53,5 +54,41 @@
 # bash test_compute_dice_cmd.sh Task083_VerSe2020 normal 0
 # bash test_compute_dice_cmd.sh Task083_VerSe2020 fast all
 # bash test_compute_dice_cmd.sh Task083_VerSe2020 normal all
-bash test_compute_dice_cmd.sh Task020_AbdomenCT1K fast all
-bash test_compute_dice_cmd.sh Task020_AbdomenCT1K normal all 
+# bash test_compute_dice_cmd.sh Task020_AbdomenCT1K fast all
+# bash test_compute_dice_cmd.sh Task020_AbdomenCT1K normal all
+
+# bash $PREFIX/test_compute_dice_cmd.sh Task032_AMOS22_Task1 fast all
+# bash $PREFIX/test_compute_dice_cmd.sh Task032_AMOS22_Task1 normal all 
+# bash $PREFIX/test_compute_dice_cmd.sh Task022_FLARE22 fast all
+# bash $PREFIX/test_compute_dice_cmd.sh Task022_FLARE22 normal all 
+
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task011_BTCV BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task020_AbdomenCT1K BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task003_Liver BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task007_Pancreas BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task009_Spleen BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task021_KiTS2021 BigResUNetTrainer4 0
+# # bash $PREFIX/test_compute_nn_dice_cmd.sh Task154_RibFrac BigResUNetTrainer4 0
+# # bash $PREFIX/test_compute_nn_dice_cmd.sh Task083_VerSe2020 BigResUNetTrainer4 0
+# # bash $PREFIX/test_compute_nn_dice_cmd.sh Task030_CT_ORG BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task037_CHAOS_Task_3_5_Variant1 BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task031_AMOS_MR BigResUNetTrainer4 0
+# # bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task032_AMOS22_Task1 BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task022_FLARE22 BigResUNetTrainer4 0
+
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset BigResUNetTrainer4 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset BigResUNetTrainer1 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S6_D3_W64 all
+bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S6_D3_W32 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S6_D2_W64 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S6_D2_W32 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S6_D2_W16 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S5_D3_W64 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S5_D2_W64 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S5_D3_W32 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S5_D2_W32 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S5_D2_W16 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S4_D3_W64 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S4_D3_W32 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task558_Totalsegmentator_dataset nnUNetTrainerV2_S4_D2_W64 all

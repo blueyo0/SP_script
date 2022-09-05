@@ -13,19 +13,22 @@ echo "info: ${TASK}_${MODE}_${SPLIT}"
 JOB=""
 if [ ${MODE} == "normal" ];
 then JOB="n"
-else JOB="f"
+elif [ ${MODE} == "fast" ]; 
+then JOB='f'
+else JOB="nn"
 fi
+
 if [ ${SPLIT} == "all" ];
 then JOB+="_a"
 else JOB+="_${SPLIT}"
 fi
 JOB+=_${TASK:4}
-# echo $JOB
+echo $JOB
 
 
 srun -p gmai --cpus-per-task=32 \
 -J $JOB \
 --quotatype=auto \
--o /mnt/cache/wanghaoyu/SP_script/data/totalseg/${TASK}_${MODE}_${SPLIT}${TEST}.log \
+-o /mnt/cache/wanghaoyu/SP_script/data/nn_totalseg/${TASK}_${MODE}_${SPLIT}${TEST}.log \
 --async \
 python ${PREFIX}/compute_metrics.py ${TASK} ${MODE} ${SPLIT} ${TEST}

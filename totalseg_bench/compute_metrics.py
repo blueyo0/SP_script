@@ -12,7 +12,7 @@ import nibabel as nib
 import os.path as osp
 import numpy as np
 from metrics import dice
-from label_sys import label_sys_dict, label_mapping
+from label_sys import label_sys_dict, label_mapping, totalseg_cls2idx
 import glob
 import sys
 from tqdm import tqdm
@@ -46,6 +46,7 @@ def compute_dice(ts_root, gt_root, label_sys, label_mapping, prev_result=None):
         ts_cls_arr = np.zeros_like(gt_arr)
         for sub_ts_file in ts_cls_name:
             filename = osp.join(ts_root, sub_ts_file+".nii.gz")
+            if(osp.exists(filename)): print(f"FileNotFound for {filename}"); continue
             sub_ts_img = nib.load(filename)
             sub_ts_img = nib.as_closest_canonical(sub_ts_img)
             sub_ts_cls_arr = sub_ts_img.get_fdata()
@@ -67,6 +68,9 @@ def compute_dice_nnUNet(ts_root, gt_root, label_sys, label_mapping, prev_result=
     gt_img = nib.load(gt_root)
     gt_img = nib.as_closest_canonical(gt_img)
     gt_arr = gt_img.get_fdata()
+    ts_img = nib.load(ts_root)
+    ts_img = nib.as_closest_canonical(ts_img)
+    ts_arr = ts_img.get_fdata()
 
     final_result = prev_result
     if(not final_result): final_result = dict()
@@ -83,12 +87,9 @@ def compute_dice_nnUNet(ts_root, gt_root, label_sys, label_mapping, prev_result=
             ts_cls_name = [ts_cls_name]
         # get single-class one-hot mask
         ts_cls_arr = np.zeros_like(gt_arr)
-        for sub_ts_file in ts_cls_name:
-            filename = osp.join(ts_root, sub_ts_file+".nii.gz")
-            sub_ts_img = nib.load(filename)
-            sub_ts_img = nib.as_closest_canonical(sub_ts_img)
-            sub_ts_cls_arr = sub_ts_img.get_fdata()
-            ts_cls_arr[sub_ts_cls_arr==1] = 1
+        for cls_name in ts_cls_name:
+            ts_cls_idx = totalseg_cls2idx[cls_name]
+            ts_cls_arr[ts_arr==ts_cls_idx] = 1
 
         gt_cls_arr = np.zeros_like(gt_arr)
         for i in idx:   
@@ -109,7 +110,9 @@ if __name__ == "__main__":
     fold = sys.argv[3]
     if(len(sys.argv)>4): test = bool(sys.argv[4])
     print("test", dataset, "mode", mode, "fold", fold)
-    general_ts_root = f"/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/totalseg_result/{dataset}"
+
+    # get label_sys to map the label
+    general_ts_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}/"
     general_gt_root = f"/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data/{dataset}/labelsTr"
     if(dataset=="Task558_Totalsegmentator_dataset"):
         check_data_seg_path = "/mnt/petrelfs/wanghaoyu/test/liver_0_0000_fast"
@@ -126,21 +129,30 @@ if __name__ == "__main__":
     else: label_sys = label_sys_dict[dataset]
     print(label_sys)
     res = None
-    data_list = glob.glob(osp.join(general_ts_root, f"*_{mode}"))
 
-    # [TO-DO] 读取split，并输出split指标
+    # search for eval data
+    is_nnUNet = not mode in ("normal", "fast")
+    if(is_nnUNet):
+        compute_fn = compute_dice_nnUNet
+        # [TO-DO] nnUNet infer result
+        data_list = glob.glob(osp.join(general_ts_root, f"{mode}__nnUNetPlansv2.1", "*.nii.gz"))
+    else:    
+        compute_fn = compute_dice    
+        data_list = glob.glob(osp.join(general_ts_root, f"*_{mode}"))
+        # 读取split，并输出split指标
     assert fold in ['0', '1', '2', '3', '4', 'all']
     if(fold=='all'):
         print("compute metrics of all data")
     else:
         print(f"compute metrics of fold {fold}")
-        general_split_root = f"/mnt/petrelfs/wanghaoyu/gmai/nnUNet_preprocessed/{dataset}/splits_final.pkl"
+        general_split_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/split/{dataset}/splits_final.pkl"
         if(osp.exists(general_split_root)):
             splits = pickle.load(open(general_split_root, "rb"))
-            data_list = [osp.join(general_ts_root, f+f'_0000_{mode}') for f in splits[int(fold)]['val']]
         else:
+            print("[Warning] split_final.pkl is not found, automatic compute the split")
             splits = []
-            all_keys_sorted = np.sort(list([osp.basename(d).split("_0000_")[0] for d in data_list]))
+            if(is_nnUNet): all_keys_sorted = np.sort(list([osp.basename(d).split("_0000.nii.gz")[0] for d in data_list]))
+            else: all_keys_sorted = np.sort(list([osp.basename(d).split("_0000_")[0] for d in data_list]))
             print("all_keys_sorted", all_keys_sorted)
             kfold = KFold(n_splits=5, shuffle=True, random_state=12345)
             for i, (train_idx, test_idx) in enumerate(kfold.split(all_keys_sorted)):
@@ -149,7 +161,10 @@ if __name__ == "__main__":
                 splits.append(OrderedDict())
                 splits[-1]['train'] = train_keys
                 splits[-1]['val'] = test_keys
-            data_list = [osp.join(general_ts_root, f+f'_0000_{mode}') for f in splits[int(fold)]['val']]
+        if(is_nnUNet): 
+            data_list = [osp.join(general_ts_root, f"{mode}__nnUNetPlansv2.1", f+f'_0000.nii.gz') for f in splits[int(fold)]['val']] 
+        else: 
+            data_list = [osp.join(general_ts_root, f+f'_0000_{mode}') for f in splits[int(fold)]['val']] 
         print(f"fold_{fold}_val: ", len(data_list))
 
     # test one case 
@@ -160,8 +175,11 @@ if __name__ == "__main__":
 
     pbar = tqdm(data_list)
     for data in pbar:
-        label_path = osp.join(general_gt_root, osp.basename(data).split("_0000_")[0]+".nii.gz")
-        res = compute_dice(data, label_path, label_sys=label_sys, label_mapping=label_mapping, prev_result=res)
+        if(is_nnUNet): 
+            label_path = osp.join(general_gt_root, osp.basename(data).split("_0000.nii.gz")[0]+".nii.gz")
+        else:
+            label_path = osp.join(general_gt_root, osp.basename(data).split("_0000_")[0]+".nii.gz")
+        res = compute_fn(data, label_path, label_sys=label_sys, label_mapping=label_mapping, prev_result=res)
     final_dice = []
     for k, v in res.items():
         mDice = np.nanmean(v)

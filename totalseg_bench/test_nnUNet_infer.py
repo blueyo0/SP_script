@@ -22,10 +22,10 @@ if __name__ == '__main__':
     trainer = sys.argv[1]
     dataset = sys.argv[2]
     model = f"{trainer}__nnUNetPlansv2.1"
-    input_folder = f'/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data/{dataset}/imagesTr'
-    output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/totalseg_result/{dataset}'
+    input_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/imagesTr'
+    output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}'
     parameter_folder = f'/mnt/lustre/wanghaoyu/runs/nnUNet/RESULTS_FOLDER/nnUNet/3d_fullres/Task558_Totalsegmentator_dataset'
-    folds = (0)
+    folds = (1)
 
     test_files = subfiles(input_folder, suffix='_0000.nii.gz', join=False)
 
