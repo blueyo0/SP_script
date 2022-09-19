@@ -64,9 +64,11 @@ if __name__ == "__main__":
     #                       "/mnt/cache/wanghaoyu/data/RAW_DATA/Task099_AbdomenCT5K/imagesTr", 
     #                       "/mnt/cache/wanghaoyu/data/RAW_DATA/Task099_AbdomenCT5K/imagesTs",
     #                       modalities=('CT'), labels={0:"background", 1:"fake mask"}, dataset_name="Abdomen5K")
-    generate_dataset_json("/mnt/cache/wanghaoyu/data/RAW_DATA/Task030_CT_ORG/dataset.json", 
-                          "/mnt/cache/wanghaoyu/data/RAW_DATA/Task030_CT_ORG/imagesTr", 
+    # generate_dataset_json("/mnt/cache/wanghaoyu/data/RAW_DATA/Task030_CT_ORG/dataset.json", 
+    #                       "/mnt/cache/wanghaoyu/data/RAW_DATA/Task030_CT_ORG/imagesTr", 
+    generate_dataset_json("/mnt/petrelfs/wanghaoyu/gmai/temp/Multi_AtlasLabelingBeyondtheCranialVault/Task012_BTCV_Cervix/dataset.json", 
+                          "/mnt/petrelfs/wanghaoyu/gmai/temp/Multi_AtlasLabelingBeyondtheCranialVault/Task012_BTCV_Cervix/imagesTr", 
                           None,
                           modalities=['CT'], 
-                          labels={0:"background", 1:"lung", 2:"bone", 3:"liver", 4:"kidney", 5:"bladder", 6:"brain"}, 
-                          dataset_name="CT-ORG")
+                          labels={0:"background", 1:"bladder", 2:"uterus", 3:"rectum", 4:"small bowel"}, 
+                          dataset_name="BTCV_Cervix")

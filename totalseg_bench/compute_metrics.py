@@ -21,7 +21,7 @@ import os
 from sklearn.model_selection import KFold
 from collections import OrderedDict
 
-def compute_dice(ts_root, gt_root, label_sys, label_mapping, prev_result=None):
+def compute_dice(ts_root, gt_root, label_sys, label_mapping, prev_result=None, correct_direction=True):
     # gt_img = sitk.ReadImage(gt_root)
     # gt_arr = sitk.GetArrayFromImage(gt_img)
     if(not osp.exists(gt_root)): print(f"FileNotFound for {gt_root}"); return prev_result # do nothing
@@ -46,7 +46,7 @@ def compute_dice(ts_root, gt_root, label_sys, label_mapping, prev_result=None):
         ts_cls_arr = np.zeros_like(gt_arr)
         for sub_ts_file in ts_cls_name:
             filename = osp.join(ts_root, sub_ts_file+".nii.gz")
-            if(osp.exists(filename)): print(f"FileNotFound for {filename}"); continue
+            if(not osp.exists(filename)): print(f"FileNotFound for {filename}"); continue
             sub_ts_img = nib.load(filename)
             sub_ts_img = nib.as_closest_canonical(sub_ts_img)
             sub_ts_cls_arr = sub_ts_img.get_fdata()
@@ -61,15 +61,18 @@ def compute_dice(ts_root, gt_root, label_sys, label_mapping, prev_result=None):
         final_result[v].append(score)
     return final_result
 
-def compute_dice_nnUNet(ts_root, gt_root, label_sys, label_mapping, prev_result=None):
+def compute_dice_nnUNet(ts_root, gt_root, label_sys, label_mapping, prev_result=None, correct_direction=True):
     # gt_img = sitk.ReadImage(gt_root)
     # gt_arr = sitk.GetArrayFromImage(gt_img)
     if(not osp.exists(gt_root)): print(f"FileNotFound for {gt_root}"); return prev_result # do nothing
+    if(not osp.exists(ts_root)): print(f"FileNotFound for {ts_root}"); return prev_result # do nothing
     gt_img = nib.load(gt_root)
-    gt_img = nib.as_closest_canonical(gt_img)
+    if(correct_direction): 
+        gt_img = nib.as_closest_canonical(gt_img)
     gt_arr = gt_img.get_fdata()
     ts_img = nib.load(ts_root)
-    ts_img = nib.as_closest_canonical(ts_img)
+    if(correct_direction): 
+        ts_img = nib.as_closest_canonical(ts_img)
     ts_arr = ts_img.get_fdata()
 
     final_result = prev_result
@@ -111,11 +114,17 @@ if __name__ == "__main__":
     if(len(sys.argv)>4): test = bool(sys.argv[4])
     print("test", dataset, "mode", mode, "fold", fold)
 
+
+    is_nnUNet = not mode in ("normal", "fast")
+    correct_direction = True
+    if(dataset=="Task011_BTCV" and is_nnUNet):
+        correct_direction = False
+
     # get label_sys to map the label
     general_ts_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}/"
-    general_gt_root = f"/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data/{dataset}/labelsTr"
-    if(dataset=="Task558_Totalsegmentator_dataset"):
-        check_data_seg_path = "/mnt/petrelfs/wanghaoyu/test/liver_0_0000_fast"
+    general_gt_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/labelsTr"
+    if(dataset=="Task558_Totalsegmentator_dataset" or dataset=="Task559_TS_test"):
+        check_data_seg_path = "/mnt/petrelfs/wanghaoyu/why/liver_0_0000_fast"
         labels = sorted(os.listdir(check_data_seg_path))
         label_sys = {
             # "0": "background",
@@ -131,7 +140,6 @@ if __name__ == "__main__":
     res = None
 
     # search for eval data
-    is_nnUNet = not mode in ("normal", "fast")
     if(is_nnUNet):
         compute_fn = compute_dice_nnUNet
         # [TO-DO] nnUNet infer result
@@ -179,7 +187,7 @@ if __name__ == "__main__":
             label_path = osp.join(general_gt_root, osp.basename(data).split("_0000.nii.gz")[0]+".nii.gz")
         else:
             label_path = osp.join(general_gt_root, osp.basename(data).split("_0000_")[0]+".nii.gz")
-        res = compute_fn(data, label_path, label_sys=label_sys, label_mapping=label_mapping, prev_result=res)
+        res = compute_fn(data, label_path, label_sys=label_sys, label_mapping=label_mapping, prev_result=res, correct_direction=correct_direction)
     final_dice = []
     for k, v in res.items():
         mDice = np.nanmean(v)

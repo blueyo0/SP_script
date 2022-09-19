@@ -34,8 +34,8 @@ if __name__ == '__main__':
     input_files = [join(input_folder, tf) for tf in test_files]
     output_files = [join(output_folder, model, tf) for tf in test_files]
     predict_cases(join(parameter_folder, model), [[i] for i in input_files], output_files, folds, save_npz=False,
-                    num_threads_preprocessing=8, num_threads_nifti_save=8, segs_from_prev_stage=None, do_tta=False,
-                    mixed_precision=True, overwrite_existing=False, all_in_gpu=True, step_size=0.5)
+                    num_threads_preprocessing=2, num_threads_nifti_save=2, segs_from_prev_stage=None, do_tta=False,
+                    mixed_precision=True, overwrite_existing=False, all_in_gpu=False, step_size=0.5)
 
     # 指标计算
     # gt_folder = f'/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data/{dataset}/labelsTr'

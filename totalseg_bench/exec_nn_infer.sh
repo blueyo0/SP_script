@@ -68,18 +68,26 @@ PREFIX="/mnt/cache/wanghaoyu/SP_script/totalseg_bench"
 # bash $PREFIX/test_nnUNet_cmd.sh nnUNetTrainerV2_S4_D3_W32 Task558_Totalsegmentator_dataset
 # bash $PREFIX/test_nnUNet_cmd.sh nnUNetTrainerV2_S4_D2_W64 Task558_Totalsegmentator_dataset
 
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task011_BTCV
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task020_AbdomenCT1K
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task003_Liver
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task007_Pancreas
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task009_Spleen
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task021_KiTS2021
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task154_RibFrac
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task083_VerSe2020
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task030_CT_ORG
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task037_CHAOS_Task_3_5_Variant1
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task031_AMOS_MR
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task011_BTCV
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task020_AbdomenCT1K
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task007_Pancreas
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task009_Spleen
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task021_KiTS2021
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task154_RibFrac
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task003_Liver
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task030_CT_ORG
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task083_VerSe2020
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task037_CHAOS_Task_3_5_Variant1
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task031_AMOS_MR
 # bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task558_Totalsegmentator_dataset
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task032_AMOS22_Task1
-bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task022_FLARE22
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task032_AMOS22_Task1
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4 Task022_FLARE22
+
+# bash $PREFIX/test_nnUNet_cmd.sh nnUNeXtTrainer_112333_128 Task559_TS_test
+# bash $PREFIX/test_nnUNet_cmd.sh nnUNeXtTrainer_112222_128 Task559_TS_test
+# bash $PREFIX/test_nnUNet_cmd.sh nnUNeXtTrainer_asym_112222_160 Task559_TS_test
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer2_no_mirror Task559_TS_test
+# bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer1_no_mirror Task559_TS_test
+bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer4_no_mirror Task559_TS_test
+bash $PREFIX/test_nnUNet_cmd.sh BigResUNetTrainer3_no_mirror Task559_TS_test
 

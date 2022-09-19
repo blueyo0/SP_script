@@ -5,8 +5,10 @@ import subprocess
 from tqdm import tqdm
 import sys
 
-data_root = "/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data"
-output_root = "/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/totalseg_result"
+# data_root = "/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data"
+# output_root = "/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/totalseg_result"
+data_root = "/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data"
+output_root = "/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/"
 
 # dataset_list = [
 #     # "Task020_AbdomenCT1K", 
@@ -35,9 +37,10 @@ for dataset in dataset_list:
     pbar = tqdm(image_list)
     for image in pbar:
         out_path = osp.join(output_dir, osp.basename(image).split(".nii")[0])
-        if(not osp.exists(out_path+"_normal")):
-            process = subprocess.Popen(f"TotalSegmentator -i {image} -o {out_path}_normal", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)                                                                                                                                   
-            cmd_out = process.stdout.read().decode('utf-8')
+        # [HACK] hide the prediction of normal 1.5 mm
+        # if(not osp.exists(out_path+"_normal")):
+        #     process = subprocess.Popen(f"TotalSegmentator -i {image} -o {out_path}_normal", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)                                                                                                                                   
+        #     cmd_out = process.stdout.read().decode('utf-8')
             # print("normal:", cmd_out)
         if(not osp.exists(out_path+"_fast")):
             process = subprocess.Popen(f"TotalSegmentator -i {image} -o {out_path}_fast --fast", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)

@@ -12,5 +12,5 @@ PREFIX="/mnt/cache/wanghaoyu/SP_script/totalseg_bench"
 # bash test_totalseg_cmd.sh Task037_CHAOS_Task_3_5_Variant1
 # bash test_totalseg_cmd.sh Task031_AMOS_MR
 # bash test_totalseg_cmd.sh Task558_Totalsegmentator_dataset
+# bash $PREFIX/test_totalseg_cmd.sh Task022_FLARE22
 bash $PREFIX/test_totalseg_cmd.sh Task032_AMOS22_Task1
-bash $PREFIX/test_totalseg_cmd.sh Task022_FLARE22
