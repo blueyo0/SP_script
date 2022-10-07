@@ -1,0 +1,10 @@
+#s3://nnUNet_raw_data_new/Task513_TCGA-CESC/imagesTr/MR/
+s3://nnUNet_raw_data_new/Task521_Breast-MRI-NACT-Pilot/imagesTr/MR/
+s3://dataset_raw_labeled/CNI19/2019_CNI_TrainingRelease-master/SupportingInfo/cc200_atlas_2mm.nii.gz
+
+
+
+
+
+
+

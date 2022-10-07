@@ -1,0 +1,244 @@
+CT-prostate/uterus
+CT-duodenum
+CT-kidney_right
+CT-adrenal_gland_left
+CT-iliac_artery_right
+CT-iliopsoas_right
+CT-iliac_vena_right
+CT-uterus
+CT-small_bowel
+CT-left/right kidney
+CT-left/right adrenal gland
+CT-kidney_left
+CT-adrenal_gland_right
+CT-iliac_artery_left
+CT-iliac_vena_left
+CT-rectum
+CT-colon
+CT-liver
+CT-liver vessel
+CT-intestine
+CT-kidney
+CT-adrenal
+CT-kidney arteries
+CT-kidney veins
+CT-stomach
+CT-gallbladder
+CT-pancreas
+CT-spleen
+CT-urinary_bladder
+CT-portal_vein_and_splenic_vein
+MR-prostate
+MR-prostate/uterus
+MR-duodenum
+MR-right kidney
+MR-right adrenal
+MR-left/right kidney
+MR-left/right adrenal gland
+MR-liver
+MR-spleen
+MR-urinary bladder
+CT-inferior_vena_cava
+CT-aorta
+CT-esophagus
+MR-inferior vena cava
+MR-esophagus
+CT-lumbar vertebra
+CT-vertebrae_L1
+CT-vertebrae_L2
+CT-vertebrae_L3
+CT-vertebrae_L4
+CT-vertebrae_L5
+CT-lumbar spine-6
+MR-lumbar vertebra
+MR-lumbar spine-1
+CT-right coronary artery
+CT-heart_ventricle_right
+CT-right ventricle blood cavity
+CT-heart_atrium_right
+CT-right atrium blood cavity
+CT-left anterior descending branch
+CT-heart_ventricle_left
+CT-left ventricular myocardium
+CT-left ventricle blood cavity
+CT-heart_atrium_left
+CT-left atrium blood cavity
+CT-left circumflex artery
+CT-heart
+CT-heart_myocardium
+MR-no-reflow
+MR-aorta
+MR-ascending aorta
+MR-right ventricle
+MR-right ventricular cavity
+MR-right ventricular blood pool
+MR-contours for the right ventricle blood pools
+MR-right ventricle blood cavity
+MR-right atrial blood cavity
+MR-left ventricle
+MR-left ventricular myocardium
+MR-left ventricular myocardial scars
+MR-contours for left ventricular myocardium
+MR-left atrial cavity
+MR-left ventricular blood pool
+MR-contours for the left ventricle blood pools
+MR-left ventricle blood cavity
+MR-left atrium
+MR-left atrial scars
+MR-left atrial blood pool
+MR-left atrial blood cavity
+MR-myocardium
+MR-cavity
+MR-normal myocardium
+MR-blood pool
+CT-mandible
+CT-falx cerebri
+CT-head and neck organs at risks
+CT-cerebellum
+CT-tentorium cerebelli
+CT-left and right parotid glands
+CT-left and right optic nerves
+CT-left and right submandibular glands
+CT-lacrimal glands, cochleas
+CT-eyes, optic nerves, optic chiasm
+CT-sagittal & transverse brain sinuses
+CT-cochlea
+CT-brain
+CT-ventricles
+CT-brainstem
+CT-brain skull
+CT-face
+CT-optic chiasm
+IOSs-teeth
+MR-external cerebrospinal fluid 
+MR-falx cerebri
+MR-cerebellum 
+MR-tentorium cerebelli
+MR-lacrimal glands, cochleas
+MR-deep gray matter 
+MR-gray matter 
+MR-white matter 
+MR-eyes, optic nerves, optic chiasm
+MR-sagittal & transverse brain sinuses
+MR-cochlea
+MR-ventricles
+MR-brainstem
+MR-brain growth
+MR-cerebrospinal fluid 
+MR-caudate nucleaus
+ MR-anterior hippocampus of the brain 
+ MR-posterior hippocampus of the brain 
+MR-carotid artery vessel wall
+OCT-fluid-filled
+OCT-subretinal fluid
+OCT-intraretinal fluid
+OCT-retinal layer boundaries-1
+OCT-retinal layer boundaries-2
+OCT-retinal layer boundaries-3
+OCT-retinal layer boundaries-4
+OCT-retinal layer boundaries-5
+OCT-retinal layer boundaries-6
+OCT-retinal layer boundaries-7
+OCT-retinal layer boundaries-8
+CT-vertebrae_C1
+CT-vertebrae_C2
+CT-vertebrae_C3
+CT-vertebrae_C4
+CT-vertebrae_C5
+CT-vertebrae_C6
+CT-vertebrae_C7
+MR-brain skull
+MR-peripheral artery
+CT-scapula_right
+CT-humerus_right
+CT-clavicula_right
+CT-scapula_left
+CT-humerus_left
+CT-clavicula_left
+CT-femur_left
+CT-hip_left
+CT-femur_right
+CT-hip_right
+CT-sacrum
+CT-gluteus_medius_right
+CT-gluteus_maximus_right
+CT-gluteus_minimus_right
+CT-gluteus_medius_left
+CT-gluteus_maximus_left
+CT-gluteus_minimus_left
+CT-coronary artery
+CT-ascending aorta
+CT-lung_upper_lobe_right
+CT-lung_lower_lobe_right
+CT-lung_middle_lobe_right
+CT- left/right lung
+CT-lung_upper_lobe_left
+CT-lung_lower_lobe_left
+CT-trachea
+CT-lung
+CT-pulmonary_artery
+CT-outside the lungs
+CT-pulmonary airway
+CT-lung vessels
+CT-lung organ at risks
+MR-left/right lung
+MR-left kidney
+MR-left adrenal
+MR-trachea
+MR-pulmonary artery
+MR-stomach
+MR-gallbladder
+MR-pancreas
+CT-rib_right_1
+CT-rib_right_10
+CT-rib_right_11
+CT-rib_right_12
+CT-rib_right_2
+CT-rib_right_3
+CT-rib_right_4
+CT-rib_right_5
+CT-rib_right_6
+CT-rib_right_7
+CT-rib_right_8
+CT-rib_right_9
+CT-rib_left_1
+CT-rib_left_10
+CT-rib_left_11
+CT-rib_left_12
+CT-rib_left_2
+CT-rib_left_3
+CT-rib_left_4
+CT-rib_left_5
+CT-rib_left_6
+CT-rib_left_7
+CT-rib_left_8
+CT-rib_left_9
+CT-vertebrae_T1
+CT-vertebrae_T10
+CT-vertebrae_T11
+CT-vertebrae_T12
+CT-vertebrae_T2
+CT-vertebrae_T3
+CT-vertebrae_T4
+CT-vertebrae_T5
+CT-vertebrae_T6
+CT-vertebrae_T7
+CT-vertebrae_T8
+CT-vertebrae_T9
+CT-sternum
+MR-sternum
+CT-autochthon_right
+CT-autochthon_left
+CT-bones
+MR-intervertebral disc
+CT-femur bone
+CT-femur cartilage
+CT-tibia bone
+CT-tibia cartilage
+MR-knee cartilage
+MR-knee bone
+CT- left/right psoas major muscle
+CT-iliopsoas_left
+CT-rectus abdominis muscle
+MR- left/right psoas major muscle
+MR-rectus abdominis muscle

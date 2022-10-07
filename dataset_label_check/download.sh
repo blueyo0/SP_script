@@ -1,0 +1,7 @@
+OUT_DIR=/mnt/petrelfs/wanghaoyu/why/local_label
+for dataset in Task013_ACDC Task032_AMOS22_Task1 Task040_ATM22 Task020_AbdomenCT1K Task602_ASC18 Task011_BTCV Task590_Brain_PTM Task617_CAUSE07 Task037_CHAOS_Task_3_5_Variant1 Task525_CMRxMotions Task612_CTPelvic1k Task601_CTSpine1K_Full Task625_EMIDEC Task623_FLARE21 Task022_FLARE2022 Task505_FeTA Task892_Heart_Seg_MRI Task036_KiPA22 Task040_KiTS Task021_KiTS2021 Task050_LAScarQS22_task1 Task051_LAScarQS22_task2 Task614_LUNA Task603_MMWHS Task627_MRBrain18 Task001_BrainTumour Task002_Heart Task003_Liver Task004_Hippocampus Task005_Prostate Task006_Lung Task007_Pancreas Task008_HepaticVessel Task009_Spleen Task010_Colon Task507_Myops2020 Task618_Promise09 Task039_Parse22 Task622_SLIVER07 Task619_VESSEL2012 Task083_VerSe2020 Task502_WMH Task1000_cSeg-2022 Task606_orCaScore Task029_LITS Task621_Prostate_MRI_Segmentation_Dataset Task605_SegThor Task558_Totalsegmentator_dataset Task560_WORD Task890_iSeg2017 Task632_AutoImplant Task611_PROMISE12 Task1006_hvsmr_2016 Task012_BTCV_Cervix Task162_HeadandNeckAutoSegmentationChallenge Task161_MRBrainS13DataNii Task512_QUBIQ2020_braingrowth_subset Task512_QUBIQ2020_braintumor_subset Task512_QUBIQ2020_kidney_subset Task512_QUBIQ2020_prostate_subset
+do
+mkdir -p $OUT_DIR/$dataset/
+# aws --profile=why --endpoint-url=http://10.140.14.253:80 s3 cp s3://nnUNet_raw_data/$dataset/dataset.json $OUT_DIR/$dataset/dataset.json
+aws --profile=why --endpoint-url=http://10.140.14.253:80 s3 cp s3://nnUNet_raw_data/$dataset/labelsTr/ $OUT_DIR/$dataset/labelsTr/ --recursive
+done

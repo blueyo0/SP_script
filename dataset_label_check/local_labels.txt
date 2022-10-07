@@ -1,0 +1,120 @@
+dataset: Task013_ACDC
+json keys: dict_values(['background', 'RV', 'MLV', 'LVC'])
+dataset: Task032_AMOS22_Task1
+json keys: dict_values(['background', 'spleen', 'right kidney', 'left kidney', 'gall bladder', 'esophagus', 'liver', 'stomach', 'arota', 'postcava', 'pancreas', 'right adrenal gland', 'left adrenal gland', 'duodenum', 'bladder', 'prostate/uterus'])
+dataset: Task040_ATM22
+json keys: dict_values(['background', 'airway'])
+dataset: Task020_AbdomenCT1K
+json keys: dict_values(['background', 'liver', 'kidney', 'spleen', 'pancreas'])
+dataset: Task602_ASC18
+json keys: dict_values(['0', '1'])
+dataset: Task011_BTCV
+json keys: dict_values(['background', 'spleen', 'right kidney', 'left kidney', 'gallbladder', 'esophagus', 'liver', 'stomach', 'aorta', 'inferior vena cava', 'portal vein and splenic vein', 'pancreas', 'right adrenal gland', 'left adrenal gland'])
+dataset: Task590_Brain_PTM
+json keys: dict_values(['background', 'matter_tracts'])
+dataset: Task617_CAUSE07
+json keys: dict_values(['background', 'left caudate', 'right caudate'])
+dataset: Task037_CHAOS_Task_3_5_Variant1
+json keys: dict_values(['background', 'liver', 'right kidney', 'left kidney', 'spleen'])
+dataset: Task525_CMRxMotions
+json keys: dict_values(['background', 'LV', 'MYO', 'RV'])
+dataset: Task612_CTPelvic1k
+json keys: dict_values(['background', 'sacrum', 'right_hip', 'left_hip', 'lumbar_vertebra'])
+dataset: Task601_CTSpine1K_Full
+json keys: dict_values(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25'])
+dataset: Task625_EMIDEC
+json keys: dict_values(['background', 'left ventricle', 'left myocardium', 'myocardial infarction', 'no-reflow'])
+dataset: Task623_FLARE21
+json keys: dict_values(['background', 'liver', 'kidney', 'spleen', 'pancreas'])
+dataset: Task022_FLARE2022
+json keys: dict_values(['background', 'liver', 'left kidney', 'spleen', 'pancreas', 'aorta', 'inferior vena cava', 'right adrenal gland', 'left adrenal gland', 'gallbladder', 'esophagus', 'stomach', 'duodenum', 'right kidney'])
+dataset: Task505_FeTA
+json keys: dict_values(['background', 'External Cerebrospinal Fluid', 'Grey Matter', 'White Matter', 'Ventricles', 'Cerebellum', 'Deep Grey Matter', 'Brainstem'])
+dataset: Task892_Heart_Seg_MRI
+json keys: dict_values(['background', 'left atrium'])
+dataset: Task036_KiPA22
+json keys: dict_values(['background', 'renal vein', 'kidney', 'renal artery', 'tumor'])
+dataset: Task040_KiTS
+json keys: dict_values(['background', 'Kidney', 'Tumor'])
+dataset: Task021_KiTS2021
+json keys: dict_values(['background', 'kidney', 'tumor', 'cyst'])
+dataset: Task050_LAScarQS22_task1
+json keys: dict_values(['background', 'LA Scar', 'LA'])
+dataset: Task051_LAScarQS22_task2
+json keys: dict_values(['background', 'LA'])
+dataset: Task614_LUNA
+json keys: dict_values(['background', 'lung'])
+dataset: Task603_MMWHS
+json keys: dict_values(['0', '1', '2', '3', '4', '5', '6', '7'])
+dataset: Task627_MRBrain18
+json keys: dict_values(['background', 'Cortical gray matter', 'Basal ganglia', 'White matter', 'White matter lesions', 'Cerebrospinal fluid in the extracerebral space', 'Ventricles', 'Cerebellum', 'Brain stem', 'Infarction'])
+dataset: Task001_BrainTumour
+json keys: dict_values(['background', 'edema', 'non-enhancing tumor', 'enhancing tumour'])
+dataset: Task002_Heart
+json keys: dict_values(['background', 'left atrium'])
+dataset: Task003_Liver
+json keys: dict_values(['background', 'liver', 'cancer'])
+dataset: Task004_Hippocampus
+json keys: dict_values(['background', 'Anterior', 'Posterior'])
+dataset: Task005_Prostate
+json keys: dict_values(['background', 'PZ', 'TZ'])
+dataset: Task006_Lung
+json keys: dict_values(['background', 'cancer'])
+dataset: Task007_Pancreas
+json keys: dict_values(['background', 'pancreas', 'cancer'])
+dataset: Task008_HepaticVessel
+json keys: dict_values(['background', 'Vessel', 'Tumour'])
+dataset: Task009_Spleen
+json keys: dict_values(['background', 'spleen'])
+dataset: Task010_Colon
+json keys: dict_values(['background', 'colon cancer primaries'])
+dataset: Task507_Myops2020
+json keys: dict_values(['background', 'left ventricular (LV) blood pool', 'right ventricular blood pool', 'LV normal myocardium', 'LV myocardial edema', 'LV myocardial scars'])
+dataset: Task618_Promise09
+json keys: dict_values(['background', 'prostate'])
+dataset: Task039_Parse22
+json keys: dict_values(['background', 'pulmonary artery'])
+dataset: Task622_SLIVER07
+json keys: dict_values(['background', 'liver'])
+dataset: Task619_VESSEL2012
+json keys: dict_values(['no (long) vessel', '(long) vessel'])
+dataset: Task083_VerSe2020
+json keys: dict_values(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28'])
+dataset: Task502_WMH
+json keys: dict_values(['background', 'White_matter_hyperintensities', 'Other pathology'])
+dataset: Task1000_cSeg-2022
+json keys: dict_values(['background', 'Cerebrospinal fluid', 'Gray matter', 'White matter'])
+dataset: Task606_orCaScore
+json keys: dict_values([0, 1, 2, 3])
+dataset: Task029_LITS
+json keys: dict_values(['background', 'liver', 'tumor'])
+dataset: Task621_Prostate_MRI_Segmentation_Dataset
+json keys: dict_values(['background', 'Prostate'])
+dataset: Task605_SegThor
+json keys: dict_values(['background', 'esophagus', 'heart', 'trachea', 'aorta'])
+dataset: Task558_Totalsegmentator_dataset
+json keys: dict_values(['background', 'adrenal_gland_left', 'duodenum', 'vertebrae_T5', 'vertebrae_T6', 'vertebrae_T7', 'vertebrae_T8', 'vertebrae_T9', 'esophagus', 'face', 'femur_left', 'femur_right', 'gallbladder', 'gluteus_maximus_left', 'gluteus_maximus_right', 'gluteus_medius_left', 'gluteus_medius_right', 'adrenal_gland_right', 'gluteus_minimus_left', 'gluteus_minimus_right', 'heart_atrium_left', 'heart_atrium_right', 'heart_myocardium', 'heart_ventricle_left', 'heart_ventricle_right', 'hip_left', 'hip_right', 'humerus_left', 'aorta', 'humerus_right', 'iliac_artery_left', 'iliac_artery_right', 'iliac_vena_left', 'iliac_vena_right', 'iliopsoas_left', 'iliopsoas_right', 'inferior_vena_cava', 'kidney_left', 'kidney_right', 'autochthon_left', 'liver', 'lung_lower_lobe_left', 'lung_lower_lobe_right', 'lung_middle_lobe_right', 'lung_upper_lobe_left', 'lung_upper_lobe_right', 'pancreas', 'portal_vein_and_splenic_vein', 'pulmonary_artery', 'rib_left_1', 'autochthon_right', 'rib_left_10', 'rib_left_11', 'rib_left_12', 'rib_left_2', 'rib_left_3', 'rib_left_4', 'rib_left_5', 'rib_left_6', 'rib_left_7', 'rib_left_8', 'brain', 'rib_left_9', 'rib_right_1', 'rib_right_10', 'rib_right_11', 'rib_right_12', 'rib_right_2', 'rib_right_3', 'rib_right_4', 'rib_right_5', 'rib_right_6', 'clavicula_left', 'rib_right_7', 'rib_right_8', 'rib_right_9', 'sacrum', 'scapula_left', 'scapula_right', 'small_bowel', 'spleen', 'stomach', 'trachea', 'clavicula_right', 'urinary_bladder', 'vertebrae_C1', 'vertebrae_C2', 'vertebrae_C3', 'vertebrae_C4', 'vertebrae_C5', 'vertebrae_C6', 'vertebrae_C7', 'vertebrae_L1', 'vertebrae_L2', 'colon', 'vertebrae_L3', 'vertebrae_L4', 'vertebrae_L5', 'vertebrae_T1', 'vertebrae_T10', 'vertebrae_T11', 'vertebrae_T12', 'vertebrae_T2', 'vertebrae_T3', 'vertebrae_T4'])
+dataset: Task560_WORD
+json keys: dict_values(['background', 'liver', 'spleen', 'left_kidney', 'right_kidney', 'stomach', 'gallbladder', 'esophagus', 'pancreas', 'duodenum', 'colon', 'intestine', 'adrenal', 'rectum', 'bladder', 'Head_of_femur_L', 'Head_of_femur_R'])
+dataset: Task890_iSeg2017
+json keys: dict_values(['background', 'Cerebrospinal fluid', 'Gray matter', 'White matter'])
+dataset: Task632_AutoImplant
+json keys: dict_values(['background', 'skull'])
+dataset: Task611_PROMISE12
+json keys: dict_values(['background', 'prostate lesion'])
+dataset: Task1006_hvsmr_2016
+json keys: dict_values(['background', 'vessel', 'heart'])
+dataset: Task012_BTCV_Cervix
+json keys: dict_values(['background', 'bladder', 'uterus', 'rectum', ' small bowel'])
+dataset: Task162_HeadandNeckAutoSegmentationChallenge
+json keys: dict_values(['background', 'BrainStem', 'Chiasm', 'Mandible', 'OpticNerve_L', 'OpticNerve_R', 'Parotid_L', 'Parotid_R', 'Submandibular_L', 'Submandibular_R'])
+dataset: Task161_MRBrainS13DataNii
+json keys: dict_values(['background', 'Cortical gray matter', 'Basal ganglia', 'White matter', 'White matter lesions', 'Cerebrospinal fluid in the extracerebral space', 'Ventricles', 'Cerebellum', 'Brainstem'])
+dataset: Task512_QUBIQ2020_braingrowth_subset
+json keys: dict_values(['background', 'task01'])
+dataset: Task512_QUBIQ2020_braintumor_subset
+json keys: dict_values(['background', 'task01', 'task02', 'task03'])
+dataset: Task512_QUBIQ2020_kidney_subset
+json keys: dict_values(['background', 'task01'])
+dataset: Task512_QUBIQ2020_prostate_subset
+json keys: dict_values(['background', 'task01', 'task02'])

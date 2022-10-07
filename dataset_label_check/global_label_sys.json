@@ -1,0 +1,415 @@
+{
+    "Task001_BrainTumour": {
+        "0": 0,
+        "1": "edema not found",
+        "2": "non-enhancing tumor not found",
+        "3": "enhancing tumour not found"
+    },
+    "Task002_Heart": {
+        "0": 0,
+        "1": 85
+    },
+    "Task003_Liver": {
+        "0": 0,
+        "1": 17,
+        "2": "cancer not found"
+    },
+    "Task004_Hippocampus": {
+        "0": 0,
+        "1": "Anterior not found",
+        "2": "Posterior not found"
+    },
+    "Task005_Prostate": {
+        "0": 0,
+        "1": "PZ not found",
+        "2": "TZ not found"
+    },
+    "Task006_Lung": {
+        "0": 0,
+        "1": "cancer not found"
+    },
+    "Task007_Pancreas": {
+        "0": 0,
+        "1": 26,
+        "2": "cancer not found"
+    },
+    "Task008_HepaticVessel": {
+        "0": 0,
+        "1": "Vessel not found",
+        "2": "Tumour not found"
+    },
+    "Task009_Spleen": {
+        "0": 0,
+        "1": 27
+    },
+    "Task010_Colon": {
+        "0": 0,
+        "1": "colon cancer primaries not found"
+    },
+    "Task011_BTCV": {
+        "00": 0,
+        "01": 27,
+        "04": 25,
+        "05": 42,
+        "06": 17,
+        "07": 24,
+        "08": 41,
+        "09": 40,
+        "10": 29,
+        "11": 26,
+        "12": "right adrenal gland not found",
+        "13": "left adrenal gland not found"
+    },
+    "Task012_BTCV_Cervix": {
+        "0": 0,
+        "1": "bladder not found",
+        "2": 7,
+        "3": 15
+    },
+    "Task013_ACDC": {
+        "0": 0,
+        "1": "RV not found",
+        "2": "MLV not found",
+        "3": "LVC not found"
+    },
+    "Task020_AbdomenCT1K": {
+        "0": 0,
+        "1": 17,
+        "2": 20,
+        "3": 27,
+        "4": 26
+    },
+    "Task021_KiTS2021": {
+        "0": 0,
+        "1": 20,
+        "2": "tumor not found",
+        "3": "cyst not found"
+    },
+    "Task022_FLARE2022": {
+        "0": 0,
+        "1": 17,
+        "10": 42,
+        "11": 24,
+        "12": 1,
+        "3": 27,
+        "4": 26,
+        "5": 41,
+        "6": 40,
+        "7": "right adrenal gland not found",
+        "8": "left adrenal gland not found",
+        "9": 25
+    },
+    "Task029_LITS": {
+        "0": 0,
+        "1": 17,
+        "2": "tumor not found"
+    },
+    "Task032_AMOS22_Task1": {
+        "0": 0,
+        "1": 27,
+        "10": 26,
+        "11": "right adrenal gland not found",
+        "12": "left adrenal gland not found",
+        "13": 1,
+        "14": "bladder not found",
+        "15": 0,
+        "4": "gall bladder not found",
+        "5": 42,
+        "6": 17,
+        "7": 24,
+        "8": "arota not found",
+        "9": "postcava not found"
+    },
+    "Task036_KiPA22": {
+        "0": 0,
+        "1": "renal vein not found",
+        "2": 20,
+        "3": "renal artery not found",
+        "4": "tumor not found"
+    },
+    "Task037_CHAOS_Task_3_5_Variant1": {
+        "0": 0,
+        "1": 37,
+        "2": 33,
+        "3": 184,
+        "4": 38
+    },
+    "Task039_Parse22": {
+        "0": 0,
+        "1": 178
+    },
+    "Task040_ATM22": {
+        "0": 0,
+        "1": "airway not found"
+    },
+    "Task040_KiTS": {
+        "0": 0,
+        "2": "Tumor not found"
+    },
+    "Task050_LAScarQS22_task1": {
+        "0": 0,
+        "1": "LA Scar not found",
+        "2": "LA not found"
+    },
+    "Task051_LAScarQS22_task2": {
+        "0": 0,
+        "1": "LA not found"
+    },
+    "Task083_VerSe2020": {
+        "0": "0 not found",
+        "1": "1 not found",
+        "10": "10 not found",
+        "11": "11 not found",
+        "12": "12 not found",
+        "13": "13 not found",
+        "14": "14 not found",
+        "15": "15 not found",
+        "16": "16 not found",
+        "17": "17 not found",
+        "18": "18 not found",
+        "19": "19 not found",
+        "2": "2 not found",
+        "20": "20 not found",
+        "21": "21 not found",
+        "22": "22 not found",
+        "23": "23 not found",
+        "24": "24 not found",
+        "25": "25 not found",
+        "26": "26 not found",
+        "27": "27 not found",
+        "28": "28 not found",
+        "3": "3 not found",
+        "4": "4 not found",
+        "5": "5 not found",
+        "6": "6 not found",
+        "7": "7 not found",
+        "8": "8 not found",
+        "9": "9 not found"
+    },
+    "Task1000_cSeg-2022": {
+        "0": 0
+    },
+    "Task1006_hvsmr_2016": {
+        "0": 0,
+        "1": "vessel not found"
+    },
+    "Task161_MRBrainS13DataNii": {
+        "0": 0,
+        "1": "Cortical gray matter not found",
+        "2": "Basal ganglia not found",
+        "4": "White matter lesions not found",
+        "5": "Cerebrospinal fluid in the extracerebral space not found"
+    },
+    "Task162_HeadandNeckAutoSegmentationChallenge": {
+        "0": 0,
+        "2": "Chiasm not found",
+        "4": "OpticNerve_left not found",
+        "5": "OpticNerve_right not found",
+        "6": "Parotid_left not found",
+        "7": "Parotid_right not found",
+        "8": "Submandibular_left not found",
+        "9": "Submandibular_right not found"
+    },
+    "Task502_WMH": {
+        "0": 0,
+        "1": "White_matter_hyperintensities not found",
+        "2": "Other pathology not found"
+    },
+    "Task505_FeTA": {
+        "0": 0,
+        "2": "Grey Matter not found",
+        "6": "Deep Grey Matter not found"
+    },
+    "Task507_Myops2020": {
+        "0": 0,
+        "1": "left ventricular (LV) blood pool not found",
+        "2": 73,
+        "3": "LV normal myocardium not found",
+        "4": "LV myocardial edema not found",
+        "5": "LV myocardial scars not found"
+    },
+    "Task512_QUBIQ2020_braingrowth_subset": {
+        "0": 0,
+        "1": "task01 not found"
+    },
+    "Task512_QUBIQ2020_braintumor_subset": {
+        "0": 0,
+        "1": "task01 not found",
+        "2": "task02 not found",
+        "3": "task03 not found"
+    },
+    "Task512_QUBIQ2020_kidney_subset": {
+        "0": 0,
+        "1": "task01 not found"
+    },
+    "Task512_QUBIQ2020_prostate_subset": {
+        "0": 0,
+        "1": "task01 not found",
+        "2": "task02 not found"
+    },
+    "Task525_CMRxMotions": {
+        "0": 0,
+        "1": "LV not found",
+        "2": "MYO not found",
+        "3": "RV not found"
+    },
+    "Task558_Totalsegmentator_dataset": {
+        "0": 0,
+        "10": 1,
+        "11": 42,
+        "12": 109,
+        "15": 25,
+        "3": 41,
+        "40": 17,
+        "46": 26,
+        "6": 105,
+        "73": 161,
+        "77": 27,
+        "78": 24,
+        "79": 176,
+        "9": 16
+    },
+    "Task560_WORD": {
+        "0": 0,
+        "1": 17,
+        "10": 16,
+        "11": 19,
+        "12": 21,
+        "13": 15,
+        "14": "bladder not found",
+        "15": "Head_of_femur_left not found",
+        "16": "Head_of_femur_right not found",
+        "2": 27,
+        "5": 24,
+        "6": 25,
+        "7": 42,
+        "8": 26,
+        "9": 1
+    },
+    "Task590_Brain_PTM": {
+        "0": 0,
+        "1": "matter_tracts not found"
+    },
+    "Task601_CTSpine1K_Full": {
+        "0": "0 not found",
+        "1": "1 not found",
+        "10": "10 not found",
+        "11": "11 not found",
+        "12": "12 not found",
+        "13": "13 not found",
+        "14": "14 not found",
+        "15": "15 not found",
+        "16": "16 not found",
+        "17": "17 not found",
+        "18": "18 not found",
+        "19": "19 not found",
+        "2": "2 not found",
+        "20": "20 not found",
+        "21": "21 not found",
+        "22": "22 not found",
+        "23": "23 not found",
+        "24": "24 not found",
+        "25": "25 not found",
+        "3": "3 not found",
+        "4": "4 not found",
+        "5": "5 not found",
+        "6": "6 not found",
+        "7": "7 not found",
+        "8": "8 not found",
+        "9": "9 not found"
+    },
+    "Task602_ASC18": {
+        "0": "0 not found",
+        "1": "1 not found"
+    },
+    "Task603_MMWHS": {
+        "0": "0 not found",
+        "1": "1 not found",
+        "2": "2 not found",
+        "3": "3 not found",
+        "4": "4 not found",
+        "5": "5 not found",
+        "6": "6 not found",
+        "7": "7 not found"
+    },
+    "Task605_SegThor": {
+        "0": 0,
+        "1": 42,
+        "2": 66,
+        "3": 176,
+        "4": 41
+    },
+    "Task606_orCaScore": {
+        "0": "0 not found",
+        "1": "1 not found",
+        "2": "2 not found",
+        "3": "3 not found"
+    },
+    "Task611_PROMISE12": {
+        "0": 0,
+        "1": "prostate lesion not found"
+    },
+    "Task612_CTPelvic1k": {
+        "0": 0,
+        "1": 161,
+        "2": "right_hip not found",
+        "3": "left_hip not found"
+    },
+    "Task614_LUNA": {
+        "0": 0,
+        "1": 177
+    },
+    "Task617_CAUSE07": {
+        "0": 0,
+        "1": "left caudate not found",
+        "2": "right caudate not found"
+    },
+    "Task618_Promise09": {
+        "0": 0,
+        "1": 30
+    },
+    "Task619_VESSEL2012": {
+        "0": "no (long) vessel not found",
+        "1": "(long) vessel not found"
+    },
+    "Task621_Prostate_MRI_Segmentation_Dataset": {
+        "0": 0
+    },
+    "Task622_SLIVER07": {
+        "0": 0,
+        "1": 17
+    },
+    "Task623_FLARE21": {
+        "0": 0,
+        "1": 17,
+        "2": 20,
+        "3": 27,
+        "4": 26
+    },
+    "Task625_EMIDEC": {
+        "0": 0,
+        "1": 77,
+        "2": "left myocardium not found",
+        "3": "myocardial infarction not found"
+    },
+    "Task627_MRBrain18": {
+        "0": 0,
+        "1": "Cortical gray matter not found",
+        "2": "Basal ganglia not found",
+        "4": "White matter lesions not found",
+        "5": "Cerebrospinal fluid in the extracerebral space not found",
+        "8": "Brain stem not found",
+        "9": "Infarction not found"
+    },
+    "Task632_AutoImplant": {
+        "0": 0,
+        "1": "skull not found"
+    },
+    "Task890_iSeg2017": {
+        "0": 0
+    },
+    "Task892_Heart_Seg_MRI": {
+        "0": 0,
+        "1": 85
+    }
+}

@@ -1,0 +1,7 @@
+# for data in Task942_LGG-1p19qDeletion/ Task510_Pediatric-CT-SEG/ Task511_QIN-HEADNECK/  Task512_Soft-tissue-Sarcoma/ Task513_TCGA-CESC/ Task717_TCGA-LUAD/ Task936_ds003949/ Task165_ISLES18/ Task710_autoPET/ Task162_HeadandNeckAutoSegmentationChallenge/ Task166_LongitudinalMultipleSclerosisLesionSegmentation/ Task627_MRBrain18/ Task012_BTCV_Cervix/ Task161_MRBrainS13DataNii/ Task605_SegThor/ Task607_CT_Lymph_Nodes/ Task721_QIN-Breast/ Task709_TCGA-GBM/ Task040_KiTS/ Task503_BraTs2015/ Task602_ASC18/ Task032_BraTS2018/ Task043_BraTS2019/ Task638_OASIS1/ Task637_OASIS2/ Task626_VerSe19/ Task163_curious18/ Task164_curious19/ Task606_orCaScore/ Task701_ACRIN-FLT-Breast/ Task722_ACRIN6668/ Task521_Breast-MRI-NACT-Pilot/ Task703_COVID-19-AR/ Task723_COVID-19-NY-SBU/ Task703_CPTAC-GBM/ 
+# for data in Task724_CPTAC-LUAD/
+# for data in Task040_KiTS Task521_Breast-MRI-NACT-Pilot
+for data in Task511_QIN-HEADNECK Task637_OASIS2 Task638_OASIS1 Task701_ACRIN-FLT-Breast Task710_autoPET Task717_TCGA-LUAD Task722_ACRIN6668 Task724_CPTAC-LUAD
+do
+python vis_and_stat_nnUNet_raw.py s3://nnUNet_raw_data/${data} /mnt/petrelfs/wanghaoyu/why/why_download/stats_results/${data} /mnt/petrelfs/wanghaoyu/why/why_download/visualization/${data}
+done

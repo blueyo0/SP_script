@@ -1,0 +1,113 @@
+[recheck list]
+s3://nnUNet_raw_data/Task040_KiTS
+s3://nnUNet_raw_data/Task511_QIN-HEADNECK
+s3://nnUNet_raw_data/Task521_Breast-MRI-NACT-Pilot
+s3://nnUNet_raw_data/Task637_OASIS2
+s3://nnUNet_raw_data/Task638_OASIS1
+s3://nnUNet_raw_data/Task701_ACRIN-FLT-Breast
+s3://nnUNet_raw_data/Task710_autoPET
+s3://nnUNet_raw_data/Task717_TCGA-LUAD
+s3://nnUNet_raw_data/Task722_ACRIN6668
+s3://nnUNet_raw_data/Task724_CPTAC-LUAD
+
+[bug report]
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task040_KiTS
+43it [01:46,  2.47s/it]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 53, in generate_dataset_statistic
+    nib_data = load_niigz_from_ceph(client, file_url)
+  File "vis_and_stat_nnUNet_raw.py", line 21, in load_niigz_from_ceph
+    nib_data = Nifti1Image.from_bytes(nib_data.to_bytes())
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/site-packages/nibabel/filebasedimages.py", line 600, in to_bytes
+    self.to_file_map(file_map)
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/site-packages/nibabel/analyze.py", line 1007, in to_file_map
+    data = np.asanyarray(self.dataobj)
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/site-packages/nibabel/arrayproxy.py", line 391, in __array__
+    arr = self._get_scaled(dtype=dtype, slicer=())
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/site-packages/nibabel/arrayproxy.py", line 358, in _get_scaled
+    scaled = apply_read_scaling(self._get_unscaled(slicer=slicer), scl_slope, scl_inter)
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/site-packages/nibabel/arrayproxy.py", line 332, in _get_unscaled
+    return array_from_file(self._shape,
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/site-packages/nibabel/volumeutils.py", line 522, in array_from_file
+    n_read = infile.readinto(data_bytes)
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/gzip.py", line 498, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task511_QIN-HEADNECK
+487it [13:12,  1.63s/it]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (5,) 
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task521_Breast-MRI-NACT-Pilot
+0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 51, in generate_dataset_statistic
+    assert is_ceph_file(client, file_url)
+AssertionError
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task637_OASIS2
+0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (4,) 
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task638_OASIS1
+0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (4,) 
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task701_ACRIN-FLT-Breast
+0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (5,) 
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 127, in <module>
+    json_dataset = load_json_from_ceph(client_why, os.path.join(inp_root, 'dataset.json'))
+  File "vis_and_stat_nnUNet_raw.py", line 25, in load_json_from_ceph
+    data = json.loads(client.get(url, update_cache=True))
+  File "/mnt/cache/wanghaoyu/anaconda3/envs/medmae/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task717_TCGA-LUAD
+47it [00:49,  1.05s/it]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (5,) 
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task722_ACRIN6668
+27it [00:24,  1.10it/s]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (5,) 
+* Now generating statistic information of dataset: s3://nnUNet_raw_data/Task724_CPTAC-LUAD
+79it [02:37,  2.00s/it]
+Traceback (most recent call last):
+  File "vis_and_stat_nnUNet_raw.py", line 130, in <module>
+    df_stat, vis_dict = generate_dataset_statistic(client_why, json_dataset, inp_root)
+  File "vis_and_stat_nnUNet_raw.py", line 61, in generate_dataset_statistic
+    phy_size = np.array(spacing) * np.array(size)
+ValueError: operands could not be broadcast together with shapes (3,) (5,)

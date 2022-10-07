@@ -1,0 +1,32 @@
+for dataset in Task510_Pediatric-CT-SEG Task511_QIN-HEADNECK
+awswhy cp s3://nnUNet_raw_data_new/Task512_Soft-tissue-Sarcoma ./Task512_Soft-tissue-Sarcoma --recursive
+
+awswhy cp s3://nnUNet_raw_data_new/Task510_Pediatric-CT-SEG ./Task510_Pediatric-CT-SEG --recursive
+awswhy cp s3://nnUNet_raw_data_new/Task511_QIN-HEADNECK ./Task511_QIN-HEADNECK --recursive
+awswhy cp s3://nnUNet_raw_data_new/Task513_TCGA-CESC ./Task513_TCGA-CESC --recursive
+awswhy cp s3://nnUNet_raw_data_new/Task521_Breast-MRI-NACT-Pilot ./Task521_Breast-MRI-NACT-Pilot --recursive
+
+awswhy cp  ./Task512_Soft-tissue-Sarcoma       s3://nnUNet_raw_data/Task512_Soft-tissue-Sarcoma/       --recursive
+awswhy cp  ./Task510_Pediatric-CT-SEG       s3://nnUNet_raw_data/Task510_Pediatric-CT-SEG/       --recursive
+awswhy cp  ./Task511_QIN-HEADNECK           s3://nnUNet_raw_data/Task511_QIN-HEADNECK/           --recursive
+awswhy cp  ./Task513_TCGA-CESC              s3://nnUNet_raw_data/Task513_TCGA-CESC/              --recursive
+awswhy cp  ./Task521_Breast-MRI-NACT-Pilot  s3://nnUNet_raw_data/Task521_Breast-MRI-NACT-Pilot/  --recursive
+
+
+
+s3://dataset_raw_labeled/curious18/RESECT/NIFTI/Case1/MRI/Case1-T1.nii.gz
+s3://dataset_raw_labeled/curious2019_RESECT/NIFTI/Case18/MRI/Case18-T1.nii.gz
+s3://dataset_raw_labeled/ISLES18/
+s3://dataset_raw_labeled/LongitudinalMultipleSclerosisLesionSegmentation/
+
+
+awswhy cp s3://dataset_raw_labeled/curious18/RESECT/ ./Task163_curious18 --recursive
+awswhy cp s3://dataset_raw_labeled/curious2019_RESECT/ ./Task164_curious19 --recursive
+awswhy cp s3://dataset_raw_labeled/ISLES18/ ./Task165_ISLES18 --recursive
+awswhy cp s3://dataset_raw_labeled/LongitudinalMultipleSclerosisLesionSegmentation/ ./Task164_LongitudinalMultipleSclerosisLesionSegmentation --recursive
+
+awswhy cp ./Task163_curious18                                       s3://nnUNet_raw_data/Task163_curious18                                              --recursive
+awswhy cp ./Task164_curious19                                       s3://nnUNet_raw_data/Task164_curious19                                              --recursive
+awswhy cp ./Task165_ISLES18                                         s3://nnUNet_raw_data/Task165_ISLES18                                                --recursive
+awswhy cp ./Task166_LongitudinalMultipleSclerosisLesionSegmentation s3://nnUNet_raw_data/Task166_LongitudinalMultipleSclerosisLesionSegmentation        --recursive
+
