@@ -20,9 +20,11 @@ def standardize(cls_Name):
 
 def getGlobalKey(key, dataset=None, mapping=CUSTUM_MAPPING):
     if(dataset in mapping):
-        norm_keys = [standardize(k) for k in mapping[dataset].keys()]
+        # norm_keys = [standardize(k) for k in mapping[dataset].keys()]
         if(key in mapping[dataset]):
-            return mapping[dataset][key]
+            trans_key = mapping[dataset][key]
+            if(trans_key in mapping["global"]): trans_key = mapping["global"][trans_key]
+            return trans_key
     if(key in mapping["global"]):
         return mapping["global"][key]
     return None
@@ -52,8 +54,8 @@ def fuzzySearch(key, labels):
 if __name__ == "__main__":
     global_label_sys = buildGlobalLabelSys()
     global_idx2label = buildGlobalIdx2Label()
-    # for k, v in global_label_sys.items():
-    #     print(k, v)
+    for k, v in global_label_sys.items():
+        print(k, v)
 
     data_dir = "/mnt/petrelfs/wanghaoyu/why/local_label"
     json_all = {}
@@ -61,9 +63,8 @@ if __name__ == "__main__":
         json_per_dataset = {}
         json_path =  osp.join(data_dir, dataset, "dataset.json")
         json_label = json.load(open(json_path))["labels"] 
-    
-
         print("dataset:", dataset)
+        # print(json_label.values())
         for idx, k in json_label.items():
             ori_key = k
             k = str(k)
@@ -76,30 +77,48 @@ if __name__ == "__main__":
                 continue
             fs_key = fuzzySearch(query_k, global_label_sys.keys())
             is_find = False
-            if(query_k==fs_key[0][0]):
+            
+            if(query_k==fs_key[0][0]): # 直接找到相同的
                 # print("find", k)
-                if(modality.upper() not in global_label_sys[k]):
-                    # print(k, modality.upper(), "not found")
-                    continue
-                json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
-                is_find = True
-            else:
-                # try to mapping key to global key
-                g_key = getGlobalKey(query_k, dataset)
-                if(g_key):
-                    fs_key = fuzzySearch(g_key, global_label_sys.keys())
-                    if(query_k==fs_key[0][0]):
-                        if(modality.upper() not in global_label_sys[k]):
-                            # print(k, modality.upper(), "not found")
+                if(modality.upper() not in global_label_sys[query_k]):
+                    g_key = getGlobalKey(ori_key, dataset)
+                    if(g_key):
+                        query_k = standardize(g_key)
+                        if(modality.upper() not in global_label_sys[query_k]):
+                            print(ori_key, modality.upper(), "not found")
+                            json_per_dataset[idx] = str(ori_key)+" "+str(modality)+" not found"
                             continue
                         json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
                         is_find = True
+                    else:
+                        json_per_dataset[idx] = str(ori_key)+" "+str(modality.upper())+" not found"
+                        print("[MODALITY]", k, modality.upper(), "not found")
+                        continue
+                json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
+                is_find = True
+            else:  # 通过global映射找匹配的
+                # try to mapping key to global key
+                g_key = getGlobalKey(ori_key, dataset)
+                if(g_key):
+                    query_k = standardize(g_key)
+                    if(modality.upper() not in global_label_sys[query_k]):
+                        print(ori_key, modality.upper(), "not found")
+                        json_per_dataset[idx] = str(ori_key)+" "+str(modality)+" not found"
+                        continue
+                    json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
+                    is_find = True
+
+                
             if(not is_find): 
                 print("[ATTEN]", k, modality.upper(), "->", fs_key)
-                json_per_dataset[idx] = ori_key+" not found"
+                json_per_dataset[idx] = str(ori_key)+" not found"
             else:
                 l_idx = json_per_dataset[idx]
-                g_idx = global_label_sys[query_k][modality.upper()]
+                try:
+                    g_idx = global_label_sys[query_k][modality.upper()]
+                except:
+                    import pdb; pdb.set_trace()
+                    
                 g_key = global_idx2label[int(g_idx)]
                 print(f"{ori_key}({l_idx})", "=", f"{g_key}({g_idx})")
         
