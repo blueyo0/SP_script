@@ -119,11 +119,32 @@ PREFIX="/mnt/cache/wanghaoyu/SP_script/totalseg_bench"
 # bash $PREFIX/test_compute_nn_dice_cmd.sh Task031_AMOS_MR BigResUNetTrainer4 0
 
 # bash $PREFIX/test_compute_nn_dice_cmd.sh Task003_Liver BigResUNetTrainer4 0
-bash $PREFIX/test_compute_nn_dice_cmd.sh Task030_CT_ORG BigResUNetTrainer4 0
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task030_CT_ORG BigResUNetTrainer4 0
 
 
 # bash $PREFIX/test_compute_nn_dice_cmd.sh Task083_VerSe2020 BigResUNetTrainer4 0
 # bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test BigResUNetTrainer3_no_mirror  all
 # bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test BigResUNetTrainer4_no_mirror  all
 
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test BigResUNetTrainer4_no_mirror_epoch4000  all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test BigResUNetTrainer4_No_Mirror_2000Eps  all
 
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test nnUNetTrainerV2_S5_D2_W64_No_Mirror_8000Eps   all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test nnUNetTrainerV2_S6_D2_W64_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task559_TS_test BigResUNetTrainerV3_233444_96_no_mirror       all
+
+bash $PREFIX/test_compute_nn_dice_cmd.sh Task011_BTCV BigResUNetTrainer4_no_mirror_epoch4000 all 
+bash $PREFIX/test_compute_nn_dice_cmd.sh Task020_AbdomenCT1K BigResUNetTrainer4_no_mirror_epoch4000 all
+bash $PREFIX/test_compute_nn_dice_cmd.sh Task021_KiTS2021 BigResUNetTrainer4_no_mirror_epoch4000 all
+bash $PREFIX/test_compute_nn_dice_cmd.sh Task032_AMOS22_Task1 BigResUNetTrainer4_no_mirror_epoch4000 all
+bash $PREFIX/test_compute_nn_dice_cmd.sh Task031_AMOS_MR BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task007_Pancreas BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task009_Spleen BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task003_Liver BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task022_FLARE22 BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task037_CHAOS_Task_3_5_Variant1 BigResUNetTrainer4_no_mirror_epoch4000 all
+
+# [TODO]
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task154_RibFrac BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task030_CT_ORG BigResUNetTrainer4_no_mirror_epoch4000 all
+# bash $PREFIX/test_compute_nn_dice_cmd.sh Task083_VerSe2020 BigResUNetTrainer4_no_mirror_epoch4000 all

@@ -29,6 +29,6 @@ echo $JOB
 srun -p gmai --cpus-per-task=32 \
 -J $JOB \
 --quotatype=auto \
--o /mnt/cache/wanghaoyu/SP_script/data/nn_totalseg2/${TASK}_${MODE}_${SPLIT}${TEST}.log \
 --async \
+-o /mnt/cache/wanghaoyu/SP_script/data/nn_totalseg2/${TASK}_${MODE}_${SPLIT}${TEST}.log \
 python ${PREFIX}/compute_metrics.py ${TASK} ${MODE} ${SPLIT} ${TEST}
