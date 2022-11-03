@@ -4,28 +4,26 @@ PREFIX="/mnt/cache/wanghaoyu/SP_script/totalseg_bench"
 # TASK=Task011_BTCV
 # MODE=normal
 # SPLIT=all
-TASK=${1}
-MODE=${2}
+TRAINER=${1}
+TASK=${2}
 SPLIT=${3}
 TEST=${4}
-echo "info: ${TASK}_${MODE}_${SPLIT}"
+echo "info: ${TASK}_${TRAINER}_${SPLIT}"
 
-JOB=""
-if [ ${MODE} == "normal" ];
-then JOB="n"
-else JOB="f"
-fi
+JOB="nn"
+
 if [ ${SPLIT} == "all" ];
 then JOB+="_a"
 else JOB+="_${SPLIT}"
 fi
 JOB+=_${TASK:4}
-# echo $JOB
+echo $JOB
 
 
 srun -p gmai --cpus-per-task=16 \
 -J $JOB \
+--gres gpu:1 --ntasks 1 --ntasks-per-node 1 \
 --quotatype=auto \
--o /mnt/cache/wanghaoyu/SP_script/data/totalseg/${TASK}_${MODE}_${SPLIT}${TEST}.log \
 --async \
-python ${PREFIX}/compute_metrics.py ${TASK} ${MODE} ${SPLIT} ${TEST}
+-o /mnt/cache/wanghaoyu/SP_script/data/nn_totalseg3/${TASK}_${TRAINER}_${SPLIT}${TEST}.log \
+python ${PREFIX}/nnUNet_infer_and_compute_dice.py ${TRAINER} ${TASK} ${SPLIT} ${TEST}

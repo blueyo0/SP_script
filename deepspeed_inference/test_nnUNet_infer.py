@@ -19,8 +19,15 @@ import shutil
 import sys
 
 if __name__ == '__main__':
-    trainer = sys.argv[1]
-    dataset = sys.argv[2]
+    # trainer = sys.argv[1]
+    # dataset = sys.argv[2]
+    # val_fold = sys.argv[3]
+    # test = bool(sys.argv[4]) if(len(sys.argv)>4) else False
+    trainer = "BigResUNetTrainerV3_DS_233444_96_noMirror"
+    dataset = "Task559_TS_test"
+    val_fold = "all"
+    test = True
+
     model = f"{trainer}__nnUNetPlansv2.1"
     input_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/imagesTr'
     output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}'
@@ -29,12 +36,13 @@ if __name__ == '__main__':
 
     test_files = subfiles(input_folder, suffix='_0000.nii.gz', join=False)
 
-    # [HACK] 
-    # test_files = test_files[:2]
+    # [HACK]
+    test_files = test_files[:2]
 
     input_files = [join(input_folder, tf) for tf in test_files]
     output_files = [join(output_folder, model, tf) for tf in test_files]
     predict_cases(join(parameter_folder, model), [[i] for i in input_files], output_files, folds, save_npz=False,
+                    checkpoint_name="model_ep_300",
                     num_threads_preprocessing=2, num_threads_nifti_save=2, segs_from_prev_stage=None, do_tta=False,
                     mixed_precision=True, overwrite_existing=False, all_in_gpu=False, step_size=0.5)
 
