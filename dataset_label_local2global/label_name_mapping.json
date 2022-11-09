@@ -1,0 +1,486 @@
+{
+    "Task001_BrainTumour": {
+        "edema": "edema not found",
+        "enhancing tumour": "enhancing tumour not found",
+        "non-enhancing tumor": "non-enhancing tumor not found"
+    },
+    "Task002_Heart": {
+        "left atrium": "MR-left atrium"
+    },
+    "Task003_Liver": {
+        "cancer": "cancer not found",
+        "liver": "CT-liver"
+    },
+    "Task004_Hippocampus": {
+        "Anterior": "MR-anterior hippocampus of the brain",
+        "Posterior": "MR-posterior hippocampus of the brain"
+    },
+    "Task005_Prostate": {
+        "PZ": "MR-prostate/uterus",
+        "TZ": "TZ not found"
+    },
+    "Task006_Lung": {
+        "cancer": "cancer not found"
+    },
+    "Task007_Pancreas": {
+        "cancer": "cancer not found",
+        "pancreas": "CT-pancreas"
+    },
+    "Task008_HepaticVessel": {
+        "Tumour": "Tumour not found",
+        "Vessel": "CT-liver vessel"
+    },
+    "Task009_Spleen": {
+        "spleen": "CT-spleen"
+    },
+    "Task010_Colon": {
+        "colon cancer primaries": "colon cancer primaries not found"
+    },
+    "Task011_BTCV": {
+        "aorta": "CT-aorta",
+        "esophagus": "CT-esophagus",
+        "gallbladder": "CT-gallbladder",
+        "inferior vena cava": "CT-inferior_vena_cava",
+        "left adrenal gland": "CT-adrenal_gland_left",
+        "left kidney": "CT-kidney_left",
+        "liver": "CT-liver",
+        "pancreas": "CT-pancreas",
+        "portal vein and splenic vein": "CT-portal_vein_and_splenic_vein",
+        "right adrenal gland": "CT-adrenal_gland_right",
+        "right kidney": "CT-kidney_right",
+        "spleen": "CT-spleen",
+        "stomach": "CT-stomach"
+    },
+    "Task012_BTCV_Cervix": {
+        " small bowel": "CT-small_bowel",
+        "bladder": "CT-urinary_bladder",
+        "rectum": "CT-rectum",
+        "uterus": "CT-uterus"
+    },
+    "Task013_ACDC": {
+        "LVC": "MR-left ventricle blood cavity",
+        "MLV": "MR-myocardium",
+        "RV": "MR-right ventricle"
+    },
+    "Task020_AbdomenCT1K": {
+        "kidney": "CT-kidney",
+        "liver": "CT-liver",
+        "pancreas": "CT-pancreas",
+        "spleen": "CT-spleen"
+    },
+    "Task021_KiTS2021": {
+        "cyst": "cyst not found",
+        "kidney": "CT-kidney",
+        "tumor": "tumor not found"
+    },
+    "Task022_FLARE22": {
+        "aorta": "CT-aorta",
+        "duodenum": "CT-duodenum",
+        "esophagus": "CT-esophagus",
+        "gallbladder": "CT-gallbladder",
+        "inferior vena cava": "CT-inferior_vena_cava",
+        "left adrenal gland": "CT-adrenal_gland_left",
+        "left kidney": "CT-kidney_left",
+        "liver": "CT-liver",
+        "pancreas": "CT-pancreas",
+        "right adrenal gland": "CT-adrenal_gland_right",
+        "right kidney": "CT-kidney_right",
+        "spleen": "CT-spleen",
+        "stomach": "CT-stomach"
+    },
+    "Task029_LITS": {
+        "liver": "CT-liver",
+        "tumor": "tumor not found"
+    },
+    "Task032_AMOS22_Task1": {
+        "arota": "CT-aorta",
+        "bladder": "CT-urinary_bladder",
+        "duodenum": "CT-duodenum",
+        "esophagus": "CT-esophagus",
+        "gall bladder": "CT-gallbladder",
+        "left adrenal gland": "CT-adrenal_gland_left",
+        "left kidney": "CT-kidney_left",
+        "liver": "CT-liver",
+        "pancreas": "CT-pancreas",
+        "postcava": "postcava not found",
+        "prostate/uterus": "CT-prostate/uterus",
+        "right adrenal gland": "CT-adrenal_gland_right",
+        "right kidney": "CT-kidney_right",
+        "spleen": "CT-spleen",
+        "stomach": "CT-stomach"
+    },
+    "Task036_KiPA22": {
+        "kidney": "CT-kidney",
+        "renal artery": "CT-kidney arteries",
+        "renal vein": "CT-kidney veins",
+        "tumor": "tumor not found"
+    },
+    "Task037_CHAOS_Task_3_5_Variant1": {
+        "left kidney": "MR-left kidney",
+        "liver": "MR-liver",
+        "right kidney": "MR-right kidney",
+        "spleen": "MR-spleen"
+    },
+    "Task039_Parse22": {
+        "pulmonary artery": "CT-pulmonary_artery"
+    },
+    "Task040_ATM22": {
+        "airway": "CT-pulmonary airway"
+    },
+    "Task040_KiTS": {
+        "Kidney": "CT-kidney",
+        "Tumor": "Tumor not found"
+    },
+    "Task050_LAScarQS22_task1": {
+        "LA": "MR-left atrium",
+        "LA Scar": "MR-left atrial scars"
+    },
+    "Task051_LAScarQS22_task2": {
+        "LA": "MR-left atrium"
+    },
+    "Task083_VerSe2020": {
+        "0": "0 not found",
+        "1": "CT-vertebrae_C1",
+        "10": "CT-vertebrae_T3",
+        "11": "CT-vertebrae_T4",
+        "12": "CT-vertebrae_T5",
+        "13": "CT-vertebrae_T6",
+        "14": "CT-vertebrae_T7",
+        "15": "CT-vertebrae_T8",
+        "16": "CT-vertebrae_T9",
+        "17": "CT-vertebrae_T10",
+        "18": "CT-vertebrae_T11",
+        "19": "CT-vertebrae_T12",
+        "2": "CT-vertebrae_C2",
+        "20": "CT-vertebrae_L1",
+        "21": "CT-vertebrae_L2",
+        "22": "CT-vertebrae_L3",
+        "23": "CT-vertebrae_L4",
+        "24": "CT-vertebrae_L5",
+        "25": "CT-lumbar spine-6",
+        "26": "CT-sacrum",
+        "27": "27 CT not found",
+        "28": "28 CT not found",
+        "3": "CT-vertebrae_C3",
+        "4": "CT-vertebrae_C4",
+        "5": "CT-vertebrae_C5",
+        "6": "CT-vertebrae_C6",
+        "7": "CT-vertebrae_C7",
+        "8": "CT-vertebrae_T1",
+        "9": "CT-vertebrae_T2"
+    },
+    "Task1006_hvsmr_2016": {
+        "heart": "heart MR not found",
+        "vessel": "vessel not found"
+    },
+    "Task161_MRBrainS13DataNii": {
+        "Basal ganglia": "Basal ganglia not found",
+        "Brainstem": "MR-brainstem",
+        "Cerebellum": "MR-cerebellum",
+        "Cerebrospinal fluid in the extracerebral space": "MR-external cerebrospinal fluid",
+        "Cortical gray matter": "MR-gray matter",
+        "Ventricles": "MR-ventricles",
+        "White matter": "MR-white matter",
+        "White matter lesions": "White matter lesions not found"
+    },
+    "Task162_HeadandNeckAutoSegmentationChallenge": {
+        "BrainStem": "CT-brainstem",
+        "Chiasm": "CT-optic chiasm",
+        "Mandible": "CT-mandible",
+        "OpticNerve_L": "CT-left and right optic nerves",
+        "OpticNerve_R": "CT-left and right optic nerves",
+        "Parotid_L": "CT-left and right parotid glands",
+        "Parotid_R": "CT-left and right parotid glands",
+        "Submandibular_L": "CT-left and right submandibular glands",
+        "Submandibular_R": "CT-left and right submandibular glands"
+    },
+    "Task502_WMH": {
+        "Other pathology": "Other pathology not found",
+        "White_matter_hyperintensities": "MR-white matter"
+    },
+    "Task505_FeTA": {
+        "Brainstem": "MR-brainstem",
+        "Cerebellum": "MR-cerebellum",
+        "Deep Grey Matter": "MR-deep gray matter",
+        "External Cerebrospinal Fluid": "MR-external cerebrospinal fluid",
+        "Grey Matter": "MR-gray matter",
+        "Ventricles": "MR-ventricles",
+        "White Matter": "MR-white matter"
+    },
+    "Task507_Myops2020": {
+        "LV myocardial edema": "LV myocardial edema not found",
+        "LV myocardial scars": "MR-left ventricular myocardial scars",
+        "LV normal myocardium": "MR-left ventricular myocardium",
+        "left ventricular (LV) blood pool": "MR-left ventricular blood pool",
+        "right ventricular blood pool": "MR-right ventricular blood pool"
+    },
+    "Task512_QUBIQ2020_braingrowth_subset": {
+        "task01": "task01 not found"
+    },
+    "Task512_QUBIQ2020_braintumor_subset": {
+        "task01": "task01 not found",
+        "task02": "task02 not found",
+        "task03": "task03 not found"
+    },
+    "Task512_QUBIQ2020_kidney_subset": {
+        "task01": "task01 not found"
+    },
+    "Task512_QUBIQ2020_prostate_subset": {
+        "task01": "task01 not found",
+        "task02": "task02 not found"
+    },
+    "Task525_CMRxMotions": {
+        "LV": "MR-left ventricle",
+        "MYO": "MR-myocardium",
+        "RV": "MR-right ventricle"
+    },
+    "Task558_Totalsegmentator_dataset": {
+        "adrenal_gland_left": "CT-adrenal_gland_left",
+        "adrenal_gland_right": "CT-adrenal_gland_right",
+        "aorta": "CT-aorta",
+        "autochthon_left": "CT-autochthon_left",
+        "autochthon_right": "CT-autochthon_right",
+        "brain": "CT-brain",
+        "clavicula_left": "CT-clavicula_left",
+        "clavicula_right": "CT-clavicula_right",
+        "colon": "CT-colon",
+        "duodenum": "CT-duodenum",
+        "esophagus": "CT-esophagus",
+        "face": "CT-face",
+        "femur_left": "CT-femur_left",
+        "femur_right": "CT-femur_right",
+        "gallbladder": "CT-gallbladder",
+        "gluteus_maximus_left": "CT-gluteus_maximus_left",
+        "gluteus_maximus_right": "CT-gluteus_maximus_right",
+        "gluteus_medius_left": "CT-gluteus_medius_left",
+        "gluteus_medius_right": "CT-gluteus_medius_right",
+        "gluteus_minimus_left": "CT-gluteus_minimus_left",
+        "gluteus_minimus_right": "CT-gluteus_minimus_right",
+        "heart_atrium_left": "CT-heart_atrium_left",
+        "heart_atrium_right": "CT-heart_atrium_right",
+        "heart_myocardium": "CT-heart_myocardium",
+        "heart_ventricle_left": "CT-heart_ventricle_left",
+        "heart_ventricle_right": "CT-heart_ventricle_right",
+        "hip_left": "CT-hip_left",
+        "hip_right": "CT-hip_right",
+        "humerus_left": "CT-humerus_left",
+        "humerus_right": "CT-humerus_right",
+        "iliac_artery_left": "CT-iliac_artery_left",
+        "iliac_artery_right": "CT-iliac_artery_right",
+        "iliac_vena_left": "CT-iliac_vena_left",
+        "iliac_vena_right": "CT-iliac_vena_right",
+        "iliopsoas_left": "CT-iliopsoas_left",
+        "iliopsoas_right": "CT-iliopsoas_right",
+        "inferior_vena_cava": "CT-inferior_vena_cava",
+        "kidney_left": "CT-kidney_left",
+        "kidney_right": "CT-kidney_right",
+        "liver": "CT-liver",
+        "lung_lower_lobe_left": "CT-lung_lower_lobe_left",
+        "lung_lower_lobe_right": "CT-lung_lower_lobe_right",
+        "lung_middle_lobe_right": "CT-lung_middle_lobe_right",
+        "lung_upper_lobe_left": "CT-lung_upper_lobe_left",
+        "lung_upper_lobe_right": "CT-lung_upper_lobe_right",
+        "pancreas": "CT-pancreas",
+        "portal_vein_and_splenic_vein": "CT-portal_vein_and_splenic_vein",
+        "pulmonary_artery": "CT-pulmonary_artery",
+        "rib_left_1": "CT-rib_left_1",
+        "rib_left_10": "CT-rib_left_10",
+        "rib_left_11": "CT-rib_left_11",
+        "rib_left_12": "CT-rib_left_12",
+        "rib_left_2": "CT-rib_left_2",
+        "rib_left_3": "CT-rib_left_3",
+        "rib_left_4": "CT-rib_left_4",
+        "rib_left_5": "CT-rib_left_5",
+        "rib_left_6": "CT-rib_left_6",
+        "rib_left_7": "CT-rib_left_7",
+        "rib_left_8": "CT-rib_left_8",
+        "rib_left_9": "CT-rib_left_9",
+        "rib_right_1": "CT-rib_right_1",
+        "rib_right_10": "CT-rib_right_10",
+        "rib_right_11": "CT-rib_right_11",
+        "rib_right_12": "CT-rib_right_12",
+        "rib_right_2": "CT-rib_right_2",
+        "rib_right_3": "CT-rib_right_3",
+        "rib_right_4": "CT-rib_right_4",
+        "rib_right_5": "CT-rib_right_5",
+        "rib_right_6": "CT-rib_right_6",
+        "rib_right_7": "CT-rib_right_7",
+        "rib_right_8": "CT-rib_right_8",
+        "rib_right_9": "CT-rib_right_9",
+        "sacrum": "CT-sacrum",
+        "scapula_left": "CT-scapula_left",
+        "scapula_right": "CT-scapula_right",
+        "small_bowel": "CT-small_bowel",
+        "spleen": "CT-spleen",
+        "stomach": "CT-stomach",
+        "trachea": "CT-trachea",
+        "urinary_bladder": "CT-urinary_bladder",
+        "vertebrae_C1": "CT-vertebrae_C1",
+        "vertebrae_C2": "CT-vertebrae_C2",
+        "vertebrae_C3": "CT-vertebrae_C3",
+        "vertebrae_C4": "CT-vertebrae_C4",
+        "vertebrae_C5": "CT-vertebrae_C5",
+        "vertebrae_C6": "CT-vertebrae_C6",
+        "vertebrae_C7": "CT-vertebrae_C7",
+        "vertebrae_L1": "CT-vertebrae_L1",
+        "vertebrae_L2": "CT-vertebrae_L2",
+        "vertebrae_L3": "CT-vertebrae_L3",
+        "vertebrae_L4": "CT-vertebrae_L4",
+        "vertebrae_L5": "CT-vertebrae_L5",
+        "vertebrae_T1": "CT-vertebrae_T1",
+        "vertebrae_T10": "CT-vertebrae_T10",
+        "vertebrae_T11": "CT-vertebrae_T11",
+        "vertebrae_T12": "CT-vertebrae_T12",
+        "vertebrae_T2": "CT-vertebrae_T2",
+        "vertebrae_T3": "CT-vertebrae_T3",
+        "vertebrae_T4": "CT-vertebrae_T4",
+        "vertebrae_T5": "CT-vertebrae_T5",
+        "vertebrae_T6": "CT-vertebrae_T6",
+        "vertebrae_T7": "CT-vertebrae_T7",
+        "vertebrae_T8": "CT-vertebrae_T8",
+        "vertebrae_T9": "CT-vertebrae_T9"
+    },
+    "Task560_WORD": {
+        "Head_of_femur_L": "CT-femur_left",
+        "Head_of_femur_R": "CT-femur_right",
+        "adrenal": "CT-adrenal",
+        "bladder": "CT-urinary_bladder",
+        "colon": "CT-colon",
+        "duodenum": "CT-duodenum",
+        "esophagus": "CT-esophagus",
+        "gallbladder": "CT-gallbladder",
+        "intestine": "CT-intestine",
+        "left_kidney": "CT-kidney_left",
+        "liver": "CT-liver",
+        "pancreas": "CT-pancreas",
+        "rectum": "CT-rectum",
+        "right_kidney": "CT-kidney_right",
+        "spleen": "CT-spleen",
+        "stomach": "CT-stomach"
+    },
+    "Task590_Brain_PTM": {
+        "matter_tracts": "matter_tracts not found"
+    },
+    "Task601_CTSpine1K_Full": {
+        "0": "0 not found",
+        "1": "CT-vertebrae_C1",
+        "10": "CT-vertebrae_T3",
+        "11": "CT-vertebrae_T4",
+        "12": "CT-vertebrae_T5",
+        "13": "CT-vertebrae_T6",
+        "14": "CT-vertebrae_T7",
+        "15": "CT-vertebrae_T8",
+        "16": "CT-vertebrae_T9",
+        "17": "CT-vertebrae_T10",
+        "18": "CT-vertebrae_T11",
+        "19": "CT-vertebrae_T12",
+        "2": "CT-vertebrae_C2",
+        "20": "CT-vertebrae_L1",
+        "21": "CT-vertebrae_L2",
+        "22": "CT-vertebrae_L3",
+        "23": "CT-vertebrae_L4",
+        "24": "CT-vertebrae_L5",
+        "25": "CT-lumbar spine-6",
+        "3": "CT-vertebrae_C3",
+        "4": "CT-vertebrae_C4",
+        "5": "CT-vertebrae_C5",
+        "6": "CT-vertebrae_C6",
+        "7": "CT-vertebrae_C7",
+        "8": "CT-vertebrae_T1",
+        "9": "CT-vertebrae_T2"
+    },
+    "Task602_ASC18": {
+        "0": "0 not found",
+        "1": "1 not found"
+    },
+    "Task603_MMWHS": {
+        "0": "0 not found",
+        "1": "MR-left ventricle blood cavity",
+        "2": "MR-right ventricle blood cavity",
+        "3": "MR-left atrial blood cavity",
+        "4": "MR-right atrial blood cavity",
+        "5": "MR-left ventricular myocardium",
+        "6": "MR-ascending aorta",
+        "7": "MR-pulmonary artery"
+    },
+    "Task605_SegThor": {
+        "aorta": "CT-aorta",
+        "esophagus": "CT-esophagus",
+        "heart": "CT-heart",
+        "trachea": "CT-trachea"
+    },
+    "Task606_orCaScore": {
+        "0": "0 not found",
+        "1": "1 not found",
+        "2": "2 not found",
+        "3": "3 not found"
+    },
+    "Task611_PROMISE12": {
+        "prostate lesion": "prostate lesion not found"
+    },
+    "Task612_CTPelvic1k": {
+        "left_hip": "CT-hip_left",
+        "lumbar_vertebra": "CT-lumbar vertebra",
+        "right_hip": "CT-hip_right",
+        "sacrum": "CT-sacrum"
+    },
+    "Task614_LUNA": {
+        "lung": "CT-lung"
+    },
+    "Task617_CAUSE07": {
+        "left caudate": "MR-caudate nucleaus",
+        "right caudate": "MR-caudate nucleaus"
+    },
+    "Task618_Promise09": {
+        "prostate": "MR-prostate"
+    },
+    "Task619_VESSEL2012": {
+        "(long) vessel": "(long) vessel not found",
+        "no (long) vessel": "no (long) vessel not found"
+    },
+    "Task621_Prostate_MRI_Segmentation_Dataset": {
+        "Prostate": "MR-prostate"
+    },
+    "Task622_SLIVER07": {
+        "liver": "CT-liver"
+    },
+    "Task623_FLARE21": {
+        "kidney": "CT-kidney",
+        "liver": "CT-liver",
+        "pancreas": "CT-pancreas",
+        "spleen": "CT-spleen"
+    },
+    "Task625_EMIDEC": {
+        "left myocardium": "MR-left ventricular myocardium",
+        "left ventricle": "MR-left ventricle",
+        "myocardial infarction": "myocardial infarction not found",
+        "no-reflow": "MR-no-reflow"
+    },
+    "Task627_MRBrain18": {
+        "Basal ganglia": "Basal ganglia not found",
+        "Brain stem": "MR-brainstem",
+        "Cerebellum": "MR-cerebellum",
+        "Cerebrospinal fluid in the extracerebral space": "MR-external cerebrospinal fluid",
+        "Cortical gray matter": "MR-gray matter",
+        "Infarction": "Infarction not found",
+        "Ventricles": "MR-ventricles",
+        "White matter": "MR-white matter",
+        "White matter lesions": "White matter lesions not found"
+    },
+    "Task632_AutoImplant": {
+        "skull": "skull not found"
+    },
+    "Task890_iSeg2017": {
+        "Cerebrospinal fluid": "MR-cerebrospinal fluid",
+        "Gray matter": "MR-gray matter",
+        "White matter": "MR-white matter"
+    },
+    "Task892_Heart_Seg_MRI": {
+        "left atrium": "MR-left atrium"
+    },
+    "Task973_cSeg-2022": {
+        "Cerebrospinal fluid": "MR-cerebrospinal fluid",
+        "Gray matter": "MR-gray matter",
+        "White matter": "MR-white matter"
+    }
+}

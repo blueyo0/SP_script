@@ -1,0 +1,10 @@
+s3://dataset_raw_labeled/Brats2013/BRATS_Training/BRATS-2/Image_Data/HG/
+awswhy cp s3://nnUNet_raw_data/Task972_AutoCars/ AutoCars --recursive
+awswhy cp s3://nnUNet_raw_data/Task165_ISLES18/ ISLES18 --recursive
+awswhy cp s3://nnUNet_raw_data/Task627_MRBrain18/ MRBrain18 --recursive
+awswhy cp s3://nnUNet_raw_data/Task161_MRBrainS13DataNii/ MRBrainS15 --recursive
+awswhy cp s3://nnUNet_raw_data/Task180_Pulmonary_Embolism/ Pulmonary_Embolism --recursive
+awswhy cp s3://nnUNet_raw_data/Task622_SLIVER07/ SLIVER07 --recursive
+s3://dataset_raw_labeled/UW-Madison/
+
+

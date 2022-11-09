@@ -1,0 +1,842 @@
+{
+    "Task001_BrainTumour": [
+        [
+            "Brain Tumor Progression Prediction\n",
+            82
+        ],
+        [
+            "RSNA-MICCAI Brain Tumor Radiogenomic Classification\n",
+            82
+        ],
+        [
+            "MSD01_BrainTumor\n",
+            74
+        ]
+    ],
+    "Task002_Heart": [
+        [
+            "Heart Segmentation in MRI Images\n",
+            90
+        ],
+        [
+            "MSD02_Heart\n",
+            90
+        ],
+        [
+            "Dynamic_Passive_Threat\n",
+            72
+        ]
+    ],
+    "Task003_Liver": [
+        [
+            "Liver Tumor Segmentation \u809d\u80bf\u7624\u5206\u5272\n",
+            90
+        ],
+        [
+            "MSD03_Liver\n",
+            90
+        ],
+        [
+            "SLIVER07\n",
+            90
+        ]
+    ],
+    "Task004_Hippocampus": [
+        [
+            "MSD04_Hippocampus\n",
+            90
+        ],
+        [
+            "PCam\n",
+            68
+        ],
+        [
+            "HCP\n",
+            60
+        ]
+    ],
+    "Task005_Prostate": [
+        [
+            "Prostate-3T\n",
+            95
+        ],
+        [
+            "PROSTATEx\n",
+            94
+        ],
+        [
+            "MSD05_Prostate\n",
+            90
+        ]
+    ],
+    "Task006_Lung": [
+        [
+            "ACDC at LUNGHP\n",
+            90
+        ],
+        [
+            "Anti-PD-1 Lung\n",
+            90
+        ],
+        [
+            "ELCAP Public Lung Image Database\n",
+            90
+        ]
+    ],
+    "Task007_Pancreas": [
+        [
+            "Pancreas-CT\n",
+            95
+        ],
+        [
+            "MSD07_Pancreas\n",
+            90
+        ],
+        [
+            "Pancreatic-CT-CBCT-SEG\n",
+            79
+        ]
+    ],
+    "Task008_HepaticVessel": [
+        [
+            "MSD08_HepaticVessel\n",
+            81
+        ],
+        [
+            "VESSEL12\n",
+            77
+        ],
+        [
+            "BTCV\n",
+            68
+        ]
+    ],
+    "Task009_Spleen": [
+        [
+            "MSD09_Spleen\n",
+            90
+        ],
+        [
+            "SPIE\n",
+            68
+        ],
+        [
+            "ATLAS R2.0 - Stroke Lesion Segmentation\n",
+            60
+        ]
+    ],
+    "Task010_Colon": [
+        [
+            "CT COLONOGRAPHY (TCIA Colon dataset)\n",
+            90
+        ],
+        [
+            "MSD10_Colon\n",
+            90
+        ],
+        [
+            "Corona\n",
+            73
+        ]
+    ],
+    "Task011_BTCV": [
+        [
+            "BTCV\n",
+            100
+        ],
+        [
+            "MSD08_HepaticVessel\n",
+            68
+        ],
+        [
+            "CVC-ClinicDB\n",
+            64
+        ]
+    ],
+    "Task012_BTCV_Cervix": [
+        [
+            "Intel & MobileODT Cervical Cancer Screening\n",
+            75
+        ],
+        [
+            "BreakHis (Breast Cancer Histopathological)\n",
+            60
+        ],
+        [
+            "COVIDx CXR-2\n",
+            60
+        ]
+    ],
+    "Task013_ACDC": [
+        [
+            "ACDC\n",
+            100
+        ],
+        [
+            "ACDC at LUNGHP\n",
+            90
+        ],
+        [
+            "AAPM RT-MAC Challenge\n",
+            68
+        ]
+    ],
+    "Task020_AbdomenCT1K": [
+        [
+            "AbdomenCT-1K\n",
+            96
+        ],
+        [
+            "AMD OCT\n",
+            56
+        ],
+        [
+            "CADDementia\n",
+            55
+        ]
+    ],
+    "Task021_KiTS2021": [
+        [
+            "KiTS21\n",
+            86
+        ],
+        [
+            "KiTS19\n",
+            71
+        ],
+        [
+            "LiTS\n",
+            68
+        ]
+    ],
+    "Task022_FLARE22": [
+        [
+            "FLARE22\n",
+            100
+        ],
+        [
+            "FLARE21\n",
+            86
+        ],
+        [
+            "MELA22\n",
+            62
+        ]
+    ],
+    "Task029_LITS": [
+        [
+            "LiTS\n",
+            100
+        ],
+        [
+            "C4KC-KiTS\n",
+            68
+        ],
+        [
+            "GLIS-RT\n",
+            68
+        ]
+    ],
+    "Task032_AMOS22_Task1": [
+        [
+            "ATLAS\n",
+            60
+        ],
+        [
+            "Allen Brain Atlas\n",
+            60
+        ],
+        [
+            "SKI10\n",
+            60
+        ]
+    ],
+    "Task036_KiPA22": [
+        [
+            "KiPA22\n",
+            100
+        ],
+        [
+            "DeepFluoroLabeling-IPCAI2020\n",
+            60
+        ],
+        [
+            "PH2\n",
+            60
+        ]
+    ],
+    "Task037_CHAOS_Task_3_5_Variant1": [
+        [
+            "CAMRI Rat Brain MRI Data\n",
+            56
+        ],
+        [
+            "VARICEAL BANDING\n",
+            56
+        ],
+        [
+            "HARDI\n",
+            54
+        ]
+    ],
+    "Task039_Parse22": [
+        [
+            "Parse2022\n",
+            88
+        ],
+        [
+            "FLARE22\n",
+            71
+        ],
+        [
+            "AMOS22\n",
+            62
+        ]
+    ],
+    "Task040_ATM22": [
+        [
+            "ATM22\n",
+            100
+        ],
+        [
+            "AMOS22\n",
+            73
+        ],
+        [
+            "BrainPTM 2021\n",
+            56
+        ]
+    ],
+    "Task040_KiTS": [
+        [
+            "C4KC-KiTS\n",
+            90
+        ],
+        [
+            "KiTS19\n",
+            90
+        ],
+        [
+            "KiTS21\n",
+            90
+        ]
+    ],
+    "Task050_LAScarQS22_task1": [
+        [
+            "ATLAS\n",
+            60
+        ],
+        [
+            "Allen Brain Atlas\n",
+            60
+        ],
+        [
+            "SKI10\n",
+            60
+        ]
+    ],
+    "Task051_LAScarQS22_task2": [
+        [
+            "K2S\n",
+            72
+        ],
+        [
+            "ATLAS\n",
+            60
+        ],
+        [
+            "Allen Brain Atlas\n",
+            60
+        ]
+    ],
+    "Task083_VerSe2020": [
+        [
+            "VerSe 20\n",
+            82
+        ],
+        [
+            "Parse2022\n",
+            67
+        ],
+        [
+            "BraTS 2020\n",
+            63
+        ]
+    ],
+    "Task1006_hvsmr_2016": [
+        [
+            "BraTS 2016\n",
+            90
+        ],
+        [
+            "HVSMR 2016\n",
+            90
+        ],
+        [
+            "ISLES 2016\n",
+            90
+        ]
+    ],
+    "Task161_MRBrainS13DataNii": [
+        [
+            "MRBrains13\n",
+            90
+        ],
+        [
+            "MRBrain18\n",
+            80
+        ],
+        [
+            "ANHIR\n",
+            60
+        ]
+    ],
+    "Task162_HeadandNeckAutoSegmentationChallenge": [
+        [
+            "Head and Neck Auto Segmentation Challenge\n",
+            94
+        ],
+        [
+            "iChallenges\n",
+            77
+        ],
+        [
+            "ADNID\n",
+            72
+        ]
+    ],
+    "Task502_WMH": [
+        [
+            "WMH\n",
+            100
+        ],
+        [
+            "CT-Lymph-Nodes\n",
+            60
+        ],
+        [
+            "Where is VALDO?\n",
+            60
+        ]
+    ],
+    "Task505_FeTA": [
+        [
+            "FeTA 2021\n",
+            90
+        ],
+        [
+            "FeTA 2022\n",
+            90
+        ],
+        [
+            "Atrial_Segmentation_Challenge\n",
+            68
+        ]
+    ],
+    "Task507_Myops2020": [
+        [
+            "MyoPS2020\n",
+            100
+        ],
+        [
+            "MoNuSAC2020\n",
+            70
+        ],
+        [
+            "AMOS22\n",
+            67
+        ]
+    ],
+    "Task512_QUBIQ2020_braingrowth_subset": [
+        [
+            "Cross-Sectional Multidomain Lexical Processing\n",
+            60
+        ],
+        [
+            "Lymphocyte Assessment Hackathon\n",
+            60
+        ],
+        [
+            "Public Lung Database To Address Drug Response\n",
+            60
+        ]
+    ],
+    "Task512_QUBIQ2020_braintumor_subset": [
+        [
+            "Cross-Sectional Multidomain Lexical Processing\n",
+            60
+        ],
+        [
+            "Lymphocyte Assessment Hackathon\n",
+            60
+        ],
+        [
+            "Public Lung Database To Address Drug Response\n",
+            60
+        ]
+    ],
+    "Task512_QUBIQ2020_kidney_subset": [
+        [
+            "Cross-Sectional Multidomain Lexical Processing\n",
+            60
+        ],
+        [
+            "Lymphocyte Assessment Hackathon\n",
+            60
+        ],
+        [
+            "Public Lung Database To Address Drug Response\n",
+            60
+        ]
+    ],
+    "Task512_QUBIQ2020_prostate_subset": [
+        [
+            "Cross-Sectional Multidomain Lexical Processing\n",
+            60
+        ],
+        [
+            "Lymphocyte Assessment Hackathon\n",
+            60
+        ],
+        [
+            "Public Lung Database To Address Drug Response\n",
+            60
+        ]
+    ],
+    "Task525_CMRxMotions": [
+        [
+            "CMRxMotion\n",
+            95
+        ],
+        [
+            "NLST\n",
+            60
+        ],
+        [
+            "Diffusion MRI Data Harmonisation\n",
+            58
+        ]
+    ],
+    "Task558_Totalsegmentator_dataset": [
+        [
+            "APTOS Cross-Country Datasets\n",
+            90
+        ],
+        [
+            "Breast Cancer Dataset \u4e73\u817a\u764c\u6570\u636e\u96c6\n",
+            90
+        ],
+        [
+            "CT COLONOGRAPHY (TCIA Colon dataset)\n",
+            90
+        ]
+    ],
+    "Task560_WORD": [
+        [
+            "WORD\n",
+            100
+        ],
+        [
+            "MIDRC-RICORD-1a\n",
+            68
+        ],
+        [
+            "MIDRC-RICORD-1b\n",
+            68
+        ]
+    ],
+    "Task590_Brain_PTM": [
+        [
+            "BrainPTM 2021\n",
+            90
+        ],
+        [
+            "Derm7pt\n",
+            72
+        ],
+        [
+            "3D VoTEM\n",
+            60
+        ]
+    ],
+    "Task601_CTSpine1K_Full": [
+        [
+            "SMIR Full Body CT\n",
+            90
+        ],
+        [
+            "Left Ventricle Full Quantification Challenge19\n",
+            60
+        ],
+        [
+            "Left Ventricle Full Quantification Challenge18\n",
+            60
+        ]
+    ],
+    "Task602_ASC18": [
+        [
+            "ISIC18\n",
+            73
+        ],
+        [
+            "HC18\n",
+            67
+        ],
+        [
+            "AASCE\n",
+            60
+        ]
+    ],
+    "Task603_MMWHS": [
+        [
+            "M&Ms\n",
+            67
+        ],
+        [
+            "WMH\n",
+            60
+        ],
+        [
+            "MM-WHS: Multi-Modality Whole Heart Segmentation\n",
+            48
+        ]
+    ],
+    "Task605_SegThor": [
+        [
+            "SegTHOR\n",
+            100
+        ],
+        [
+            "CoronaHack -Chest X-Ray-Dataset CoronaHack-\u80f8\u90e8X\u5c04\u7ebf\u6570\u636e\u96c6\n",
+            64
+        ],
+        [
+            "HRF\n",
+            60
+        ]
+    ],
+    "Task606_orCaScore": [
+        [
+            "orCaScore\n",
+            100
+        ],
+        [
+            "ROC\n",
+            60
+        ],
+        [
+            "AASCE\n",
+            57
+        ]
+    ],
+    "Task611_PROMISE12": [
+        [
+            "PROMISE12\n",
+            100
+        ],
+        [
+            "PROMISE09\n",
+            78
+        ],
+        [
+            "ROC\n",
+            60
+        ]
+    ],
+    "Task612_CTPelvic1k": [
+        [
+            "CTPelvic1K\n",
+            100
+        ],
+        [
+            "LIDC\n",
+            68
+        ],
+        [
+            "CTSpine1K\n",
+            63
+        ]
+    ],
+    "Task614_LUNA": [
+        [
+            "LUNA16\n",
+            90
+        ],
+        [
+            "ACDC at LUNGHP\n",
+            68
+        ],
+        [
+            "Anti-PD-1 Lung\n",
+            68
+        ]
+    ],
+    "Task617_CAUSE07": [
+        [
+            "CAUSE07\n",
+            100
+        ],
+        [
+            "CHASE\n",
+            67
+        ],
+        [
+            "MSD04_Hippocampus\n",
+            56
+        ]
+    ],
+    "Task618_Promise09": [
+        [
+            "PROMISE09\n",
+            100
+        ],
+        [
+            "PROMISE12\n",
+            78
+        ],
+        [
+            "ROC\n",
+            60
+        ]
+    ],
+    "Task619_VESSEL2012": [
+        [
+            "VESSEL12\n",
+            89
+        ],
+        [
+            "MSD08_HepaticVessel\n",
+            68
+        ],
+        [
+            "VerSe 20\n",
+            67
+        ]
+    ],
+    "Task621_Prostate_MRI_Segmentation_Dataset": [
+        [
+            "APTOS Cross-Country Datasets\n",
+            90
+        ],
+        [
+            "Breast Cancer Dataset \u4e73\u817a\u764c\u6570\u636e\u96c6\n",
+            90
+        ],
+        [
+            "CT COLONOGRAPHY (TCIA Colon dataset)\n",
+            90
+        ]
+    ],
+    "Task622_SLIVER07": [
+        [
+            "SLIVER07\n",
+            100
+        ],
+        [
+            "MSD03_Liver\n",
+            63
+        ],
+        [
+            "ISLES 2017\n",
+            56
+        ]
+    ],
+    "Task623_FLARE21": [
+        [
+            "FLARE21\n",
+            100
+        ],
+        [
+            "FLARE22\n",
+            86
+        ],
+        [
+            "ACRIN-FLT-Breast (ACRIN 6688)\n",
+            51
+        ]
+    ],
+    "Task625_EMIDEC": [
+        [
+            "EMIDEC\n",
+            100
+        ],
+        [
+            "LIDC\n",
+            68
+        ],
+        [
+            "Leukemia Classification \u767d\u8840\u75c5\u7684\u5206\u7c7b\n",
+            60
+        ]
+    ],
+    "Task627_MRBrain18": [
+        [
+            "MRBrain18\n",
+            100
+        ],
+        [
+            "MRBrains13\n",
+            84
+        ],
+        [
+            "ACRIN-DSC-MR-Brain (ACRIN 6677/RTOG 0625)\n",
+            70
+        ]
+    ],
+    "Task632_AutoImplant": [
+        [
+            "AutoImplant 2021\n",
+            95
+        ],
+        [
+            "AutoImplant20\n",
+            92
+        ],
+        [
+            "autoPET\n",
+            67
+        ]
+    ],
+    "Task890_iSeg2017": [
+        [
+            "iSeg2017\n",
+            100
+        ],
+        [
+            "iseg2019\n",
+            88
+        ],
+        [
+            "ISLES 2017\n",
+            78
+        ]
+    ],
+    "Task892_Heart_Seg_MRI": [
+        [
+            "Brain-MRI\n",
+            90
+        ],
+        [
+            "Breast-MRI-NACT-Pilot\n",
+            90
+        ],
+        [
+            "CAMRI Rat Brain MRI Data\n",
+            90
+        ]
+    ],
+    "Task973_cSeg-2022": [
+        [
+            "cSeg-2022\n",
+            100
+        ],
+        [
+            "Learn2Reg 2022\n",
+            86
+        ],
+        [
+            "ISLES 2022\n",
+            74
+        ]
+    ]
+}
