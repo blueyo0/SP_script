@@ -1,0 +1,23 @@
+PREFIX=$(dirname $0)
+
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all "test"
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 150
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 100
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 50
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task020_AbdomenCT1K 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task009_Spleen 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task021_KiTS2021 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task154_RibFrac 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task003_Liver 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task030_CT_ORG 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task083_VerSe2020 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task022_FLARE22 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task037_CHAOS_Task_3_5_Variant1 0
+# bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task031_AMOS_MR 0
+# BigResUNetTrainer4_No_Mirror_8000Eps
+
+

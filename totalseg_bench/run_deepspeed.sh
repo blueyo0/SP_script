@@ -1,0 +1,19 @@
+PREFIX=$(dirname $0)
+
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task559_TS_test all
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task011_BTCV 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task020_AbdomenCT1K 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task007_Pancreas 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task009_Spleen 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task021_KiTS2021 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task154_RibFrac 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task003_Liver 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task030_CT_ORG 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task083_VerSe2020 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task032_AMOS22_Task1 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task022_FLARE22 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task037_CHAOS_Task_3_5_Variant1 0
+bash $PREFIX/nn_infer_and_compute_dice.sh BigResUNetTrainer4_No_Mirror_8000Eps Task031_AMOS_MR 0
+# BigResUNetTrainer4_No_Mirror_8000Eps
+
+

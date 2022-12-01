@@ -1,0 +1,94 @@
+,dataset,ceph_name,,modality
+0,ACDC,Task013_ACDC,,MR
+1,AMOS22,Task032_AMOS22_Task1,,CT
+2,ATLAS,Task504_ATLAS,,MR
+3,ATLAS R2.0 - Stroke Lesion Segmentation,Task506_ISLES22_new,,MR
+4,ATM22,Task040_ATM22,,CT
+5,AbdomenCT-1K,Task020_AbdomenCT1K,,CT
+6,Atrial_Segmentation_Challenge,Task602_ASC18,,MR
+7,AutoCars,Task972_AutoCars,,MR
+8,BTCV,Task011_BTCV,,CT
+9,BraTS 2013,Task888_Brats2013,,MR
+10,BraTS 2015,Task503_BraTs2015,,MR
+11,BraTS 2018,Task032_BraTS2018,,MR
+12,BraTS 2019,Task043_BraTS2019,,MR
+13, BraTS 2021,Task019_BraTS21,,MR
+14,BraTS 2022,Task599_BraTS2021,,MR
+15,BrainPTM 2021,Task590_Brain_PTM,,MR
+16,CAD-PE,Task851_CAD_PE,,CT
+17,CAUSE07,Task617_CAUSE07,,MR
+18,CHAOS,Task037_CHAOS_Task_3_5_Variant1,,"CT,MR"
+19,CMRxMotion,Task525_CMRxMotions,,MR
+20,COVID-19-20,Task613_COVID-19-20,,CT
+21,CTPelvic1K,Task612_CTPelvic1k,,CT
+22,CTSpine1K,Task601_CTSpine1K_Full,,CT
+23,Chest CT Scans with COVID-19,Task615_Chest_CT_Scans_with_COVID-19,,CT
+24,CrossMoDA2021,Task042_CrossMoDA21,,MR
+25,EMIDEC,Task625_EMIDEC,,MR
+26,EXACT09,Task853_EXACT09,,CT
+27,FLARE21,Task623_FLARE21,,CT
+28,FLARE22,Task022_FLARE22,,CT
+29,FeTA 2021,Task505_FeTA,,MR
+30,FeTA 2022,Task556_FeTA2022_all,,MR
+31,FeTS 2022,Task555_FeTA2022,,MR
+32,HVSMR 2016,Task1006_hvsmr_2016,,MR
+33,Head and Neck Auto Segmentation Challenge,Task162_HeadandNeckAutoSegmentationChallenge,,CT
+34,Heart Segmentation in MRI Images,Task892_Heart_Seg_MRI,,MR
+35,ISLES 2015,"Task510_ISLES_SISS,Task511_ISLES_SPES",,MR
+36,ISLES 2017,Task514_ISLES17,,MR
+37,ISLES 2018,Task165_ISLES18,,MR
+38,ISLES 2022,Task506_ISLES22_new,,MR
+39,InSTANCE2022,Task034_Instance22,,CT
+40,KiPA22,Task036_KiPA22,,CT
+41,KiTS19,Task040_KiTS,,CT
+42,KiTS21,Task021_KiTS2021,,CT
+43,LAScarQS 2022,"Task050_LAScarQS22_task1,Task051_LAScarQS22_task2",,MR
+44,LNDb,Task616_LNDb,,CT
+45,LOLA11,Task1004_LOLA11,,CT
+46,LUNA16,Task614_LUNA,,CT
+47,LiTS,Task029_LITS,,CT
+48,Longitudinal Multiple Sclerosis Lesion Segmentation,Task166_LongitudinalMultipleSclerosisLesionSegmentation,,MR
+49,MM-WHS: Multi-Modality Whole Heart Segmentation,Task603_MMWHS,,"CT,MR"
+50,MRBrain18,Task627_MRBrain18,,MR
+51,MSD01_BrainTumor,Task001_BrainTumour,,MR
+52,MSD02_Heart,Task002_Heart,,MR
+53,MSD03_Liver,Task003_Liver,,CT
+54,MSD04_Hippocampus,Task004_Hippocampus,,MR
+55,MSD05_Prostate,Task005_Prostate,,MR
+56,MSD06_Lung,Task006_Lung,,CT
+57,MSD07_Pancreas,Task007_Pancreas,,CT
+58,MSD08_HepaticVessel,Task008_HepaticVessel,,CT
+59,MSD09_Spleen,Task009_Spleen,,CT
+60,MSD10_Colon,Task010_Colon,,CT
+61,MSSEG 2021,Task666_MESSEG,,MR
+62,MSseg08,Task620_MSseg08,,MR
+63,Mosmed COVID-19 CT Scans,Task648_Mos_COV,,CT
+64,Multi-Atlas Labeling Beyond the Cranial Vault (Cervix),Task012_BTCV_Cervix,,CT
+65,MyoPS2020,Task507_Myops2020,,MR
+66,NEATBrainS15,Task161_MRBrainS13DataNii,,MR
+67,OrganSegmentations,Task030_CT_ORG,,CT
+68,PICAI,Task857_PICAI,,MR
+69,PROMISE09,Task618_Promise09,,MR
+70,PROMISE12,Task611_PROMISE12,,MR
+71,Parse2022,Task039_Parse22,,CT
+72,Prostate MRI Segmentation Dataset,Task621_Prostate_MRI_Segmentation_Dataset,,MR
+73,Pulmonary Embolism in CT images,Task649_Pul_Emb,,CT
+74,RETOUCH,Task891_RETOUCH,,OCT
+75,RibFrac2020,Task154_RibFrac,,CT
+76,SLIVER07,Task622_SLIVER07,,CT
+77,SegTHOR,Task605_SegThor,,CT
+78,Seg_Soft_Tissue,Task624_Seg_Soft_Tissue,,"CT,MR"
+79,StructSeg2019,"Task628_StructSeg2019_task1,Task629_StructSeg2019_task2,Task630_StructSeg2019_task3,Task631_StructSeg2019_task4",,CT
+80, TotalSegmentator_dataset ,Task558_Totalsegmentator_dataset,,CT
+81,VESSEL12,Task619_VESSEL2012,,CT
+82,VWS 2021,Task856_VWS2021,,MR
+83,VerSe 20,Task083_VerSe2020,,CT
+84,VerSe19,Task626_VerSe19,,CT
+85,WMH,Task502_WMH,,MR
+86,WORD,Task560_WORD,,CT
+87,Where is VALDO?,Task506_WIV_01,,MR
+88,autoPET,Task710_autoPET,,"PET,CT"
+89,cSeg-2022,Task973_cSeg-2022,,MR
+90,crossMoDA2022,Task043_CrossMoDA22,,MR
+91,iSeg2017,Task890_iSeg2017,,MR
+92,orCaScore,Task606_orCaScore,,CT

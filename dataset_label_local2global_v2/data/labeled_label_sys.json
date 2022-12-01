@@ -1,0 +1,703 @@
+{
+    "Task001_BrainTumour": {
+        "0": 0,
+        "1": 291,
+        "2": 294,
+        "3": 285
+    },
+    "Task002_Heart": {
+        "0": 0,
+        "1": 86
+    },
+    "Task003_Liver": {
+        "0": 0,
+        "1": 18,
+        "2": "cannot find cancer"
+    },
+    "Task004_Hippocampus": {
+        "0": 0,
+        "1": 129,
+        "2": 130
+    },
+    "Task005_Prostate": {
+        "0": 0,
+        "1": 32,
+        "2": "cannot find TZ"
+    },
+    "Task006_Lung": {
+        "0": 0,
+        "1": "cannot find cancer"
+    },
+    "Task007_Pancreas": {
+        "0": 0,
+        "1": 27,
+        "2": "cannot find cancer"
+    },
+    "Task008_HepaticVessel": {
+        "0": 0,
+        "1": 19,
+        "2": "cannot find Tumour"
+    },
+    "Task009_Spleen": {
+        "0": 0,
+        "1": 28
+    },
+    "Task010_Colon": {
+        "0": 0,
+        "1": "cannot find colon cancer primaries"
+    },
+    "Task011_BTCV": {
+        "00": 0,
+        "01": 28,
+        "02": 3,
+        "03": 12,
+        "04": 26,
+        "05": 43,
+        "06": 18,
+        "07": 25,
+        "08": 42,
+        "09": 41,
+        "10": 30,
+        "11": 27,
+        "12": 13,
+        "13": 4
+    },
+    "Task012_BTCV_Cervix": {
+        "0": 0,
+        "1": 29,
+        "2": 8,
+        "3": 16,
+        "4": 9
+    },
+    "Task013_ACDC": {
+        "0": 0,
+        "1": 72,
+        "2": 90,
+        "3": 85
+    },
+    "Task019_BraTS21": {
+        "0": 0,
+        "1": 291,
+        "2": 294,
+        "3": 285
+    },
+    "Task020_AbdomenCT1K": {
+        "0": 0,
+        "1": 18,
+        "2": 21,
+        "3": 28,
+        "4": 27
+    },
+    "Task021_KiTS2021": {
+        "0": 0,
+        "1": 21,
+        "2": "cannot find tumor",
+        "3": "cannot find cyst"
+    },
+    "Task022_FLARE22": {
+        "0": 0,
+        "1": 18,
+        "10": 43,
+        "11": 25,
+        "12": 2,
+        "13": 3,
+        "2": 12,
+        "3": 28,
+        "4": 27,
+        "5": 42,
+        "6": 41,
+        "7": 13,
+        "8": 4,
+        "9": 26
+    },
+    "Task029_LITS": {
+        "0": 0,
+        "1": 18,
+        "2": "cannot find tumor"
+    },
+    "Task030_CT_ORG": {
+        "0": 0,
+        "1": 178,
+        "2": 232,
+        "3": 18,
+        "4": 21,
+        "5": 29,
+        "6": 106
+    },
+    "Task032_AMOS22_Task1": {
+        "0": 0,
+        "1": 28,
+        "10": 27,
+        "11": 13,
+        "12": 4,
+        "13": 2,
+        "14": 29,
+        "15": 1,
+        "2": 3,
+        "3": 12,
+        "4": 26,
+        "5": 43,
+        "6": 18,
+        "7": 25,
+        "8": 42,
+        "9": "cannot find postcava"
+    },
+    "Task032_BraTS2018": {
+        "0": 0,
+        "1": 291,
+        "2": 294,
+        "3": 285
+    },
+    "Task034_Instance22": {
+        "0": 0,
+        "1": 261
+    },
+    "Task036_KiPA22": {
+        "0": 0,
+        "1": 24,
+        "2": 21,
+        "3": 23,
+        "4": "cannot find tumor"
+    },
+    "Task037_CHAOS_Task_3_5_Variant1": {
+        "0": 0,
+        "1": 38,
+        "2": 34,
+        "3": 185,
+        "4": 39
+    },
+    "Task039_Parse22": {
+        "0": 0,
+        "1": 179
+    },
+    "Task040_ATM22": {
+        "0": 0,
+        "1": 181
+    },
+    "Task040_KiTS": {
+        "0": 0,
+        "1": 21,
+        "2": "cannot find Tumor"
+    },
+    "Task042_CrossMoDA21": {
+        "0": 0,
+        "1": "cannot find vestibular schwannoma",
+        "2": 123
+    },
+    "Task043_BraTS2019": {
+        "0": 0,
+        "1": 291,
+        "2": 294,
+        "3": 285
+    },
+    "Task043_CrossMoDA22": {
+        "0": 0,
+        "1": "cannot find tumour",
+        "2": 123
+    },
+    "Task050_LAScarQS22_task1": {
+        "0": 0,
+        "1": 87,
+        "2": 86
+    },
+    "Task051_LAScarQS22_task2": {
+        "0": 0,
+        "1": 86
+    },
+    "Task083_VerSe2020": {
+        "0": 0,
+        "1": 143,
+        "10": 221,
+        "11": 222,
+        "12": 223,
+        "13": 224,
+        "14": 225,
+        "15": 226,
+        "16": 227,
+        "17": 217,
+        "18": 218,
+        "19": 219,
+        "2": 144,
+        "20": 47,
+        "21": 48,
+        "22": 49,
+        "23": 50,
+        "24": 51,
+        "25": 52,
+        "26": 162,
+        "27": "cannot find 27 CT",
+        "28": "cannot find 28 CT",
+        "3": 145,
+        "4": 146,
+        "5": 147,
+        "6": 148,
+        "7": 149,
+        "8": 216,
+        "9": 220
+    },
+    "Task1004_LOLA11": {
+        "0": 0,
+        "1": "cannot find fake mask"
+    },
+    "Task1006_hvsmr_2016": {
+        "0": 0,
+        "1": "cannot find vessel",
+        "2": "cannot find heart MR"
+    },
+    "Task154_RibFrac": {
+        "0": 0,
+        "1": "cannot find displaced_rib_fracture",
+        "2": "cannot find non_displaced_rib_fracture",
+        "3": "cannot find buckle_rib_fracture",
+        "4": "cannot find segmental_rib_fracture",
+        "5": "cannot find unidentified_rib_fracture"
+    },
+    "Task161_MRBrainS13DataNii": {
+        "0": 0,
+        "1": 119,
+        "2": "cannot find Basal ganglia",
+        "3": 120,
+        "4": "cannot find White matter lesions",
+        "5": 113,
+        "6": 124,
+        "7": 115,
+        "8": 125
+    },
+    "Task162_HeadandNeckAutoSegmentationChallenge": {
+        "0": 0,
+        "1": 108,
+        "2": 111,
+        "3": 94,
+        "4": 100,
+        "5": 100,
+        "6": 99,
+        "7": 99,
+        "8": 101,
+        "9": 101
+    },
+    "Task165_ISLES18": {
+        "0": 0,
+        "1": "cannot find lesion MR"
+    },
+    "Task166_LongitudinalMultipleSclerosisLesionSegmentation": {
+        "0": 0,
+        "1": "cannot find lesion MR"
+    },
+    "Task502_WMH": {
+        "0": 0,
+        "1": 120,
+        "2": 270
+    },
+    "Task503_BraTs2015": {
+        "0": 0,
+        "1": 284,
+        "2": 291,
+        "3": 294,
+        "4": 285
+    },
+    "Task504_ATLAS": {
+        "0": 0,
+        "1": 281
+    },
+    "Task505_FeTA": {
+        "0": 0,
+        "1": 113,
+        "2": 119,
+        "3": 120,
+        "4": 124,
+        "5": 115,
+        "6": 118,
+        "7": 125
+    },
+    "Task506_ISLES22_new": {
+        "0": 0,
+        "1": "cannot find infarct lesions"
+    },
+    "Task506_WIV_01": {
+        "0": 0,
+        "1": "cannot find CBM"
+    },
+    "Task507_Myops2020": {
+        "0": 0,
+        "1": 83,
+        "2": 74,
+        "3": 79,
+        "4": "cannot find LV myocardial edema",
+        "5": 80
+    },
+    "Task510_ISLES_SISS": {
+        "0": 0,
+        "1": "cannot find lesion MR"
+    },
+    "Task511_ISLES_SPES": {
+        "0": 0,
+        "1": "cannot find lesion MR"
+    },
+    "Task514_ISLES17": {
+        "0": 0,
+        "1": "cannot find infarct lesions"
+    },
+    "Task525_CMRxMotions": {
+        "0": 0,
+        "1": 78,
+        "2": 90,
+        "3": 72
+    },
+    "Task555_FeTA2022": {
+        "0": 0,
+        "1": 113,
+        "2": "cannot find Grey Matter",
+        "3": 120,
+        "4": 124,
+        "5": 115,
+        "6": "cannot find Deep Grey Matter",
+        "7": 125
+    },
+    "Task556_FeTA2022_all": {
+        "0": 0,
+        "1": 113,
+        "2": "cannot find Grey Matter",
+        "3": 120,
+        "4": 124,
+        "5": 115,
+        "6": "cannot find Deep Grey Matter",
+        "7": 125
+    },
+    "Task558_Totalsegmentator_dataset": {
+        "0": 0,
+        "1": 4,
+        "10": 2,
+        "100": 223,
+        "101": 224,
+        "102": 225,
+        "103": 226,
+        "104": 227,
+        "11": 43,
+        "12": 110,
+        "13": 158,
+        "14": 160,
+        "15": 26,
+        "16": 167,
+        "17": 164,
+        "18": 166,
+        "19": 163,
+        "2": 13,
+        "20": 168,
+        "21": 165,
+        "22": 64,
+        "23": 58,
+        "24": 68,
+        "25": 61,
+        "26": 56,
+        "27": 159,
+        "28": 161,
+        "29": 156,
+        "3": 42,
+        "30": 153,
+        "31": 14,
+        "32": 5,
+        "33": 15,
+        "34": 7,
+        "35": 241,
+        "36": 6,
+        "37": 41,
+        "38": 12,
+        "39": 3,
+        "4": 231,
+        "40": 18,
+        "41": 176,
+        "42": 172,
+        "43": 173,
+        "44": 175,
+        "45": 171,
+        "46": 27,
+        "47": 30,
+        "48": 179,
+        "49": 204,
+        "5": 230,
+        "50": 205,
+        "51": 206,
+        "52": 207,
+        "53": 208,
+        "54": 209,
+        "55": 210,
+        "56": 211,
+        "57": 212,
+        "58": 213,
+        "59": 214,
+        "6": 106,
+        "60": 215,
+        "61": 192,
+        "62": 193,
+        "63": 194,
+        "64": 195,
+        "65": 196,
+        "66": 197,
+        "67": 198,
+        "68": 199,
+        "69": 200,
+        "7": 157,
+        "70": 201,
+        "71": 202,
+        "72": 203,
+        "73": 162,
+        "74": 155,
+        "75": 152,
+        "76": 9,
+        "77": 28,
+        "78": 25,
+        "79": 177,
+        "8": 154,
+        "80": 29,
+        "81": 143,
+        "82": 144,
+        "83": 145,
+        "84": 146,
+        "85": 147,
+        "86": 148,
+        "87": 149,
+        "88": 47,
+        "89": 48,
+        "9": 17,
+        "90": 49,
+        "91": 50,
+        "92": 51,
+        "93": 216,
+        "94": 217,
+        "95": 218,
+        "96": 219,
+        "97": 220,
+        "98": 221,
+        "99": 222
+    },
+    "Task560_WORD": {
+        "0": 0,
+        "1": 18,
+        "10": 17,
+        "11": 20,
+        "12": 22,
+        "13": 16,
+        "14": 29,
+        "15": 158,
+        "16": 160,
+        "2": 28,
+        "3": 12,
+        "4": 3,
+        "5": 25,
+        "6": 26,
+        "7": 43,
+        "8": 27,
+        "9": 2
+    },
+    "Task590_Brain_PTM": {
+        "0": 0,
+        "1": "cannot find matter_tracts"
+    },
+    "Task599_BraTS2021": {
+        "0": 0,
+        "1": 284,
+        "2": 291,
+        "3": 294,
+        "4": 285
+    },
+    "Task601_CTSpine1K_Full": {
+        "0": 0,
+        "1": 143,
+        "10": 221,
+        "11": 222,
+        "12": 223,
+        "13": 224,
+        "14": 225,
+        "15": 226,
+        "16": 227,
+        "17": 217,
+        "18": 218,
+        "19": 219,
+        "2": 144,
+        "20": 47,
+        "21": 48,
+        "22": 49,
+        "23": 50,
+        "24": 51,
+        "25": 52,
+        "3": 145,
+        "4": 146,
+        "5": 147,
+        "6": 148,
+        "7": 149,
+        "8": 216,
+        "9": 220
+    },
+    "Task602_ASC18": {
+        "0": 0,
+        "1": "cannot find 1"
+    },
+    "Task603_MMWHS": {
+        "0": 0,
+        "1": 85,
+        "2": 76,
+        "3": 89,
+        "4": 77,
+        "5": 79,
+        "6": 71,
+        "7": 188
+    },
+    "Task605_SegThor": {
+        "0": 0,
+        "1": 43,
+        "2": 67,
+        "3": 177,
+        "4": 42
+    },
+    "Task606_orCaScore": {
+        "0": 0,
+        "1": "cannot find 1",
+        "2": "cannot find 2",
+        "3": "cannot find 3"
+    },
+    "Task611_PROMISE12": {
+        "0": 0,
+        "1": "cannot find prostate lesion"
+    },
+    "Task612_CTPelvic1k": {
+        "0": 0,
+        "1": 162,
+        "2": 161,
+        "3": 159,
+        "4": 46
+    },
+    "Task613_COVID-19-20": {
+        "0": 0,
+        "1": "cannot find lung lesion"
+    },
+    "Task614_LUNA": {
+        "0": 0,
+        "1": 178
+    },
+    "Task615_Chest_CT_Scans_with_COVID-19": {
+        "0": 0,
+        "1": 251
+    },
+    "Task616_LNDb": {
+        "0": 0,
+        "1": "cannot find lung node"
+    },
+    "Task617_CAUSE07": {
+        "0": 0,
+        "1": 128,
+        "2": 128
+    },
+    "Task618_Promise09": {
+        "0": 0,
+        "1": 31
+    },
+    "Task619_VESSEL2012": {
+        "0": "cannot find no (long) vessel",
+        "1": "cannot find (long) vessel"
+    },
+    "Task620_MSseg08": {
+        "0": 0,
+        "1": "cannot find multiple sclerosis"
+    },
+    "Task621_Prostate_MRI_Segmentation_Dataset": {
+        "0": 0,
+        "1": 31
+    },
+    "Task622_SLIVER07": {
+        "0": 0,
+        "1": 18
+    },
+    "Task623_FLARE21": {
+        "0": 0,
+        "1": 18,
+        "2": 21,
+        "3": 28,
+        "4": 27
+    },
+    "Task624_Seg_Soft_Tissue": {
+        "0": 0,
+        "1": "cannot find XXX",
+        "2": "cannot find XXX"
+    },
+    "Task625_EMIDEC": {
+        "0": 0,
+        "1": 78,
+        "2": 79,
+        "3": 275,
+        "4": 69
+    },
+    "Task626_VerSe19": {
+        "0": 0,
+        "1": "cannot find vertebrae"
+    },
+    "Task627_MRBrain18": {
+        "0": 0,
+        "1": 119,
+        "2": "cannot find Basal ganglia",
+        "3": 120,
+        "4": "cannot find White matter lesions",
+        "5": 113,
+        "6": 124,
+        "7": 115,
+        "8": 125,
+        "9": "cannot find Infarction"
+    },
+    "Task628_StructSeg2019_task1": "cannot find dataset.json",
+    "Task629_StructSeg2019_task2": "cannot find dataset.json",
+    "Task630_StructSeg2019_task3": "cannot find dataset.json",
+    "Task631_StructSeg2019_task4": "cannot find dataset.json",
+    "Task648_Mos_COV": {
+        "0": 0
+    },
+    "Task649_Pul_Emb": {
+        "0": 0
+    },
+    "Task666_MESSEG": {
+        "0": 0,
+        "1": "cannot find lesion MR"
+    },
+    "Task710_autoPET": {
+        "0": 0,
+        "1": 245
+    },
+    "Task851_CAD_PE": "cannot find key 'labels' in dataset.json, this dataset may be unlabeled",
+    "Task853_EXACT09": "cannot find key 'labels' in dataset.json, this dataset may be unlabeled",
+    "Task856_VWS2021": "cannot find key 'labels' in dataset.json, this dataset may be unlabeled",
+    "Task857_PICAI": {
+        "0": 0,
+        "1": "cannot find fake mask"
+    },
+    "Task888_Brats2013": {
+        "0": 0,
+        "1": 284,
+        "2": 291,
+        "3": 294,
+        "4": 285
+    },
+    "Task890_iSeg2017": {
+        "0": 0,
+        "1": 127,
+        "2": 119,
+        "3": 120
+    },
+    "Task891_RETOUCH": {
+        "0": 0,
+        "1": 134,
+        "2": 133,
+        "3": "cannot find Pigment Epithelium Detachments"
+    },
+    "Task892_Heart_Seg_MRI": {
+        "0": 0,
+        "1": 86
+    },
+    "Task972_AutoCars": {
+        "0": 0,
+        "1": "cannot find fake mask"
+    },
+    "Task973_cSeg-2022": {
+        "0": 0,
+        "1": 127,
+        "2": 119,
+        "3": 120
+    }
+}
