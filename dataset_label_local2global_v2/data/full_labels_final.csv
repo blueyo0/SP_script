@@ -274,7 +274,7 @@ idx,label,label-CN,for
 272,MR-head_and_neck_primary_Gross_Tumor,MR-头颈部原发性肿瘤,
 273,MR-the_necrotic_tumor_core,MR-小脑肿瘤坏死核心,
 274,MR-left_ventricular_myocardial_edema,MR-左心室心肌水肿,
-275,MR-myocardial_infarction,MR-心肌梗塞(区域),
+275,MR-jiu,MR-心肌梗塞(区域),
 276,MR-ischemic_stroke_(embolic_infarct)_lesion,"MR-急性,亚急性脑卒中(栓塞性梗塞)病灶",
 277,MR-peritumoral_edematous_or_invaded_tissue,MR-瘤旁组织水肿/入侵,
 278,MR-ischemic_stroke_lesion,MR-缺血性脑卒中病灶,
@@ -299,3 +299,4 @@ idx,label,label-CN,for
 297,OCT-retinal_cysts,OCT-视网膜囊肿,
 298,OCT-pigment_epithelial_detachment,OCT-视网膜色素上皮脱离,
 299,X-pneumothorax,X-气胸,
+300,MR-brain_infarction,MR-脑梗塞

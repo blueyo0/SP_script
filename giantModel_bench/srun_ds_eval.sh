@@ -1,0 +1,42 @@
+PREFIX=$(dirname $0)
+
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 150
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 200
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 300
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task559_TS_test all 400
+
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 100
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 200
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 300
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 400
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 500
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 600
+
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 100
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 200
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 300
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 400
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 500
+bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 600
+
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 100
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 200
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 300
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 400
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 600
+
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task011_BTCV 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task032_AMOS22_Task1 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task020_AbdomenCT1K 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task007_Pancreas 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task009_Spleen 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task021_KiTS2021 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task154_RibFrac 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task003_Liver 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task030_CT_ORG 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task083_VerSe2020 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task022_FLARE22 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task037_CHAOS_Task_3_5_Variant1 0 500
+# bash $PREFIX/deepspeed_run_single_eval.sh BigResUNetTrainerV3_DS_113393_160_noMirror_val Task031_AMOS_MR 0 500
+# BigResUNetTrainer4_No_Mirror_8000Eps

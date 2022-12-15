@@ -1,11 +1,12 @@
 # -*- encoding: utf-8 -*-
 '''
-@File    :   test_nnUNet_infer.py
-@Time    :   2022/08/30 10:54:40
+@File    :   deepspeed_eval_epoch.py
+@Time    :   2022/12/12 19:42:03
 @Author  :   Haoyu Wang 
 @Contact :   small_dark@sina.com
-@Brief   :   nnUNet 单模型 infer 脚本
+@Brief   :   对于不同epoch的模型做eval
 '''
+
 
 import os
 import os.path as osp
@@ -22,11 +23,12 @@ if __name__ == '__main__':
     trainer = sys.argv[1]
     dataset = sys.argv[2]
     val_fold = sys.argv[3]
-    if(len(sys.argv)>4): test = bool(sys.argv[4])
+    epoch = sys.argv[4]
+    if(len(sys.argv)>5): test = bool(sys.argv[5])
     else: test = False
     model = f"{trainer}__nnUNetPlansv2.1"
     input_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/imagesTr'
-    output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}_ep500'
+    output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}_ep{epoch}'
     parameter_folder = f'/mnt/lustre/wanghaoyu/runs/nnUNet/RESULTS_FOLDER/nnUNet/3d_fullres/Task558_Totalsegmentator_dataset'
     folds = (1)
 
@@ -38,8 +40,8 @@ if __name__ == '__main__':
     output_files = [join(output_folder, model, tf) for tf in test_files]
     predict_cases(join(parameter_folder, model), [[i] for i in input_files], output_files, folds, save_npz=False,
                     num_threads_preprocessing=2, num_threads_nifti_save=2, segs_from_prev_stage=None, do_tta=False,
-                    mixed_precision=True, overwrite_existing=False, all_in_gpu=False, step_size=0.5,)
-                    # checkpoint_name="fp32_model_ep_500")
+                    mixed_precision=True, overwrite_existing=False, all_in_gpu=False, step_size=0.5,
+                    checkpoint_name=f"fp32_model_ep_{epoch}")
 
     # 指标计算
     general_ts_root = output_folder
@@ -52,8 +54,7 @@ if __name__ == '__main__':
         data_list = [osp.join(general_ts_root, model, f+f'_0000.nii.gz') for f in splits[int(val_fold)]['val']] 
     else:
         data_list = output_files 
-
-
+        
     compute_fn = compute_dice_nnUNet
     if(dataset=="Task558_Totalsegmentator_dataset" or dataset=="Task559_TS_test"):
         check_data_seg_path = "/mnt/petrelfs/wanghaoyu/why/liver_0_0000_fast"

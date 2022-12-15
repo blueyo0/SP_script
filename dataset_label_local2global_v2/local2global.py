@@ -21,6 +21,8 @@ def standardize(cls_Name):
     return cls_Name.strip().lower().replace("_", " ").replace("-", " ")
 
 def getGlobalKey(key, dataset=None, mapping=CUSTUM_MAPPING):
+    key = str(key)
+    dataset = str(dataset)
     if(dataset in mapping):
         # norm_keys = [standardize(k) for k in mapping[dataset].keys()]
         if(key in mapping[dataset]):
@@ -98,12 +100,12 @@ if __name__ == "__main__":
                         query_k = standardize(g_key)
                         if(modality.upper() not in global_label_sys[query_k]):
                             print(ori_key, modality.upper(), "not found")
-                            json_per_dataset[idx] = "cannot find "+str(ori_key)+" "+str(modality)
+                            json_per_dataset[idx] = "cannot find "+str(ori_key)+"("+str(modality.upper())+")"
                             continue
                         json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
                         is_find = True
                     else:
-                        json_per_dataset[idx] = "cannot find "+str(ori_key)+" "+str(modality.upper())
+                        json_per_dataset[idx] = "cannot find "+str(ori_key)+"("+str(modality.upper())+")"
                         print("[MODALITY]", k, modality.upper(), "not found")
                         continue
                 json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
@@ -115,7 +117,7 @@ if __name__ == "__main__":
                     query_k = standardize(g_key)
                     if(modality.upper() not in global_label_sys[query_k]):
                         print(ori_key, modality.upper(), "not found")
-                        json_per_dataset[idx] = "cannot find "+str(ori_key)+" "+str(modality)
+                        json_per_dataset[idx] = "cannot find "+str(ori_key)+"("+str(modality.upper())+")"
                         continue
                     json_per_dataset[idx] = global_label_sys[query_k][modality.upper()]
                     is_find = True
@@ -136,6 +138,11 @@ if __name__ == "__main__":
         
         print("json:", json_per_dataset)
         json_all[dataset] = json_per_dataset
+    # 特殊处理
+    json_all["Task626_VerSe19"] = json_all["Task083_VerSe2020"]
+    json_all["Task619_VESSEL2012"]["0"] = 0
+       
+        
     save_json(json_all, osp.join("/mnt/cache/wanghaoyu/SP_script/dataset_label_local2global_v2/data/labeled_label_sys.json"))
 
     json_all_data = []
@@ -144,11 +151,14 @@ if __name__ == "__main__":
         if(isinstance(idx_info, str)):
             label_info[0] = idx_info
             json_all_data.append([dataset]+label_info)
-        else:
+        elif(isinstance(idx_info, dict)):
             label_info[0] = 1
             for idx, g_idx in idx_info.items():
                 if(isinstance(g_idx, str)): continue
                 label_info[g_idx] = 1
             json_all_data.append([dataset]+label_info)
+        else:
+            print("ERROR in", dataset, "type:", type(idx_info))
+            print(idx_info)
     json_all_df = pd.DataFrame(json_all_data, columns=["dataset"]+list(global_idx2label.values()))
     json_all_df.to_csv("/mnt/cache/wanghaoyu/SP_script/dataset_label_local2global_v2/data/labeled_label_sys.csv")

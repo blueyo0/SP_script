@@ -51,34 +51,11 @@ global_mapping = {
 
 CUSTUM_MAPPING = {
     "global": global_mapping, 
-    "Task019_BraTS21": {
-        "non-enhancing": "brain_non-enhancing_tumor",
-        "enhancing": "brain_enhancing_tumor",
-    },
-    "Task032_BraTS2018": {
-        "non-enhancing": "brain_non-enhancing_tumor",
-        "enhancing": "brain_enhancing_tumor",
-    },
-    "Task043_BraTS2019": {
-        "non-enhancing": "brain_non-enhancing_tumor",
-        "enhancing": "brain_enhancing_tumor",
-    },
-    "Task503_BraTs2015": {
-        "necrosis": "brain_necrosis",
-    },
-    "Task599_BraTS2021": {
-        "necrosis": "brain_necrosis",
-    },
-    "Task888_Brats2013": {
-        "necrosis": "brain_necrosis",
-    },
-    "Task013_ACDC": {
-        "RV": "right ventricle",
-        "LVC": "left ventricle blood cavity",
-        "MLV": "myocardium",
-    },
     "Task002_Heart": {
         "left atrium":   "heart_atrium_left",
+    },
+    "Task003_Liver": {
+        "cancer": "liver_tumor"
     },
     "Task004_Hippocampus": {
         "Anterior":   "anterior hippocampus of the brain",
@@ -86,24 +63,76 @@ CUSTUM_MAPPING = {
     },
     "Task005_Prostate": {
         "PZ" : "prostate_or_uterus",
-        # "TZ" : "",
+        "TZ" : "pancreatic_lesion",
+    },
+    "Task006_Lung": {
+        "cancer": "lung_cancer"
+    },
+    "Task007_Pancreas": {
+        "cancer": "pancreatic_lesions",
     },
     "Task008_HepaticVessel": {
         "Vessel": "liver vessel",
+        "Tumour": "liver_tumor",
+    },
+    "Task010_Colon": {
+        "colon cancer primaries": "colon_tumor",
+    },
+    "Task011_BTCV": {
+        "right kidney": "kidney_right",
+        "left kidney":  "kidney_left",
+    },
+    "Task013_ACDC": {
+        "RV": "right ventricle",
+        "LVC": "left ventricle blood cavity",
+        "MLV": "myocardium",
+    },
+    "Task019_BraTS21": {
+        "non-enhancing": "brain_non-enhancing_tumor",
+        "enhancing": "brain_enhancing_tumor",
+    },
+    "Task021_KiTS2021": {
+        "tumor":  "renal_tumor",
+        "cyst":   "kidney_cyst",
+    },
+    "Task022_FLARE22": {
+        "right kidney": "kidney_right",
+        "left kidney":  "kidney_left",
+    },
+    "Task029_LITS": {
+        "tumor": "liver_tumor"
+    },
+    "Task030_CT_ORG": {
+        "bone": "bones",
+    },
+    "Task032_AMOS22_Task1": {
+        "right kidney": "kidney_right",
+        "left kidney":  "kidney_left",
+        "prostate/uterus": "prostate_or_uterus",
+        "postcava": "inferior_vena_cava",
+    },
+    "Task032_BraTS2018": {
+        "non-enhancing": "brain_non-enhancing_tumor",
+        "enhancing": "brain_enhancing_tumor",
+    },
+    "Task036_KiPA22": {
+        "renal vein": "kidney veins",
+        "renal artery": "kidney arteries",
+        "tumor": "renal_tumor",
     },
     "Task037_CHAOS_Task_3_5_Variant1": {
         "right kidney": "kidney_right",
         "left kidney":  "kidney_left",
     },
-    "Task030_CT_ORG": {
-        "bone": "bones",
-    },
-    "Task036_KiPA22": {
-        "renal vein": "kidney veins",
-        "renal artery": "kidney arteries",
-    },
     "Task040_ATM22": {
         "airway": "pulmonary airway",
+    },
+    "Task040_KiTS": {
+        "Tumor": "renal_tumor",
+    },
+    "Task043_BraTS2019": {
+        "non-enhancing": "brain_non-enhancing_tumor",
+        "enhancing": "brain_enhancing_tumor",
     },
     "Task083_VerSe2020": {
         "1":    "C1",
@@ -135,6 +164,77 @@ CUSTUM_MAPPING = {
         "27":   "cocygis",
         "28":   "T13"
     },
+    "Task154_RibFrac": {
+        "displaced_rib_fracture":       "rib_fracture",
+        "non_displaced_rib_fracture":   "rib_fracture",
+        "buckle_rib_fracture":          "rib_fracture",
+        "segmental_rib_fracture":       "rib_fracture",
+        "unidentified_rib_fracture":    "rib_fracture",
+    },
+    "Task161_MRBrainS13DataNii": {
+        "Cortical gray matter": "gray matter",
+        "Cerebrospinal fluid in the extracerebral space": "external cerebrospinal fluid",
+        "Basal ganglia": "gray_matter",
+        "White matter lesions": "white_matter",
+    },
+    "Task162_HeadandNeckAutoSegmentationChallenge": {
+        "Chiasm": "optic chiasm",
+        "OpticNerve_L": "left and right optic nerves",
+        "OpticNerve_R": "left and right optic nerves",
+        "Parotid_L": "left and right parotid glands",
+        "Parotid_R": "left and right parotid glands",
+        "Submandibular_L": "left and right submandibular glands",
+        "Submandibular_R": "left and right submandibular glands",
+    },
+    "Task165_ISLES18": {
+        "lesion": "ischemic_stroke_lesion"
+    },
+    "Task166_LongitudinalMultipleSclerosisLesionSegmentation": {
+        "lesion": "multiple_sclerosis_of_the_brain"
+    },
+    "Task502_WMH": {
+        "White_matter_hyperintensities": "white matter",
+    },
+    "Task503_BraTs2015": {
+        "necrosis": "brain_necrosis",
+    },
+    "Task505_FeTA": {
+        "Grey Matter":      "gray matter",
+        "Deep Grey Matter": "deep gray matter",
+    },
+    "Task506_ISLES22_new": {
+        "infarct lesions": "myocardial_infarction"
+    },
+    "Task507_Myops2020": {
+        "left ventricular (LV) blood pool": "left ventricular blood pool",
+        "LV normal myocardium":             "left ventricular myocardium",
+        "LV myocardial scars":              "left ventricular myocardial scars",
+        "LV myocardial edema":              "left_ventricular_myocardial_edema",
+    },
+    "Task510_ISLES_SISS": {
+        "lesion": "sub-acute ischemic stroke lesion"
+    },
+    "Task514_ISLES17": {
+        "infarct lesions": "ischemic_stroke_lesion"
+    },
+    "Task555_FeTA2022": {
+        "Grey Matter" :      "gray_matter",
+        "Deep Grey Matter" : "deep_gray_matter",
+    },
+    "Task556_FeTA2022_all": {    
+        "Grey Matter" :      "gray_matter",
+        "Deep Grey Matter" : "deep_gray_matter",
+    },
+    "Task560_WORD": {
+        "right_kidney": "kidney_right",
+        "left_kidney":  "kidney_left",
+    },
+    "Task590_Brain_PTM": {
+        "matter_tracts": "white_matter"
+    },
+    "Task599_BraTS2021": {
+        "necrosis": "brain_necrosis",
+    },
     "Task601_CTSpine1K_Full": {
         "1":    "C1",
         "2":    "C2",
@@ -162,45 +262,8 @@ CUSTUM_MAPPING = {
         "24":   "L5",
         "25":   "L6",
     },
-    "Task507_Myops2020": {
-        "left ventricular (LV) blood pool": "left ventricular blood pool",
-        "LV normal myocardium":             "left ventricular myocardium",
-        "LV myocardial scars":              "left ventricular myocardial scars"
-    },
-    "Task161_MRBrainS13DataNii": {
-        "Cortical gray matter": "gray matter",
-        "Cerebrospinal fluid in the extracerebral space": "external cerebrospinal fluid",
-    },
-    "Task627_MRBrain18": {
-        "Cortical gray matter": "gray matter",
-        "Cerebrospinal fluid in the extracerebral space": "external cerebrospinal fluid",
-    },
-    "Task162_HeadandNeckAutoSegmentationChallenge": {
-        "Chiasm": "optic chiasm",
-        "OpticNerve_L": "left and right optic nerves",
-        "OpticNerve_R": "left and right optic nerves",
-        "Parotid_L": "left and right parotid glands",
-        "Parotid_R": "left and right parotid glands",
-        "Submandibular_L": "left and right submandibular glands",
-        "Submandibular_R": "left and right submandibular glands",
-    },
-    "Task502_WMH": {
-        "White_matter_hyperintensities": "white matter",
-    },
-    "Task505_FeTA": {
-        "Grey Matter":      "gray matter",
-        "Deep Grey Matter": "deep gray matter",
-    },
-    "Task625_EMIDEC": {
-        "left myocardium":       "left ventricular myocardium",
-    },
-    "Task617_CAUSE07": {
-        "left caudate": "caudate nucleaus",
-        "right caudate": "caudate nucleaus",
-    },
-    "Task612_CTPelvic1k": {
-        "right_hip": "hip_right",
-        "left_hip": "hip_left",
+    "Task602_ASC18": {
+        "1": "left_atrial_cavity"
     },
     "Task603_MMWHS": {
         "1": "left ventricle blood cavity",
@@ -212,25 +275,61 @@ CUSTUM_MAPPING = {
         "7": "pulmonary artery"
     },
     "Task606_orCaScore": {
-        "1": "left_atrium",
-        "2": "LCX",
-        "3": "RCA"
+        "1": "left_anterior_descending_branch",
+        "2": "left_circumflex_artery",
+        "3": "right_coronary_artery"
     },
-    "Task011_BTCV": {
-        "right kidney": "kidney_right",
-        "left kidney":  "kidney_left",
+    "Task611_PROMISE12": {
+        "prostate lesion": "pancreatic_lesion"
     },
-    "Task022_FLARE22": {
-        "right kidney": "kidney_right",
-        "left kidney":  "kidney_left",
+    "Task612_CTPelvic1k": {
+        "right_hip": "hip_right",
+        "left_hip": "hip_left",
     },
-    "Task032_AMOS22_Task1": {
-        "right kidney": "kidney_right",
-        "left kidney":  "kidney_left",
-        "prostate/uterus": "prostate_or_uterus",
+    "Task613_COVID-19-20": {
+        "lung lesion": "ground-glass opacifications and consolidations",
     },
-    "Task560_WORD": {
-        "right_kidney": "kidney_right",
-        "left_kidney":  "kidney_left",
+    "Task616_LNDb": {
+        "lung node": "pulmonary_nodules",
+    },
+    "Task617_CAUSE07": {
+        "left caudate": "caudate nucleaus",
+        "right caudate": "caudate nucleaus",
+    },
+    "Task619_VESSEL2012": {
+        "no (long) vessel" : "background",
+        "(long) vessel" : "lung_vessels"
+    },
+    "Task620_MSseg08": {
+        "multiple sclerosis" : "multiple_sclerosis_of_the_brain",
+    },
+    "Task624_Seg_Soft_Tissue": {
+        "XXX": "soft_tissue_sarcomas",
+        "XXX": "soft_tissue_sarcomas",
+    },
+    "Task625_EMIDEC": {
+        "left myocardium":       "left ventricular myocardium",
+    },
+    "Task627_MRBrain18": {
+        "Cortical gray matter": "gray matter",
+        "Cerebrospinal fluid in the extracerebral space": "external cerebrospinal fluid",
+        "Basal ganglia": "gray_matter",
+        "White matter lesions": "white_matter",
+        "Infarction": "brain_infarction",
+    },
+    "Task666_MESSEG": {
+        "lesion": "multiple_sclerosis_of_the_brain",
+    },
+    "Task857_PICAI": {
+        "fake mask": "pancreatic_lesion"
+    },
+    "Task888_Brats2013": {
+        "necrosis": "brain_necrosis",
+    },
+    "Task891_RETOUCH": {
+        "Pigment Epithelium Detachments": "pigment_epithelial_detachment"
+    },
+    "Task972_AutoCars": {
+        "fake mask": "carotid_artery_vessel_wall"
     },
 }
