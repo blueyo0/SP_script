@@ -26,11 +26,24 @@ if __name__ == '__main__':
     else: test = False
     model = f"{trainer}__nnUNetPlansv2.1"
     input_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/imagesTr'
-    output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}_ep500'
+    output_folder = f'/mnt/petrelfs/wanghaoyu/gmai/totalseg_result/{dataset}'
     parameter_folder = f'/mnt/lustre/wanghaoyu/runs/nnUNet/RESULTS_FOLDER/nnUNet/3d_fullres/Task558_Totalsegmentator_dataset'
     folds = (1)
+    general_ts_root = output_folder
+    general_gt_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/labelsTr"
+    gt_folder = f'/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data/{dataset}/labelsTr'
+    print(f"compute metrics of fold {val_fold}")
+    general_split_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/split/{dataset}/splits_final.pkl"
+    
 
-    test_files = subfiles(input_folder, suffix='_0000.nii.gz', join=False)
+    if(osp.exists(general_split_root)):
+        splits = pickle.load(open(general_split_root, "rb"))
+        test_files = [f+f'_0000.nii.gz' for f in splits[int(val_fold)]['val']] 
+    else:
+        test_files = subfiles(input_folder, suffix='_0000.nii.gz', join=False)
+
+    # print(len(test_files))
+    # import pdb; pdb.set_trace()
 
     if(test): test_files = test_files[:2]
 
@@ -42,13 +55,7 @@ if __name__ == '__main__':
                     # checkpoint_name="fp32_model_ep_500")
 
     # 指标计算
-    general_ts_root = output_folder
-    general_gt_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/raw_data/{dataset}/labelsTr"
-    gt_folder = f'/mnt/petrelfs/wanghaoyu/gmai/nnUNet_raw_data_base/nnUNet_raw_data/{dataset}/labelsTr'
-    print(f"compute metrics of fold {val_fold}")
-    general_split_root = f"/mnt/petrelfs/wanghaoyu/gmai/totalseg_tmp_data/split/{dataset}/splits_final.pkl"
     if(osp.exists(general_split_root)):
-        splits = pickle.load(open(general_split_root, "rb"))
         data_list = [osp.join(general_ts_root, model, f+f'_0000.nii.gz') for f in splits[int(val_fold)]['val']] 
     else:
         data_list = output_files 

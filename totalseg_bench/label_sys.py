@@ -221,6 +221,7 @@ label_sys_dict = {
     "KIPA":                                 KIPA_sys, 
     "LAScarQS":                             LAScarQS_sys,
     "Task011_BTCV":                         Task011_BTCV_sys,
+    "Task011_BTCV_rotate":                  Task011_BTCV_sys,
     "Task020_AbdomenCT1K":                  Task020_AbdomenCT1K_sys,
     "Task003_Liver":                        Task003_Liver_sys,
     "Task007_Pancreas":                     Task007_Pancreas_sys,
@@ -232,6 +233,7 @@ label_sys_dict = {
     "Task037_CHAOS_Task_3_5_Variant1":      Task037_CHAOS_Task_3_5_Variant1_sys,
     "Task031_AMOS_MR":                      AMOS_sys,
     "Task032_AMOS22_Task1":                 AMOS_sys,
+    "Task032_AMOS22_Task1_rotate":          AMOS_sys,
     "Task022_FLARE22":                      FLARE22_sys,
 }
 

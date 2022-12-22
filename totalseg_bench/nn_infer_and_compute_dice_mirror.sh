@@ -25,5 +25,5 @@ srun -p gmai --cpus-per-task=16 \
 --gres gpu:1 --ntasks 1 --ntasks-per-node 1 \
 --quotatype=auto \
 --async \
--o /mnt/cache/wanghaoyu/SP_script/totalseg_bench/data/test1/${TASK}_${TRAINER}_${SPLIT}${TEST}.log \
-python ${PREFIX}/nnUNet_infer_and_compute_dice.py ${TRAINER} ${TASK} ${SPLIT} ${TEST}
+-o /mnt/cache/wanghaoyu/SP_script/data/mirror/${TASK}_${TRAINER}_${SPLIT}${TEST}.log \
+python ${PREFIX}/nnUNet_infer_and_compute_dice_mirror.py ${TRAINER} ${TASK} ${SPLIT} ${TEST}

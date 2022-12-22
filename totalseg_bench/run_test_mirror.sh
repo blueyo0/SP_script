@@ -1,0 +1,11 @@
+PREFIX=$(dirname $0)
+
+# bash $PREFIX/nn_infer_and_compute_dice_mirror.sh BigResUNetTrainerV4_cs128_base_no_mirror_ep4k_lr0003 Task559_TS_test all
+# bash $PREFIX/nn_infer_and_compute_dice_mirror.sh BigResUNetTrainerV4_cs128_base_no_mirror_ep4k_lr0003 Task011_BTCV 0
+
+bash $PREFIX/nn_infer_and_compute_dice_ziyan.sh BigResUNetTrainerV4_cs128_base_ep4k_lr0003 Task003_Liver 0
+bash $PREFIX/nn_infer_and_compute_dice_ziyan.sh BigResUNetTrainerV4_cs128_base_no_mirror_ep4k_lr0003 Task003_Liver 0
+bash $PREFIX/nn_infer_and_compute_dice_ziyan.sh BigResUNetTrainerV4_cs128_base_ep4k_lr0003 Task009_Spleen 0
+bash $PREFIX/nn_infer_and_compute_dice_ziyan.sh BigResUNetTrainerV4_cs128_base_no_mirror_ep4k_lr0003 Task009_Spleen 0
+bash $PREFIX/nn_infer_and_compute_dice_ziyan.sh BigResUNetTrainerV4_cs128_base_ep4k_lr0003 Task022_FLARE22 0
+bash $PREFIX/nn_infer_and_compute_dice_ziyan.sh BigResUNetTrainerV4_cs128_base_no_mirror_ep4k_lr0003 Task022_FLARE22 0
